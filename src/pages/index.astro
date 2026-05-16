@@ -1,0 +1,591 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { categoryMeta } from '../data/categories';
+
+const allPosts = await getCollection('posts');
+const featuredPosts = allPosts.filter(p => p.data.featured).slice(0, 3);
+const recentPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).slice(0, 6);
+---
+
+<BaseLayout title="Honest Pet Product Reviews" description="We research and review the best pet products so you can make smarter choices for your furry friend. Dog food, treats, health supplies, gear, and more.">
+  <!-- ════════════════════════════════════════════
+       HERO SECTION
+       ════════════════════════════════════════════ -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="hero-blob hero-blob-1"></div>
+      <div class="hero-blob hero-blob-2"></div>
+      <div class="hero-blob hero-blob-3"></div>
+    </div>
+    <div class="container hero-inner">
+      <div class="hero-badge reveal">🐶 13+ Reviews Published</div>
+      <h1 class="hero-title reveal reveal-delay-1">
+        The Best Picks for<br />
+        <span class="hero-highlight">Your Best Friend</span>
+      </h1>
+      <p class="hero-sub reveal reveal-delay-2">
+        We test, research, and compare pet products so you don't have to.
+        Honest reviews — no fluff, just what works.
+      </p>
+      <div class="hero-actions reveal reveal-delay-3">
+        <a href="#recent-posts" class="btn-primary">Browse All Reviews →</a>
+        <a href="/category/guides" class="btn-outline">Read Our Guides</a>
+      </div>
+      <div class="hero-scroll reveal reveal-delay-4">
+        <span>Scroll to explore</span>
+        <div class="scroll-dot"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       STATS BAR
+       ════════════════════════════════════════════ -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item reveal">
+          <span class="stat-num">13+</span>
+          <span class="stat-label">In-Depth Reviews</span>
+        </div>
+        <div class="stat-item reveal reveal-delay-1">
+          <span class="stat-num">6</span>
+          <span class="stat-label">Product Categories</span>
+        </div>
+        <div class="stat-item reveal reveal-delay-2">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Unbiased Research</span>
+        </div>
+        <div class="stat-item reveal reveal-delay-3">
+          <span class="stat-num">🐾</span>
+          <span class="stat-label">Dog Approved</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       FEATURED REVIEWS
+       ════════════════════════════════════════════ -->
+  {featuredPosts.length > 0 && (
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label">★ Featured</span>
+          <h2 class="section-title">Our Top Picks This Month</h2>
+          <p class="section-desc section-desc-center">Hand-picked reviews our team thinks you'll love the most.</p>
+        </div>
+        <div class="post-grid">
+          {featuredPosts.map((post, i) => (
+            <article class="post-card reveal reveal-delay-{i}">
+              <div class="post-card-image">
+                <div class="post-card-image-placeholder">
+                  <span>🐾</span>
+                </div>
+                <span class="post-card-badge">Top Pick</span>
+              </div>
+              <div class="post-card-body">
+                <div class="post-card-top">
+                  <span class="post-card-category">{categoryMeta[post.data.category]?.name || post.data.category}</span>
+                  <span class="post-card-rating">★★★★★</span>
+                </div>
+                <h3 class="post-card-title">
+                  <a href={`/posts/${post.id}/`}>{post.data.title}</a>
+                </h3>
+                <p class="post-card-desc">{post.data.description}</p>
+                <div class="post-card-meta">
+                  <span class="post-card-date">{post.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+                  <a href={`/posts/${post.id}/`} class="post-card-read">Read Review →</a>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- ════════════════════════════════════════════
+       CATEGORIES SHOWCASE
+       ════════════════════════════════════════════ -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-label">Browse</span>
+        <h2 class="section-title">Shop by Category</h2>
+        <p class="section-desc section-desc-center">Find exactly what your pet needs, organized the easy way.</p>
+      </div>
+      <div class="cats-grid">
+        {Object.entries(categoryMeta).slice(0, 6).map(([key, meta], i) => (
+          <a href={`/category/${key}/`} class="cat-card reveal reveal-delay-{i}" style="--cat-delay: {i * 0.1}s">
+            <div class="cat-icon">{['🍖','🦴','💊','🎒','🎓','🧸'][i]}</div>
+            <div class="cat-info">
+              <h3 class="cat-name">{meta.name}</h3>
+              <p class="cat-desc">{meta.desc}</p>
+            </div>
+            <span class="cat-arrow">→</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       RECENT POSTS
+       ════════════════════════════════════════════ -->
+  <section id="recent-posts" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-label">Latest</span>
+        <h2 class="section-title">Recent Reviews & Guides</h2>
+        <p class="section-desc section-desc-center">Fresh content to help you find the perfect products for your pet.</p>
+      </div>
+      <div class="post-grid">
+        {recentPosts.map((post, i) => (
+          <article class="post-card reveal reveal-delay-Math.min(i,3)">
+            <div class="post-card-image">
+              <div class="post-card-image-placeholder">
+                <span>🐾</span>
+              </div>
+            </div>
+            <div class="post-card-body">
+              <div class="post-card-top">
+                <span class="post-card-category">{categoryMeta[post.data.category]?.name || post.data.category}</span>
+                <span class="post-card-rating">★★★★☆</span>
+              </div>
+              <h3 class="post-card-title">
+                <a href={`/posts/${post.id}/`}>{post.data.title}</a>
+              </h3>
+              <p class="post-card-desc">{post.data.description}</p>
+              <div class="post-card-meta">
+                <span class="post-card-date">{post.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+                <a href={`/posts/${post.id}/`} class="post-card-read">Read Review →</a>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       TRUST SECTION
+       ════════════════════════════════════════════ -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-label">Why Trust Us</span>
+        <h2 class="section-title">We Put Pets First</h2>
+        <p class="section-desc section-desc-center">Here's what makes FetchPicks different from other review sites.</p>
+      </div>
+      <div class="trust-grid">
+        <div class="trust-card reveal">
+          <div class="trust-icon">🔬</div>
+          <h3 class="trust-title">Research-Backed</h3>
+          <p class="trust-text">Every recommendation is based on thorough ingredient analysis, customer feedback, and expert opinions.</p>
+        </div>
+        <div class="trust-card reveal reveal-delay-1">
+          <div class="trust-icon">🔄</div>
+          <h3 class="trust-title">Always Updated</h3>
+          <p class="trust-text">We continuously refresh our reviews to reflect new products, formula changes, and the latest research.</p>
+        </div>
+        <div class="trust-card reveal reveal-delay-2">
+          <div class="trust-icon">💚</div>
+          <h3 class="trust-title">Pet First</h3>
+          <p class="trust-text">We only recommend products we'd trust with our own pets. No exceptions. No compromises.</p>
+        </div>
+        <div class="trust-card reveal reveal-delay-3">
+          <div class="trust-icon">📊</div>
+          <h3 class="trust-title">Data-Driven</h3>
+          <p class="trust-text">We analyze thousands of real customer reviews to find patterns — not just star ratings, but real experiences.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       CTA SECTION
+       ════════════════════════════════════════════ -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-card reveal">
+        <div class="cta-content">
+          <h2 class="cta-title">Can't Decide What to Buy?</h2>
+          <p class="cta-text">Start with our curated guides. We've done the research so you don't have to.</p>
+          <div class="cta-actions">
+            <a href="/category/guides" class="btn-primary">Read Our Guides →</a>
+            <a href="/about" class="btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff;">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <style is:global>
+    /* ════════════════════════════════════════════
+       HERO SECTION
+       ════════════════════════════════════════════ */
+    .hero {
+      position: relative;
+      min-height: 85vh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      padding-top: 0;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(160deg, #FFF5F0 0%, #FFF0E8 30%, #F0FAF8 70%, #E8F5F3 100%);
+      overflow: hidden;
+    }
+    .hero-blob {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.2;
+      filter: blur(60px);
+    }
+    .hero-blob-1 {
+      width: 600px;
+      height: 600px;
+      background: var(--coral);
+      top: -200px;
+      right: -100px;
+      animation: blobFloat 20s ease-in-out infinite;
+    }
+    .hero-blob-2 {
+      width: 400px;
+      height: 400px;
+      background: var(--teal);
+      bottom: -100px;
+      left: -80px;
+      animation: blobFloat 25s ease-in-out infinite reverse;
+    }
+    .hero-blob-3 {
+      width: 300px;
+      height: 300px;
+      background: var(--gold);
+      top: 40%;
+      left: 60%;
+      animation: blobFloat 18s ease-in-out infinite 2s;
+    }
+    @keyframes blobFloat {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      33% { transform: translate(30px, -40px) scale(1.05); }
+      66% { transform: translate(-20px, 20px) scale(0.95); }
+    }
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 80px 0 60px;
+      width: 100%;
+    }
+    .hero-badge {
+      display: inline-block;
+      background: rgba(255,107,74,0.10);
+      backdrop-filter: blur(10px);
+      padding: 8px 20px;
+      border-radius: 40px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--coral);
+      margin-bottom: 28px;
+      border: 1px solid rgba(255,107,74,0.15);
+    }
+    .hero-title {
+      font-family: var(--font-head);
+      font-size: 3.6rem;
+      font-weight: 900;
+      line-height: 1.08;
+      letter-spacing: -0.04em;
+      margin-bottom: 20px;
+    }
+    .hero-highlight {
+      background: linear-gradient(135deg, var(--coral), var(--gold));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero-sub {
+      font-size: 1.15rem;
+      color: var(--text-sec);
+      max-width: 520px;
+      margin: 0 auto 36px;
+      line-height: 1.6;
+    }
+    .hero-actions {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .hero-scroll {
+      margin-top: 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-muted);
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .scroll-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--coral);
+      animation: scrollBounce 2s ease-in-out infinite;
+    }
+    @keyframes scrollBounce {
+      0%, 100% { transform: translateY(0); opacity: 1; }
+      50% { transform: translateY(8px); opacity: 0.3; }
+    }
+
+    /* ════════════════════════════════════════════
+       STATS BAR
+       ════════════════════════════════════════════ */
+    .stats {
+      padding: 40px 0;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+    .stat-item {
+      text-align: center;
+      padding: 16px;
+    }
+    .stat-num {
+      display: block;
+      font-family: var(--font-head);
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--coral);
+      margin-bottom: 4px;
+    }
+    .stat-label {
+      font-size: 0.85rem;
+      color: var(--text-sec);
+      font-weight: 500;
+    }
+
+    /* ════════════════════════════════════════════
+       SECTION
+       ════════════════════════════════════════════ */
+    .section {
+      padding: 72px 0;
+    }
+    .section-alt {
+      background: var(--bg-alt);
+    }
+
+    /* ════════════════════════════════════════════
+       POST CARD IMAGE
+       ════════════════════════════════════════════ */
+    .post-card-image {
+      height: 180px;
+      overflow: hidden;
+      position: relative;
+    }
+    .post-card-image-placeholder {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #FFF0E8 0%, #FFE8D6 50%, #F0FAF8 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+    }
+    .post-card-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: var(--coral);
+      color: #fff;
+      font-size: 0.68rem;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 6px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    /* ════════════════════════════════════════════
+       CATEGORY CARDS
+       ════════════════════════════════════════════ */
+    .cats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+    }
+    .cat-card {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 20px 24px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      cursor: pointer;
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      color: var(--text);
+    }
+    .cat-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--coral);
+      color: var(--text);
+    }
+    .cat-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 14px;
+      background: var(--bg-alt);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+    .cat-card:hover .cat-icon {
+      background: rgba(255,107,74,0.10);
+    }
+    .cat-info { flex: 1; min-width: 0; }
+    .cat-name {
+      font-family: var(--font-head);
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+    .cat-desc {
+      font-size: 0.82rem;
+      color: var(--text-sec);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .cat-arrow {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      transition: all 0.2s;
+      flex-shrink: 0;
+    }
+    .cat-card:hover .cat-arrow {
+      color: var(--coral);
+      transform: translateX(4px);
+    }
+
+    /* ════════════════════════════════════════════
+       TRUST GRID
+       ════════════════════════════════════════════ */
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .trust-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 28px 24px;
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      text-align: center;
+    }
+    .trust-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+      border-color: transparent;
+    }
+    .trust-icon {
+      font-size: 2.2rem;
+      margin-bottom: 12px;
+    }
+    .trust-title {
+      font-family: var(--font-head);
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .trust-text {
+      font-size: 0.88rem;
+      color: var(--text-sec);
+      line-height: 1.6;
+    }
+
+    /* ════════════════════════════════════════════
+       CTA SECTION
+       ════════════════════════════════════════════ */
+    .cta-section {
+      padding: 72px 0 0;
+    }
+    .cta-card {
+      background: linear-gradient(135deg, var(--text) 0%, #2A2A4A 100%);
+      border-radius: 24px;
+      padding: 56px 48px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-card::before {
+      content: '🐾🐾🐾';
+      position: absolute;
+      font-size: 6rem;
+      opacity: 0.04;
+      top: -20px;
+      right: -20px;
+      transform: rotate(15deg);
+      pointer-events: none;
+    }
+    .cta-title {
+      font-family: var(--font-head);
+      font-size: 2rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 12px;
+      letter-spacing: -0.02em;
+    }
+    .cta-text {
+      color: rgba(255,255,255,0.7);
+      font-size: 1.05rem;
+      max-width: 440px;
+      margin: 0 auto 28px;
+      line-height: 1.5;
+    }
+    .cta-actions {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    /* ════════════════════════════════════════════
+       RESPONSIVE
+       ════════════════════════════════════════════ */
+    @media (max-width: 1024px) {
+      .hero-title { font-size: 2.8rem; }
+    }
+    @media (max-width: 768px) {
+      .hero { min-height: 70vh; }
+      .hero-title { font-size: 2.2rem; }
+      .hero-sub { font-size: 1rem; }
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+      .cats-grid { grid-template-columns: 1fr; }
+      .trust-grid { grid-template-columns: 1fr 1fr; }
+      .cta-card { padding: 40px 24px; }
+      .cta-title { font-size: 1.5rem; }
+    }
+    @media (max-width: 480px) {
+      .hero-title { font-size: 1.8rem; }
+      .stats-grid { grid-template-columns: 1fr 1fr; }
+      .trust-grid { grid-template-columns: 1fr; }
+      .hero-actions { flex-direction: column; align-items: center; }
+    }
+  </style>
+</BaseLayout>

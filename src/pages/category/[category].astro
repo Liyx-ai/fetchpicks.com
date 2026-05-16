@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { categoryMeta } from '../../data/categories';
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('posts');
+  const categories = [...new Set(allPosts.map(p => p.data.category))];
+  
+  return categories.map(cat => ({
+    params: { category: cat },
+    props: {
+      posts: allPosts.filter(p => p.data.category === cat),
+      meta: categoryMeta[cat] || { name: cat, desc: '' },
+    },
+  }));
+}
+
+const { posts, meta } = Astro.props;
+---
+
+<BaseLayout title={`${meta.name} — FetchPicks`} description={meta.desc}>
+  <section>
+    <h1 class="page-title">{meta.name}</h1>
+    <p class="page-subtitle">{meta.desc}</p>
+    
+    <div class="post-grid">
+      {posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).map(post => (
+        <article class="post-card">
+          <div class="post-card-body">
+            <span class="post-card-category">{meta.name}</span>
+            <h3 class="post-card-title">
+              <a href={`/posts/${post.id}/`}>{post.data.title}</a>
+            </h3>
+            <p class="post-card-desc">{post.data.description}</p>
+            <div class="post-card-date">{post.data.pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</div>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    {posts.length === 0 && (
+      <div style="text-align: center; padding: 60px 0; color: var(--text-muted);">
+        <p style="font-size: 1.1rem;">No posts in this category yet. Coming soon!</p>
+        <a href="/" style="display: inline-block; margin-top: 16px; color: var(--brand-primary);">← Back to Home</a>
+      </div>
+    )}
+  </section>
+</BaseLayout>
