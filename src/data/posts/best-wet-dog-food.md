@@ -55,6 +55,31 @@ This section covers everything you need to know about price per serving comparis
 
 This section covers everything you need to know about how to transition your dog to wet food. We've gathered information from veterinary sources, industry experts, and extensive customer reviews to provide you with the most accurate and useful information possible.
 
+## 📸 Products at a Glance
+
+<div class="product-gallery">
+<a href="https://www.amazon.com/s?k=Hill%27s%20Science%20Diet%20Wet%20Dog%20Food&tag=fetchpicks20-20" class="product-gallery-item" target="_blank" rel="nofollow sponsored">
+  <div class="product-gallery-img" style="background-image: url(/images/posts/product-dog-food.jpg)"></div>
+  <div class="product-gallery-name">Hill's Science Diet Wet Dog Food</div>
+  <div class="product-gallery-price">$38.88</div>
+  <div class="product-gallery-cta">Check Price →</div>
+</a>
+<a href="https://www.amazon.com/s?k=Royal%20Canin%20Canned%20Dog%20Food&tag=fetchpicks20-20" class="product-gallery-item" target="_blank" rel="nofollow sponsored">
+  <div class="product-gallery-img" style="background-image: url(/images/posts/product-dog-food.jpg)"></div>
+  <div class="product-gallery-name">Royal Canin Canned Dog Food</div>
+  <div class="product-gallery-price">$41.99</div>
+  <div class="product-gallery-cta">Check Price →</div>
+</a>
+<a href="https://www.amazon.com/s?k=Blue%20Buffalo%20Homestyle%20Recipe&tag=fetchpicks20-20" class="product-gallery-item" target="_blank" rel="nofollow sponsored">
+  <div class="product-gallery-img" style="background-image: url(/images/posts/product-dog-food.jpg)"></div>
+  <div class="product-gallery-name">Blue Buffalo Homestyle Recipe</div>
+  <div class="product-gallery-price">$37.99</div>
+  <div class="product-gallery-cta">Check Price →</div>
+</a>
+</div>
+
+_Click any product above to see its current price and availability on Amazon. Prices may vary._
+
 ---
 
 *Disclaimer: This article contains affiliate links. As an Amazon Associate, we earn from qualifying purchases. This does not affect the price you pay or our editorial recommendations.*

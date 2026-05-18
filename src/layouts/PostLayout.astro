@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import { categoryMeta } from '../data/categories';
 import type { CollectionEntry } from 'astro:content';
 
 export interface Props {
@@ -7,141 +8,501 @@ export interface Props {
 }
 
 const { post } = Astro.props;
-const { title, description, pubDate, updatedDate, tags, category } = post.data;
+const { title, description, pubDate, tags, category } = post.data;
+const catMeta = categoryMeta[category] || { name: category, gradient: 'linear-gradient(135deg, #FF6B4A, #FFB088)', icon: '🐾' };
 ---
 
 <BaseLayout title={title} description={description} canonical={`https://fetchpicks.com/posts/${post.id}/`}>
-  <article class="post-article">
-    <header class="post-header">
-      <div class="post-meta">
-        <span class="post-category">{category.replace('-', ' ')}</span>
-        <time datetime={pubDate.toISOString()}>{pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
+  <!-- Article Hero -->
+  <div class="article-hero">
+    <div class="article-hero-bg">
+      <div class="article-blob article-blob-1"></div>
+      <div class="article-blob article-blob-2"></div>
+    </div>
+    <div class="container article-hero-inner">
+      <div class="article-breadcrumb">
+        <a href="/">Home</a>
+        <span>›</span>
+        <a href={`/category/${category}/`}>{catMeta.name}</a>
+        <span>›</span>
+        <span>Review</span>
       </div>
-      <h1 class="post-title">{title}</h1>
-      <p class="post-description">{description}</p>
+      <div class="article-category-badge">
+        <span>{catMeta.icon}</span>
+        <span>{catMeta.name}</span>
+      </div>
+      <h1 class="article-hero-title">{title}</h1>
+      <p class="article-hero-desc">{description}</p>
+      <div class="article-hero-meta">
+        <time datetime={pubDate.toISOString()}>{pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
+        <span class="meta-dot">·</span>
+        <span>{tags.length} tags</span>
+      </div>
       {tags.length > 0 && (
-        <div class="post-tags">
-          {tags.map(tag => <span class="tag">{tag}</span>)}
+        <div class="article-hero-tags">
+          {tags.map(tag => <span class="article-tag">{tag}</span>)}
         </div>
       )}
-    </header>
-
-    <div class="post-disclaimer">
-      <strong>Disclosure:</strong> This post contains affiliate links. If you purchase through these links, we may earn a small commission at no extra cost to you. <a href="/privacy">Learn more</a>.
     </div>
+  </div>
 
-    <div class="post-content">
-      <slot />
-    </div>
+  <!-- Article Body -->
+  <div class="article-wrapper">
+    <div class="container">
+      <div class="article-layout">
+        <article class="post-article">
+          <div class="post-disclaimer">
+            <strong>🔗 Disclosure:</strong> This post contains affiliate links. If you purchase through these links, we may earn a small commission at no extra cost to you. <a href="/privacy">Learn more</a>.
+          </div>
 
-    <div class="post-footer">
-      <p class="post-footer-disclaimer">
-        <strong>Disclaimer:</strong> The information on this page is for informational purposes only and does not constitute veterinary advice. Always consult with a qualified veterinarian for your pet's specific needs.
-      </p>
+          <div class="post-content">
+            <slot />
+          </div>
+
+          <div class="post-cta">
+            <div class="post-cta-card">
+              <div class="post-cta-icon">🐾</div>
+              <h3 class="post-cta-title">Did this guide help?</h3>
+              <p class="post-cta-text">If you found this review useful, check out our other guides for more honest pet product recommendations.</p>
+              <a href="/" class="btn-primary">Browse All Reviews →</a>
+            </div>
+          </div>
+
+          <div class="post-footer">
+            <p class="post-footer-disclaimer">
+              <strong>Disclaimer:</strong> The information on this page is for informational purposes only and does not constitute veterinary advice. Always consult with a qualified veterinarian for your pet's specific needs.
+            </p>
+          </div>
+        </article>
+
+        <!-- Sidebar -->
+        <aside class="article-sidebar">
+          <div class="sidebar-card">
+            <h4 class="sidebar-title">🐾 FetchPicks</h4>
+            <p class="sidebar-text">We help pet owners make smarter buying decisions with honest, research-backed reviews.</p>
+          </div>
+          <div class="sidebar-card">
+            <h4 class="sidebar-title">📂 Category</h4>
+            <a href={`/category/${category}/`} class="sidebar-link">{catMeta.icon} {catMeta.name}</a>
+          </div>
+          {tags.length > 0 && (
+            <div class="sidebar-card">
+              <h4 class="sidebar-title">🏷️ Tags</h4>
+              <div class="sidebar-tags">
+                {tags.map(tag => <span class="sidebar-tag">{tag}</span>)}
+              </div>
+            </div>
+          )}
+        </aside>
+      </div>
     </div>
-  </article>
+  </div>
 </BaseLayout>
 
 <style is:global>
-  .post-article { max-width: 780px; margin: 0 auto; }
-  
-  .post-header { margin-bottom: 32px; }
-  .post-meta {
+  /* ════════════════════════════════════════
+     ARTICLE HERO
+     ════════════════════════════════════════ */
+  .article-hero {
+    position: relative;
+    padding: 60px 0 48px;
+    overflow: hidden;
+    background: linear-gradient(160deg, #FFF5F0 0%, #FFF0E8 30%, #F0FAF8 70%, #E8F5F3 100%);
+  }
+  .article-hero-bg {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  .article-blob {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.12;
+    filter: blur(60px);
+  }
+  .article-blob-1 {
+    width: 400px;
+    height: 400px;
+    background: var(--coral);
+    top: -100px;
+    right: -50px;
+    animation: blobFloat 20s ease-in-out infinite;
+  }
+  .article-blob-2 {
+    width: 300px;
+    height: 300px;
+    background: var(--teal);
+    bottom: -80px;
+    left: -50px;
+    animation: blobFloat 25s ease-in-out infinite reverse;
+  }
+  @keyframes blobFloat {
+    0%, 100% { transform: translate(0, 0) scale(1); }
+    33% { transform: translate(30px, -30px) scale(1.05); }
+    66% { transform: translate(-20px, 20px) scale(0.95); }
+  }
+  .article-hero-inner {
+    position: relative;
+    z-index: 1;
+  }
+  .article-breadcrumb {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 8px;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+  }
+  .article-breadcrumb a { color: var(--text-muted); }
+  .article-breadcrumb a:hover { color: var(--coral); }
+  .article-category-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255,255,255,0.8);
+    backdrop-filter: blur(8px);
+    padding: 6px 16px;
+    border-radius: 30px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--coral);
+    margin-bottom: 16px;
+    border: 1px solid rgba(255,107,74,0.15);
+  }
+  .article-hero-title {
+    font-family: var(--font-head);
+    font-size: 2.4rem;
+    font-weight: 900;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+    max-width: 800px;
     margin-bottom: 12px;
+  }
+  .article-hero-desc {
+    font-size: 1.1rem;
+    color: var(--text-sec);
+    max-width: 640px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+  .article-hero-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     font-size: 0.85rem;
     color: var(--text-muted);
-    text-transform: capitalize;
-  }
-  .post-category {
-    display: inline-block;
-    background: var(--bg-secondary);
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-weight: 600;
-    font-size: 0.78rem;
-    color: var(--brand-primary);
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-  }
-  .post-title {
-    font-size: 2rem;
-    font-weight: 800;
-    line-height: 1.25;
     margin-bottom: 12px;
   }
-  .post-description {
-    font-size: 1.1rem;
-    color: var(--text-secondary);
-    line-height: 1.5;
+  .meta-dot { color: var(--border); }
+  .article-hero-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
   }
-  .post-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
-  .tag {
-    background: var(--bg-secondary);
-    padding: 4px 10px;
-    border-radius: 12px;
-    font-size: 0.78rem;
-    color: var(--text-secondary);
+  .article-tag {
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(4px);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    color: var(--text-sec);
+    font-weight: 500;
+    border: 1px solid rgba(0,0,0,0.04);
+  }
+
+  /* ════════════════════════════════════════
+     ARTICLE LAYOUT
+     ════════════════════════════════════════ */
+  .article-wrapper {
+    padding: 40px 0 60px;
+    background: var(--bg-alt);
+  }
+  .article-layout {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 48px;
+    align-items: start;
+  }
+  .post-article {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: var(--shadow-sm);
   }
 
   .post-disclaimer {
     background: #FFF8E1;
     border: 1px solid #FFE082;
-    border-radius: var(--radius-sm);
-    padding: 14px 18px;
-    margin-bottom: 32px;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 36px;
     font-size: 0.88rem;
     color: #5D4037;
     line-height: 1.5;
   }
-  .post-disclaimer a { color: var(--brand-primary); text-decoration: underline; }
+  .post-disclaimer a { color: var(--coral); text-decoration: underline; }
 
+  /* ════════════════════════════════════════
+     PRODUCT GALLERY
+     ════════════════════════════════════════ */
+  .product-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 16px;
+    margin: 24px 0;
+  }
+  .product-gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none !important;
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px 12px 14px;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    color: var(--text) !important;
+    text-align: center;
+  }
+  .product-gallery-item:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--coral);
+  }
+  .product-gallery-img {
+    width: 100%;
+    aspect-ratio: 1;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: var(--bg-alt);
+  }
+  .product-gallery-name {
+    font-size: 0.78rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .product-gallery-price {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--coral);
+    margin-bottom: 8px;
+  }
+  .product-gallery-cta {
+    font-size: 0.72rem;
+    font-weight: 600;
+    background: var(--coral);
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 20px;
+    transition: all 0.2s;
+  }
+  .product-gallery-item:hover .product-gallery-cta {
+    background: var(--coral-dark);
+  }
+
+  /* ════════════════════════════════════════
+     POST CONTENT
+     ════════════════════════════════════════ */
   .post-content {
     font-size: 1.05rem;
-    line-height: 1.8;
-    color: var(--text-primary);
+    line-height: 1.85;
+    color: var(--text);
   }
   .post-content h2 {
+    font-family: var(--font-head);
     font-size: 1.5rem;
-    font-weight: 700;
-    margin: 36px 0 12px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid var(--border-light);
+    font-weight: 800;
+    margin: 40px 0 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--border);
+    letter-spacing: -0.02em;
   }
   .post-content h3 {
+    font-family: var(--font-head);
     font-size: 1.2rem;
-    font-weight: 600;
-    margin: 28px 0 8px;
+    font-weight: 700;
+    margin: 32px 0 12px;
+  }
+  .post-content h3 a {
+    color: var(--text) !important;
+    text-decoration: none !important;
+    transition: color 0.2s;
+  }
+  .post-content h3 a:hover {
+    color: var(--coral) !important;
   }
   .post-content p { margin-bottom: 18px; }
   .post-content ul, .post-content ol { margin-bottom: 18px; padding-left: 24px; }
   .post-content li { margin-bottom: 8px; }
-  .post-content a { text-decoration: underline; color: var(--brand-primary); }
+  .post-content a { text-decoration: underline; color: var(--coral); }
   .post-content blockquote {
-    border-left: 4px solid var(--brand-primary);
-    padding: 12px 20px;
-    margin: 20px 0;
-    background: var(--bg-secondary);
-    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-    color: var(--text-secondary);
+    border-left: 4px solid var(--coral);
+    padding: 16px 24px;
+    margin: 24px 0;
+    background: var(--bg-alt);
+    border-radius: 0 12px 12px 0;
+    color: var(--text-sec);
     font-style: italic;
   }
   .post-content img {
     width: 100%;
-    border-radius: var(--radius-md);
-    margin: 24px 0;
+    border-radius: 14px;
+    margin: 28px 0;
+    box-shadow: var(--shadow-sm);
   }
 
-  .post-footer {
+  /* ════════════════════════════════════════
+     POST CTA
+     ════════════════════════════════════════ */
+  .post-cta {
     margin-top: 48px;
+  }
+  .post-cta-card {
+    background: linear-gradient(135deg, var(--bg-alt), #FFF0E8);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 32px;
+    text-align: center;
+  }
+  .post-cta-icon { font-size: 2.5rem; margin-bottom: 12px; }
+  .post-cta-title {
+    font-family: var(--font-head);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .post-cta-text {
+    color: var(--text-sec);
+    font-size: 0.95rem;
+    max-width: 400px;
+    margin: 0 auto 20px;
+    line-height: 1.5;
+  }
+
+  /* ════════════════════════════════════════
+     POST FOOTER
+     ════════════════════════════════════════ */
+  .post-footer {
+    margin-top: 40px;
     padding-top: 24px;
-    border-top: 1px solid var(--border-light);
+    border-top: 1px solid var(--border);
   }
   .post-footer-disclaimer {
     font-size: 0.82rem;
     color: var(--text-muted);
+    line-height: 1.6;
+  }
+
+  /* ════════════════════════════════════════
+     SIDEBAR
+     ════════════════════════════════════════ */
+  .article-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: sticky;
+    top: calc(var(--nav-height) + 24px);
+  }
+  .sidebar-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+  }
+  .sidebar-title {
+    font-family: var(--font-head);
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .sidebar-text {
+    font-size: 0.85rem;
+    color: var(--text-sec);
     line-height: 1.5;
+  }
+  .sidebar-link {
+    display: block;
+    font-size: 0.88rem;
+    color: var(--coral);
+    font-weight: 500;
+    padding: 4px 0;
+  }
+  .sidebar-link:hover { padding-left: 4px; }
+  .sidebar-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .sidebar-tag {
+    background: var(--bg-alt);
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    color: var(--text-sec);
+  }
+
+  /* ════════════════════════════════════════
+     PRODUCT REVIEW CARD (affiliate)
+     ════════════════════════════════════════ */
+  .post-content h3 {
+    background: var(--bg-alt);
+    border-radius: 12px;
+    padding: 20px 20px 12px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border: 1px solid var(--border);
+  }
+  .post-content h3 + p strong:first-child {
+    display: inline-block;
+    background: var(--coral);
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    margin-right: 8px;
+  }
+  .post-content h3 + p a {
+    display: inline-block;
+    margin-top: 8px;
+    background: var(--coral);
+    color: #fff !important;
+    text-decoration: none !important;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.88rem;
+    transition: all 0.2s;
+  }
+  .post-content h3 + p a:hover {
+    background: var(--coral-dark);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(255,107,74,0.3);
+  }
+
+  /* ════════════════════════════════════════
+     RESPONSIVE
+     ════════════════════════════════════════ */
+  @media (max-width: 1024px) {
+    .article-layout { grid-template-columns: 1fr; }
+    .article-sidebar { display: none; }
+  }
+  @media (max-width: 768px) {
+    .article-hero { padding: 40px 0 32px; }
+    .article-hero-title { font-size: 1.8rem; }
+    .post-article { padding: 24px; }
+    .article-layout { gap: 0; }
+  }
+  @media (max-width: 480px) {
+    .post-article { padding: 16px; border-radius: 12px; }
+    .article-hero-title { font-size: 1.5rem; }
   }
 </style>

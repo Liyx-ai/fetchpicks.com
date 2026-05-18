@@ -50,6 +50,31 @@ This section covers everything you need to know about vohc acceptance and what i
 
 This section covers everything you need to know about dental care routine: chews vs brushing vs water additives. We've gathered information from veterinary sources, industry experts, and extensive customer reviews to provide you with the most accurate and useful information possible.
 
+## 📸 Products at a Glance
+
+<div class="product-gallery">
+<a href="https://www.amazon.com/s?k=Greenies%20Dental%20Dog%20Treats&tag=fetchpicks20-20" class="product-gallery-item" target="_blank" rel="nofollow sponsored">
+  <div class="product-gallery-img" style="background-image: url(/images/posts/product-supplements.jpg)"></div>
+  <div class="product-gallery-name">Greenies Dental Dog Treats</div>
+  <div class="product-gallery-price">$27.99</div>
+  <div class="product-gallery-cta">Check Price →</div>
+</a>
+<a href="https://www.amazon.com/s?k=OraVet%20Dental%20Hygiene%20Chews&tag=fetchpicks20-20" class="product-gallery-item" target="_blank" rel="nofollow sponsored">
+  <div class="product-gallery-img" style="background-image: url(/images/posts/product-supplements.jpg)"></div>
+  <div class="product-gallery-name">OraVet Dental Hygiene Chews</div>
+  <div class="product-gallery-price">$34.99</div>
+  <div class="product-gallery-cta">Check Price →</div>
+</a>
+<a href="https://www.amazon.com/s?k=Virbac%20CET%20Enzymatic%20Chews&tag=fetchpicks20-20" class="product-gallery-item" target="_blank" rel="nofollow sponsored">
+  <div class="product-gallery-img" style="background-image: url(/images/posts/product-supplements.jpg)"></div>
+  <div class="product-gallery-name">Virbac CET Enzymatic Chews</div>
+  <div class="product-gallery-price">$25.99</div>
+  <div class="product-gallery-cta">Check Price →</div>
+</a>
+</div>
+
+_Click any product above to see its current price and availability on Amazon. Prices may vary._
+
 ---
 
 *Disclaimer: This article contains affiliate links. As an Amazon Associate, we earn from qualifying purchases. This does not affect the price you pay or our editorial recommendations.*

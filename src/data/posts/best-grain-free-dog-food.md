@@ -55,6 +55,31 @@ This section covers everything you need to know about price comparison and value
 
 This section covers everything you need to know about faqs about grain-free dog food. We've gathered information from veterinary sources, industry experts, and extensive customer reviews to provide you with the most accurate and useful information possible.
 
+## 📸 Products at a Glance
+
+<div class="product-gallery">
+<a href="https://www.amazon.com/s?k=Merrick%20Grain-Free%20Texas%20Beef&tag=fetchpicks20-20" class="product-gallery-item" target="_blank" rel="nofollow sponsored">
+  <div class="product-gallery-img" style="background-image: url(/images/posts/product-dog-food.jpg)"></div>
+  <div class="product-gallery-name">Merrick Grain-Free Texas Beef</div>
+  <div class="product-gallery-price">$64.99</div>
+  <div class="product-gallery-cta">Check Price →</div>
+</a>
+<a href="https://www.amazon.com/s?k=Canidae%20PURE%20Grain-Free&tag=fetchpicks20-20" class="product-gallery-item" target="_blank" rel="nofollow sponsored">
+  <div class="product-gallery-img" style="background-image: url(/images/posts/product-dog-food.jpg)"></div>
+  <div class="product-gallery-name">Canidae PURE Grain-Free</div>
+  <div class="product-gallery-price">$55.99</div>
+  <div class="product-gallery-cta">Check Price →</div>
+</a>
+<a href="https://www.amazon.com/s?k=Nutro%20So%20Simple%20Grain-Free&tag=fetchpicks20-20" class="product-gallery-item" target="_blank" rel="nofollow sponsored">
+  <div class="product-gallery-img" style="background-image: url(/images/posts/product-dog-food.jpg)"></div>
+  <div class="product-gallery-name">Nutro So Simple Grain-Free</div>
+  <div class="product-gallery-price">$47.99</div>
+  <div class="product-gallery-cta">Check Price →</div>
+</a>
+</div>
+
+_Click any product above to see its current price and availability on Amazon. Prices may vary._
+
 ---
 
 *Disclaimer: This article contains affiliate links. As an Amazon Associate, we earn from qualifying purchases. This does not affect the price you pay or our editorial recommendations.*

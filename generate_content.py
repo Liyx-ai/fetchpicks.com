@@ -19,6 +19,19 @@ from pathlib import Path
 CONTENT_DIR = Path("src/data/posts")
 AFFILIATE_TAG = "fetchpicks20-20"
 
+# Category -> product image mapping
+CATEGORY_PRODUCT_IMAGE = {
+    'dog-food': 'product-dog-food.jpg',
+    'dog-health': 'product-supplements.jpg',
+    'dog-gear': None,  # Will add later
+    'dog-treats': None,
+    'dog-training': None,
+    'dog-toys': None,
+    'cat-supplies': None,
+    'guides': None,
+    'comparisons': None,
+}
+
 def amazon_link(product_name):
     """Generate an Amazon affiliate search link for a product."""
     import urllib.parse
@@ -398,6 +411,30 @@ def generate_article(template):
         
         lines.append("")
     
+    # Add product images gallery
+    cat = template.get("category", "")
+    prod_img = CATEGORY_PRODUCT_IMAGE.get(cat)
+    products = template.get("affiliate_products", [])
+    if prod_img and products:
+        lines.append("## 📸 Products at a Glance")
+        lines.append("")
+        lines.append(f'<div class="product-gallery">')
+        for p in products[:5]:
+            link = amazon_link(p["name"])
+            lines.append(f'<a href="{link}" class="product-gallery-item" target="_blank" rel="nofollow sponsored">')
+            lines.append(f'  <div class="product-gallery-img" style="background-image: url(/images/posts/{prod_img})"></div>')
+            lines.append(f'  <div class="product-gallery-name">{p["name"]}</div>')
+            lines.append(f'  <div class="product-gallery-price">{p["price"]}</div>')
+            lines.append(f'  <div class="product-gallery-cta">Check Price →</div>')
+            lines.append(f'</a>')
+        lines.append('</div>')
+        lines.append("")
+        lines.append(
+            "_Click any product above to see its current price and availability on Amazon. "
+            "Prices may vary._"
+        )
+        lines.append("")
+
     # Add affiliate disclaimer
     lines.append("---")
     lines.append("")

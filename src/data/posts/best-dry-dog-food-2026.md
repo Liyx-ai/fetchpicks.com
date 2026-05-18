@@ -85,6 +85,43 @@ After careful research and analysis, we're confident that any of the products fe
 
 When in doubt, consult with your veterinarian for personalized advice for your pet's specific needs.
 
+## 📸 Products at a Glance
+
+<div class="product-gallery">
+<a href="https://www.amazon.com/s?k=Orijen%20Original%20Dog%20Food&tag=fetchpicks20-20" class="product-gallery-item" target="_blank" rel="nofollow sponsored">
+  <div class="product-gallery-img" style="background-image: url(/images/posts/product-dog-food.jpg)"></div>
+  <div class="product-gallery-name">Orijen Original Dog Food</div>
+  <div class="product-gallery-price">$89.99</div>
+  <div class="product-gallery-cta">Check Price →</div>
+</a>
+<a href="https://www.amazon.com/s?k=Taste%20of%20the%20Wild%20High%20Prairie&tag=fetchpicks20-20" class="product-gallery-item" target="_blank" rel="nofollow sponsored">
+  <div class="product-gallery-img" style="background-image: url(/images/posts/product-dog-food.jpg)"></div>
+  <div class="product-gallery-name">Taste of the Wild High Prairie</div>
+  <div class="product-gallery-price">$54.99</div>
+  <div class="product-gallery-cta">Check Price →</div>
+</a>
+<a href="https://www.amazon.com/s?k=Blue%20Buffalo%20Life%20Protection&tag=fetchpicks20-20" class="product-gallery-item" target="_blank" rel="nofollow sponsored">
+  <div class="product-gallery-img" style="background-image: url(/images/posts/product-dog-food.jpg)"></div>
+  <div class="product-gallery-name">Blue Buffalo Life Protection</div>
+  <div class="product-gallery-price">$49.99</div>
+  <div class="product-gallery-cta">Check Price →</div>
+</a>
+<a href="https://www.amazon.com/s?k=Purina%20Pro%20Plan&tag=fetchpicks20-20" class="product-gallery-item" target="_blank" rel="nofollow sponsored">
+  <div class="product-gallery-img" style="background-image: url(/images/posts/product-dog-food.jpg)"></div>
+  <div class="product-gallery-name">Purina Pro Plan</div>
+  <div class="product-gallery-price">$44.99</div>
+  <div class="product-gallery-cta">Check Price →</div>
+</a>
+<a href="https://www.amazon.com/s?k=Wellness%20CORE%20Grain-Free&tag=fetchpicks20-20" class="product-gallery-item" target="_blank" rel="nofollow sponsored">
+  <div class="product-gallery-img" style="background-image: url(/images/posts/product-dog-food.jpg)"></div>
+  <div class="product-gallery-name">Wellness CORE Grain-Free</div>
+  <div class="product-gallery-price">$59.99</div>
+  <div class="product-gallery-cta">Check Price →</div>
+</a>
+</div>
+
+_Click any product above to see its current price and availability on Amazon. Prices may vary._
+
 ---
 
 *Disclaimer: This article contains affiliate links. As an Amazon Associate, we earn from qualifying purchases. This does not affect the price you pay or our editorial recommendations.*
