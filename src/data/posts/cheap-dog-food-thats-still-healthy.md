@@ -1,7 +1,7 @@
 ---
 title: "7 Cheap Dog Foods That Are Still Healthy (Under $40/bag)"
 description: "You don't need to break the bank for quality dog food. We found 7 affordable options that meet AAFCO standards and dogs actually enjoy."
-pubDate: 2026-05-16
+pubDate: 2026-05-18
 category: dog-food
 featured: true
 tags: ["budget dog food", "cheap dog food", "affordable", "value", "AAFCO"]
@@ -30,21 +30,21 @@ When shopping for pet products, keep these factors in mind:
 
 ## Top 7 affordable dog foods reviewed
 
-### 1. Purina ONE SmartBlend
+### 1. [Purina ONE SmartBlend](https://www.amazon.com/s?k=Purina%20ONE%20SmartBlend&tag=fetchpicks20-20)
 
-**Price:** $26.99 | **Rating:** ⭐⭐⭐⭐½ | **Best for:** Most dogs
+**Price:** $26.99 | [Check Price on Amazon →](https://www.amazon.com/s?k=Purina%20ONE%20SmartBlend&tag=fetchpicks20-20) | **Rating:** ⭐⭐⭐⭐½ | **Best for:** Most dogs
 
-This is our top pick for a reason. With high-quality ingredients, excellent nutritional balance, and great value for money, it's hard to go wrong. The formula has been carefully developed to support your dog's overall health and wellbeing.
-### 2. IAMS Proactive Health
+This is our top pick for a reason. With high-quality ingredients, excellent nutritional balance, and great value for money, it's hard to go wrong. The formula has been carefully developed to support your dog's overall health and wellbeing. [**See latest price on Amazon →**](https://www.amazon.com/s?k=Purina%20ONE%20SmartBlend&tag=fetchpicks20-20)
+### 2. [IAMS Proactive Health](https://www.amazon.com/s?k=IAMS%20Proactive%20Health&tag=fetchpicks20-20)
 
-**Price:** $24.99 | **Rating:** ⭐⭐⭐⭐ | **Best for:** Value seekers
+**Price:** $24.99 | [Check Price on Amazon →](https://www.amazon.com/s?k=IAMS%20Proactive%20Health&tag=fetchpicks20-20) | **Rating:** ⭐⭐⭐⭐ | **Best for:** Value seekers
 
-A solid choice that balances quality with affordability. While it may not have all the premium features of our top pick, it delivers reliable performance and is widely available.
-### 3. Diamond Naturals
+A solid choice that balances quality with affordability. While it may not have all the premium features of our top pick, it delivers reliable performance and is widely available. [**See latest price on Amazon →**](https://www.amazon.com/s?k=IAMS%20Proactive%20Health&tag=fetchpicks20-20)
+### 3. [Diamond Naturals](https://www.amazon.com/s?k=Diamond%20Naturals&tag=fetchpicks20-20)
 
-**Price:** $38.99 | **Rating:** ⭐⭐⭐⭐ | **Best for:** Value seekers
+**Price:** $38.99 | [Check Price on Amazon →](https://www.amazon.com/s?k=Diamond%20Naturals&tag=fetchpicks20-20) | **Rating:** ⭐⭐⭐⭐ | **Best for:** Value seekers
 
-A solid choice that balances quality with affordability. While it may not have all the premium features of our top pick, it delivers reliable performance and is widely available.
+A solid choice that balances quality with affordability. While it may not have all the premium features of our top pick, it delivers reliable performance and is widely available. [**See latest price on Amazon →**](https://www.amazon.com/s?k=Diamond%20Naturals&tag=fetchpicks20-20)
 
 
 ## Price comparison per pound

@@ -17,6 +17,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 CONTENT_DIR = Path("src/data/posts")
+AFFILIATE_TAG = "fetchpicks20-20"
+
+def amazon_link(product_name):
+    """Generate an Amazon affiliate search link for a product."""
+    import urllib.parse
+    query = urllib.parse.quote(product_name)
+    return f"https://www.amazon.com/s?k={query}&tag={AFFILIATE_TAG}"
 
 # Define article templates with category, tags, and content structure
 ARTICLES = [
@@ -328,30 +335,29 @@ def generate_article(template):
                 f"That's why we've done the hard work for you. In this comprehensive guide, we'll walk you through everything you need to know "
                 f"so you can make an informed decision with confidence."
             )
-        elif "reviewed" in section_title.lower():
+        elif "reviewed" in section_title.lower() or "reviews" in section_title.lower() or "picks" in section_title.lower() or "list" in section_title.lower():
             for j, product in enumerate(template.get("affiliate_products", [])[:5]):
+                link = amazon_link(product['name'])
                 if j == 0:
-                    lines.append(f"### {j+1}. {product['name']}")
+                    lines.append(f"### {j+1}. [{product['name']}]({link})")
                     lines.append("")
-                    lines.append(
-                        f"**Price:** {product['price']} | **Rating:** ⭐⭐⭐⭐½ | **Best for:** Most dogs"
-                    )
+                    lines.append(f"**Price:** {product['price']} | [Check Price on Amazon →]({link}) | **Rating:** ⭐⭐⭐⭐½ | **Best for:** Most dogs")
                     lines.append("")
                     lines.append(
                         f"This is our top pick for a reason. With high-quality ingredients, excellent nutritional balance, "
                         f"and great value for money, it's hard to go wrong. The formula has been carefully developed to support "
-                        f"your dog's overall health and wellbeing."
+                        f"your dog's overall health and wellbeing. "
+                        f"[**See latest price on Amazon →**]({link})"
                     )
                 else:
-                    lines.append(f"### {j+1}. {product['name']}")
+                    lines.append(f"### {j+1}. [{product['name']}]({link})")
                     lines.append("")
-                    lines.append(
-                        f"**Price:** {product['price']} | **Rating:** ⭐⭐⭐⭐ | **Best for:** Value seekers"
-                    )
+                    lines.append(f"**Price:** {product['price']} | [Check Price on Amazon →]({link}) | **Rating:** ⭐⭐⭐⭐ | **Best for:** Value seekers")
                     lines.append("")
                     lines.append(
                         f"A solid choice that balances quality with affordability. While it may not have all the premium features of our top pick, "
-                        f"it delivers reliable performance and is widely available."
+                        f"it delivers reliable performance and is widely available. "
+                        f"[**See latest price on Amazon →**]({link})"
                     )
         elif "FAQ" in section_title.lower() or "common question" in section_title.lower():
             lines.append("**Q: How often should I feed my dog?**")
