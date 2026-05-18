@@ -10,23 +10,28 @@ export interface Props {
 const { post } = Astro.props;
 const { title, description, pubDate, tags, category } = post.data;
 const catMeta = categoryMeta[category] || { name: category, gradient: 'linear-gradient(135deg, #FF6B4A, #FFB088)', icon: '🐾' };
+
+// Build Article Schema in frontmatter (avoids template literal interpolation issues)
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "description": description,
+  "datePublished": pubDate.toISOString().split('T')[0],
+  "dateModified": new Date().toISOString().split('T')[0],
+  "author": { "@type": "Organization", "name": "FetchPicks" },
+  "publisher": { "@type": "Organization", "name": "FetchPicks" },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": `https://fetchpicks.com/posts/${post.id}/`
+  }
+};
+const articleSchemaStr = JSON.stringify(articleSchema, null, 2);
 ---
 
 <BaseLayout title={title} description={description} canonical={`https://fetchpicks.com/posts/${post.id}/`}>
   <!-- Article Schema -->
-  <script type="application/ld+json">
-  {`{
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": ${JSON.stringify(title)},
-    "description": ${JSON.stringify(description)},
-    "datePublished": "${pubDate.toISOString().split('T')[0]}",
-    "author": {
-      "@type": "Organization",
-      "name": "FetchPicks"
-    }
-  }`}
-  </script>
+  <script type="application/ld+json" set:html={articleSchemaStr}></script>
 
   <!-- Article Hero -->
   <div class="article-hero">

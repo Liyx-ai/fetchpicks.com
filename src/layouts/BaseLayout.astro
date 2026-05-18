@@ -8,6 +8,35 @@ export interface Props {
 
 const { title, description, canonical } = Astro.props;
 const canonicalUrl = canonical || Astro.url.origin + Astro.url.pathname;
+
+// Build breadcrumb items from URL path
+const pathSegments = Astro.url.pathname.split('/').filter(Boolean);
+const breadcrumbItems = [
+  { position: 1, name: 'Home', item: Astro.url.origin + '/' }
+];
+let currentPath = '';
+for (const seg of pathSegments) {
+  currentPath += '/' + seg;
+  // Skip numeric slugs, content IDs, etc.
+  const label = seg
+    .replace(/-/g, ' ')
+    .replace(/\b\w/g, c => c.toUpperCase())
+    .replace(/Posts\b/, '')
+    .trim();
+  if (label && label !== 'Posts') {
+    breadcrumbItems.push({
+      position: breadcrumbItems.length + 1,
+      name: label,
+      item: Astro.url.origin + currentPath + '/'
+    });
+  }
+}
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": breadcrumbItems
+};
+const breadcrumbSchemaStr = JSON.stringify(breadcrumbSchema, null, 2);
 ---
 
 <!doctype html>
@@ -27,6 +56,28 @@ const canonicalUrl = canonical || Astro.url.origin + Astro.url.pathname;
       "name": "FetchPicks",
       "url": "https://fetchpicks.com",
       "description": "Honest pet product reviews — no fluff, just what works."
+    }`}
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json" set:html={breadcrumbSchemaStr}></script>
+
+    <!-- WebSite Schema -->
+    <script type="application/ld+json">
+    {`{
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "FetchPicks",
+      "url": "https://fetchpicks.com",
+      "description": "Honest pet product reviews — no fluff, just what works.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://fetchpicks.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
     }`}
     </script>
     <title>{title} | FetchPicks</title>
