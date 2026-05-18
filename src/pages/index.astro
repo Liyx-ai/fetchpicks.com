@@ -77,12 +77,19 @@ const recentPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pu
           <p class="section-desc section-desc-center">Hand-picked reviews our team thinks you'll love the most.</p>
         </div>
         <div class="post-grid">
-          {featuredPosts.map((post, i) => (
-            <article class="post-card reveal reveal-delay-{i}">
+          {featuredPosts.map((post, i) => {
+            const catMeta = categoryMeta[post.data.category];
+            const imgSrc = catMeta?.image ? `/images/posts/${catMeta.image}` : null;
+            return (
+            <article class="post-card reveal" style="transition-delay: {i * 0.1}s">
               <div class="post-card-image">
-                <div class="post-card-image-placeholder">
-                  <span>🐾</span>
-                </div>
+                {imgSrc ? (
+                  <img src={imgSrc} alt={post.data.title} class="post-card-img" loading="lazy" />
+                ) : (
+                  <div class="post-card-image-placeholder" style={`background: ${catMeta?.gradient || '#f0f0f0'}`}>
+                    <span>{catMeta?.icon || '🐾'}</span>
+                  </div>
+                )}
                 <span class="post-card-badge">Top Pick</span>
               </div>
               <div class="post-card-body">
@@ -100,7 +107,8 @@ const recentPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pu
                 </div>
               </div>
             </article>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
@@ -142,12 +150,19 @@ const recentPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pu
         <p class="section-desc section-desc-center">Fresh content to help you find the perfect products for your pet.</p>
       </div>
       <div class="post-grid">
-        {recentPosts.map((post, i) => (
-          <article class="post-card reveal reveal-delay-Math.min(i,3)">
+        {recentPosts.map((post, i) => {
+          const catMeta = categoryMeta[post.data.category];
+          const imgSrc = catMeta?.image ? `/images/posts/${catMeta.image}` : null;
+          return (
+          <article class="post-card reveal" style="transition-delay: {Math.min(i, 3) * 0.1}s">
             <div class="post-card-image">
-              <div class="post-card-image-placeholder">
-                <span>🐾</span>
-              </div>
+              {imgSrc ? (
+                <img src={imgSrc} alt={post.data.title} class="post-card-img" loading="lazy" />
+              ) : (
+                <div class="post-card-image-placeholder" style={`background: ${catMeta?.gradient || '#f0f0f0'}`}>
+                  <span>{catMeta?.icon || '🐾'}</span>
+                </div>
+              )}
             </div>
             <div class="post-card-body">
               <div class="post-card-top">
@@ -164,7 +179,8 @@ const recentPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pu
               </div>
             </div>
           </article>
-        ))}
+          );
+        })}
       </div>
     </div>
   </section>
@@ -394,10 +410,18 @@ const recentPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pu
       overflow: hidden;
       position: relative;
     }
+    .post-card-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .post-card:hover .post-card-img {
+      transform: scale(1.05);
+    }
     .post-card-image-placeholder {
       width: 100%;
       height: 100%;
-      background: linear-gradient(135deg, #FFF0E8 0%, #FFE8D6 50%, #F0FAF8 100%);
       display: flex;
       align-items: center;
       justify-content: center;
