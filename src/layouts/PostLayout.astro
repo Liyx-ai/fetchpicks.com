@@ -13,6 +13,21 @@ const catMeta = categoryMeta[category] || { name: category, gradient: 'linear-gr
 ---
 
 <BaseLayout title={title} description={description} canonical={`https://fetchpicks.com/posts/${post.id}/`}>
+  <!-- Article Schema -->
+  <script type="application/ld+json">
+  {`{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": ${JSON.stringify(title)},
+    "description": ${JSON.stringify(description)},
+    "datePublished": "${pubDate.toISOString().split('T')[0]}",
+    "author": {
+      "@type": "Organization",
+      "name": "FetchPicks"
+    }
+  }`}
+  </script>
+
   <!-- Article Hero -->
   <div class="article-hero">
     <div class="article-hero-bg">

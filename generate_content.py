@@ -313,6 +313,49 @@ ARTICLES = [
             {"name": "Nylabone Puppy Teething Set", "price": "$9.99"},
         ],
     },
+    # === DOG TRAINING ===
+    {
+        "slug": "best-dog-training-treats-for-puppies",
+        "category": "dog-training",
+        "title": "Best Dog Training Treats for Puppies: 5 Top Picks for Positive Reinforcement",
+        "description": "Training a puppy starts with the right rewards. We found the 5 best training treats that are small, healthy, and irresistible for puppies.",
+        "tags": ["puppy training", "training treats", "positive reinforcement", "puppy", "rewards"],
+        "featured": False,
+        "outline": [
+            "Why training treats matter for puppy development",
+            "What makes a great puppy training treat",
+            "Top 5 puppy training treats reviewed",
+            "Training tips for effective positive reinforcement",
+            "How many treats per day is healthy",
+        ],
+        "affiliate_products": [
+            {"name": "Zuke's Mini Naturals Puppy Training Treats", "price": "$13.49"},
+            {"name": "Blue Buffalo Baby Blue Healthy Growth Treats", "price": "$11.99"},
+            {"name": "Wellness Soft Puppy Bites", "price": "$12.99"},
+        ],
+    },
+    # === DOG TOYS ===
+    {
+        "slug": "best-dog-toys-for-aggressive-chewers",
+        "category": "dog-toys",
+        "title": "Best Dog Toys for Aggressive Chewers: 7 Indestructible Picks (2026)",
+        "description": "If your dog destroys every toy in minutes, you need these. We tested 20+ heavy-duty toys to find the ones that actually survive aggressive chewers.",
+        "tags": ["aggressive chewer", "indestructible toys", "durable", "heavy chewer", "dog toys"],
+        "featured": False,
+        "outline": [
+            "Why some dogs are aggressive chewers",
+            "What to look for in durable dog toys",
+            "Top 7 indestructible dog toys reviewed",
+            "Safety considerations for heavy chewers",
+            "Toy rotation tips for long-lasting interest",
+            "FAQ about aggressive chewers and toys",
+        ],
+        "affiliate_products": [
+            {"name": "Kong Classic Dog Toy", "price": "$14.49"},
+            {"name": "Goughnuts Maxx 50 Stick", "price": "$29.95"},
+            {"name": "Nylabone Dura Chew Textured Ring", "price": "$12.99"},
+        ],
+    },
 ]
 
 

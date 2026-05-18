@@ -3,6 +3,26 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { categoryMeta } from '../../data/categories';
 
+const titleOverrides = {
+  'dog-food': 'Dog Food Reviews: Best Dry, Wet & Freeze-Dried Dog Foods',
+  'dog-treats': 'Best Dog Treats: Healthy Chews & Training Rewards',
+  'dog-health': 'Dog Health Reviews: Supplements, Dental & Wellness Products',
+  'dog-gear': 'Dog Gear Reviews: Harnesses, Beds, Collars & More',
+  'dog-training': 'Dog Training Essentials: Treats, Tools & Guides',
+  'dog-toys': 'Best Dog Toys: Durable Picks for Every Chewer',
+  'cat-supplies': 'Cat Supplies Reviews & Buying Guides',
+  'guides': 'Pet Care Guides & How-To Resources',
+  'comparisons': 'Pet Product Comparisons: Side-by-Side Reviews',
+};
+
+const descOverrides = {
+  'dog-food': "Looking for the best dry, wet, or grain-free dog food? We analyzed 200+ formulas to bring you honest reviews and expert picks for every budget.",
+  'dog-treats': "Find the healthiest, most irresistible dog treats for training, rewards, and dental health. Our expert reviews help you choose the perfect treat.",
+  'dog-health': "Keep your dog happy and healthy with our top-rated supplements, dental chews, and wellness products. Research-backed recommendations.",
+  'dog-gear': "From harnesses to beds to collars — we test and review the best dog gear so you can make the right choice for your pup.",
+  'dog-training': "Everything you need for effective dog training: high-value treats, training tools, and expert tips for positive reinforcement.",
+};
+
 export async function getStaticPaths() {
   const allPosts = await getCollection('posts');
   const categories = [...new Set(allPosts.map(p => p.data.category))];
@@ -11,39 +31,180 @@ export async function getStaticPaths() {
     params: { category: cat },
     props: {
       posts: allPosts.filter(p => p.data.category === cat),
-      meta: categoryMeta[cat] || { name: cat, desc: '' },
+      meta: categoryMeta[cat] || { name: cat, desc: '', gradient: '#f0f0f0', icon: '🐾' },
     },
   }));
 }
 
 const { posts, meta } = Astro.props;
+const catKey = Astro.params.category;
+const pageTitle = titleOverrides[catKey] || `${meta.name} | FetchPicks`;
+const pageDesc = descOverrides[catKey] || meta.desc;
 ---
 
-<BaseLayout title={`${meta.name} — FetchPicks`} description={meta.desc}>
+<BaseLayout title={pageTitle} description={pageDesc}>
   <section>
-    <h1 class="page-title">{meta.name}</h1>
-    <p class="page-subtitle">{meta.desc}</p>
-    
-    <div class="post-grid">
-      {posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).map(post => (
-        <article class="post-card">
-          <div class="post-card-body">
-            <span class="post-card-category">{meta.name}</span>
-            <h3 class="post-card-title">
-              <a href={`/posts/${post.id}/`}>{post.data.title}</a>
-            </h3>
-            <p class="post-card-desc">{post.data.description}</p>
-            <div class="post-card-date">{post.data.pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</div>
-          </div>
-        </article>
-      ))}
-    </div>
-
-    {posts.length === 0 && (
-      <div style="text-align: center; padding: 60px 0; color: var(--text-muted);">
-        <p style="font-size: 1.1rem;">No posts in this category yet. Coming soon!</p>
-        <a href="/" style="display: inline-block; margin-top: 16px; color: var(--brand-primary);">← Back to Home</a>
+    <div class="category-hero" style={`background: ${meta.gradient || '#f0f0f0'}`}>
+      <div class="container" style="padding: 40px 0;">
+        <span class="category-icon">{meta.icon}</span>
+        <h1 class="page-title">{meta.name}</h1>
+        <p class="page-subtitle">{pageDesc}</p>
+        <p class="category-count">{posts.length} {posts.length === 1 ? 'review' : 'reviews'} in this category</p>
       </div>
-    )}
+    </div>
+    
+    <div class="container" style="margin-top: 32px;">
+      <h2 class="section-title">Latest {meta.name}</h2>
+      
+      <div class="post-grid">
+        {posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).map(post => {
+          const imgSrc = meta.image ? `/images/posts/${meta.image}` : null;
+          return (
+          <article class="post-card">
+            <div class="post-card-image">
+              {imgSrc ? (
+                <img src={imgSrc} alt={post.data.title} class="post-card-img" loading="lazy" />
+              ) : (
+                <div class="post-card-image-placeholder" style={`background: ${meta.gradient || '#f0f0f0'}`}>
+                  <span>{meta.icon || '🐾'}</span>
+                </div>
+              )}
+            </div>
+            <div class="post-card-body">
+              <h3 class="post-card-title">
+                <a href={`/posts/${post.id}/`}>{post.data.title}</a>
+              </h3>
+              <p class="post-card-desc">{post.data.description}</p>
+              <div class="post-card-meta">
+                <span class="post-card-date">{post.data.pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
+                <a href={`/posts/${post.id}/`} class="post-card-read">Read Review →</a>
+              </div>
+            </div>
+          </article>
+          );
+        })}
+      </div>
+    </div>
   </section>
 </BaseLayout>
+
+<style is:global>
+  .category-hero {
+    border-radius: 20px;
+    margin: 0 0 24px;
+    overflow: hidden;
+  }
+  .category-hero .page-title {
+    font-family: var(--font-head);
+    font-size: 2.2rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+  .category-hero .page-subtitle {
+    color: var(--text-sec);
+    max-width: 600px;
+    line-height: 1.5;
+  }
+  .category-icon {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 8px;
+  }
+  .category-count {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 8px;
+    font-weight: 500;
+  }
+
+  .category-hero + .container .section-title {
+    font-family: var(--font-head);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+
+  .post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+  }
+  .post-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg, 20px);
+    overflow: hidden;
+    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .post-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-lg);
+    border-color: transparent;
+  }
+  .post-card-image {
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+  }
+  .post-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s;
+  }
+  .post-card:hover .post-card-img {
+    transform: scale(1.05);
+  }
+  .post-card-image-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  .post-card-body {
+    padding: 20px;
+  }
+  .post-card-title {
+    font-family: var(--font-head);
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .post-card-title a { color: var(--text); }
+  .post-card-title a:hover { color: var(--coral); }
+  .post-card-desc {
+    font-size: 0.88rem;
+    color: var(--text-sec);
+    line-height: 1.6;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .post-card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+  }
+  .post-card-date {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+  .post-card-read {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--coral);
+  }
+  .post-card-read:hover { gap: 8px; }
+
+  @media (max-width: 768px) {
+    .category-hero .page-title { font-size: 1.6rem; }
+    .post-grid { grid-template-columns: 1fr; }
+  }
+</style>
