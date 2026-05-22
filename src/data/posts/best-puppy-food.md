@@ -1,7 +1,7 @@
 ---
 title: "Best Puppy Foods: 9 Top Brands for Growing Dogs (2026)"
 description: "Puppies need more protein, fat, and calcium than adult dogs. We tested 9 puppy-specific formulas to find the best for every breed size."
-pubDate: 2026-05-20
+pubDate: 2026-05-22
 category: dog-food
 featured: false
 tags: ["puppy food", "puppy", "growth", "nutrition", "large breed"]

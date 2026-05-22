@@ -1,0 +1,1182 @@
+- generic [ref=e2]:
+  - navigation "快捷键菜单" [ref=e3]:
+    - heading "跳至" [level=2] [ref=e4]
+    - list "跳至" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "主要内容" [ref=e7]:
+          - /url: "#skippedLink"
+      - listitem [ref=e8]:
+        - link "结果" [ref=e9]:
+          - /url: .s-asin a:has(h2)
+          - text: 搜索结果
+      - listitem [ref=e10]:
+        - link "筛选条件" [ref=e11]:
+          - /url: "#s-refinements > div.a-section > div:first-child"
+    - separator [ref=e12]
+    - heading "键盘快捷键" [level=2] [ref=e13]
+    - list "键盘快捷键" [ref=e14]:
+      - listitem [ref=e15]:
+        - link "搜索：option 键、斜杠" [ref=e16]:
+          - /url: javascript:void(0)
+          - generic [ref=e17]:
+            - generic [ref=e18]: 搜索
+            - generic [ref=e19]:
+              - generic [ref=e20]: opt 键
+              - generic [ref=e21]: +
+              - generic [ref=e22]: /
+      - listitem [ref=e23]:
+        - link "购物车：shift 键、option 键、c" [ref=e24]:
+          - /url: javascript:void(0)
+          - generic [ref=e25]:
+            - generic [ref=e26]: 购物车
+            - generic [ref=e27]:
+              - generic [ref=e28]: shift 键
+              - generic [ref=e29]: +
+              - generic [ref=e30]: opt 键
+              - generic [ref=e31]: +
+              - generic [ref=e32]: C
+      - listitem [ref=e33]:
+        - link "主页：shift 键、option 键、h" [ref=e34]:
+          - /url: javascript:void(0)
+          - generic [ref=e35]:
+            - generic [ref=e36]: 主页
+            - generic [ref=e37]:
+              - generic [ref=e38]: shift 键
+              - generic [ref=e39]: +
+              - generic [ref=e40]: opt 键
+              - generic [ref=e41]: +
+              - generic [ref=e42]: H
+      - listitem [ref=e43]:
+        - link "我的订单：shift 键、option 键、o" [ref=e44]:
+          - /url: javascript:void(0)
+          - generic [ref=e45]:
+            - generic [ref=e46]: 订单
+            - generic [ref=e47]:
+              - generic [ref=e48]: shift 键
+              - generic [ref=e49]: +
+              - generic [ref=e50]: opt 键
+              - generic [ref=e51]: +
+              - generic [ref=e52]: O
+      - listitem [ref=e53]:
+        - button "显示/隐藏快捷方式：shift 键、option 键、z" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]:
+            - generic [ref=e56]: 显示/隐藏快捷键
+            - generic [ref=e57]:
+              - generic [ref=e58]: shift 键
+              - generic [ref=e59]: +
+              - generic [ref=e60]: opt 键
+              - generic [ref=e61]: +
+              - generic [ref=e62]: Z
+    - generic [ref=e68]: 请使用键盘的上下箭头移动。
+  - banner [ref=e69]:
+    - navigation "主要" [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - link "Amazon" [ref=e74] [cursor=pointer]:
+            - /url: /-/zh/ref=nav_logo
+          - 'button "配送至: 中国大陆" [ref=e77] [cursor=pointer]':
+            - generic [ref=e79]:
+              - generic [ref=e80]: "配送至:"
+              - generic [ref=e81]: 中国大陆
+        - search [ref=e84]:
+          - generic [ref=e87]:
+            - generic [ref=e89]: 全部分类
+            - combobox "选择要在其中进行搜索的部门" [ref=e91] [cursor=pointer]:
+              - option "全部分类" [selected]
+              - option "Kindle商店"
+              - option "MP3 音乐"
+              - option "Prime Video"
+              - option "Sales & Angebote"
+              - option "健康和家居用品"
+              - option "图书"
+              - option "女士时尚"
+              - option "女童时尚"
+              - option "婴儿用品"
+              - option "宠物用品"
+              - option "家居厨房用品"
+              - option "工业科技"
+              - option "工具与家居装饰"
+              - option "工艺品"
+              - option "影视"
+              - option "汽车"
+              - option "玩具与游戏"
+              - option "电子产品"
+              - option "男士时尚"
+              - option "男童时尚"
+              - option "美容和个人护理"
+              - option "行李箱包"
+              - option "视频游戏"
+              - option "计算机"
+              - option "软件"
+              - option "运动与户外用品"
+              - option "音乐、CD 和黑胶唱片"
+          - searchbox "搜索 Amazon" [ref=e94]: Blue Buffalo Homestyle Recipe wet dog food
+          - generic [ref=e95]:
+            - generic "搜索" [ref=e97] [cursor=pointer]:
+              - button "搜索" [ref=e98]
+            - button [ref=e100]: Agent Search
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - link "选择在美国亚马逊进行购物的语言。当前选择是简体中文（ZH）。" [ref=e104] [cursor=pointer]:
+              - /url: /-/zh/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang_ais
+              - generic [ref=e107]:
+                - img "美国" [ref=e108]
+                - generic [ref=e109]: ZH
+            - button "展开以更改语言或国家" [ref=e110] [cursor=pointer]
+          - generic [ref=e111]:
+            - link "您好, 登录 账户及心愿单" [ref=e112] [cursor=pointer]:
+              - /url: https://www.amazon.com/-/zh/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%3Fk%3DBlue%2BBuffalo%2BHomestyle%2BRecipe%2Bwet%2Bdog%2Bfood%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e114]: 您好, 登录
+              - generic [ref=e115]: 账户及心愿单
+            - button "扩展账户和待买清单" [ref=e116] [cursor=pointer]
+          - link "退货 与我的订单" [ref=e117] [cursor=pointer]:
+            - /url: /-/zh/gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e118]: 退货
+            - generic [ref=e119]: 与我的订单
+          - link "购物车中有 0 件商品" [ref=e120] [cursor=pointer]:
+            - /url: /-/zh/gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e122]: "0"
+            - generic [ref=e125]: 购物车
+      - alertdialog "国际购物转移提醒" [ref=e126]:
+        - generic [ref=e127]:
+          - generic [ref=e131]:
+            - text: 我们正向您显示配送至
+            - strong [ref=e132]: 中国
+            - text: 的商品。 要查看配送至其他国家/地区的商品，请更改您的配送地址。
+          - generic [ref=e133]:
+            - generic [ref=e135] [cursor=pointer]:
+              - button "Submit" [ref=e136]
+              - generic [ref=e137]: 继续
+            - generic [ref=e139] [cursor=pointer]:
+              - button "Submit" [ref=e140]
+              - generic [ref=e141]: 更改此地址
+      - generic [ref=e145]:
+        - link "立即登录" [ref=e146] [cursor=pointer]:
+          - /url: https://www.amazon.com/-/zh/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%3Fk%3DBlue%2BBuffalo%2BHomestyle%2BRecipe%2Bwet%2Bdog%2Bfood%26ref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+          - generic [ref=e147]: 立即登录
+        - generic [ref=e148]:
+          - text: 新客户？
+          - link "初次使用亚马逊？ 从这里开始创建账户" [ref=e149] [cursor=pointer]:
+            - /url: https://www.amazon.com/-/zh/ap/register?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%2F%3F_encoding%3DUTF8%26k%3DBlue%2520Buffalo%2520Homestyle%2520Recipe%2520wet%2520dog%2520food%26ref_%3Dnav_custrec_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+            - text: 免费注册
+      - generic [ref=e154]:
+        - button "打开“所有类别”菜单" [ref=e156]:
+          - generic [ref=e158]: 全部
+        - list [ref=e162]:
+          - listitem [ref=e163]:
+            - link "今日特价" [ref=e165] [cursor=pointer]:
+              - /url: /-/zh/gp/goldbox?ref_=nav_cs_gb
+          - listitem [ref=e166]:
+            - link "礼品卡" [ref=e168] [cursor=pointer]:
+              - /url: /-/zh/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc
+          - listitem [ref=e169]:
+            - link "全球开店" [ref=e171] [cursor=pointer]:
+              - /url: /-/zh/b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell
+          - listitem [ref=e172]:
+            - link "礼品心愿单" [ref=e174] [cursor=pointer]:
+              - /url: /-/zh/gp/browse.html?node=16115931011&ref_=nav_cs_registry
+          - listitem [ref=e175]:
+            - link "Prime Video" [ref=e177] [cursor=pointer]:
+              - /url: /-/zh/Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_cs_prime_video
+          - listitem [ref=e178]:
+            - link "客户服务" [ref=e180] [cursor=pointer]:
+              - /url: /-/zh/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice
+          - link "单击以致电我们的残障客户支持热线，或拨打1-888-283-1678直接联系我们" [ref=e181]:
+            - /url: /-/zh/gp/help/customer/accessibility
+            - text: 残障客户支持
+      - dialog [ref=e184]
+  - generic [ref=e186]:
+    - 'heading "共 15 个结果 \"Blue Buffalo Homestyle Recipe wet dog food\" 排序方式：: 精选" [level=1] [ref=e189]':
+      - generic [ref=e190]:
+        - heading "共 15 个结果 \"Blue Buffalo Homestyle Recipe wet dog food\"" [level=2] [ref=e193]
+        - generic [ref=e198]:
+          - generic [ref=e199]: "排序方式：:"
+          - combobox "排序方式：:" [ref=e200]:
+            - option "精选" [selected]
+            - option "价格： 从低到高"
+            - option "价格： 从高到低"
+            - option "平均买家评论数"
+            - option "最新商品"
+            - option "畅销商品"
+          - generic [ref=e203] [cursor=pointer]: 排序方式：:精选
+    - generic [ref=e205]:
+      - generic [ref=e207]:
+        - generic [ref=e209]:
+          - generic [ref=e211]:
+            - generic [ref=e214]:
+              - heading "结果" [level=2] [ref=e215]
+              - generic [ref=e216]: 查看每个商品页面以了解其他购买选项。
+            - generic:
+              - list:
+                - listitem [ref=e217]:
+                  - generic [ref=e222]:
+                    - link [ref=e225]:
+                      - /url: /-/zh/dp/B0GHD69H8Y/ref=sr_1_1?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-1
+                      - img [ref=e227]
+                    - generic [ref=e228]:
+                      - link "Blue Buffalo Homestyle 食谱成人湿狗粮,采用天然成分制成,鸡肉和牛肉晚餐综合包装,12.5 盎司罐装,(12 个装)" [ref=e230]:
+                        - /url: /-/zh/dp/B0GHD69H8Y/ref=sr_1_1?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-1
+                        - heading "Blue Buffalo Homestyle 食谱成人湿狗粮,采用天然成分制成,鸡肉和牛肉晚餐综合包装,12.5 盎司罐装,(12 个装)" [level=2] [ref=e231]
+                      - generic [ref=e233]:
+                        - text: "4.6"
+                        - button "4.6 颗星，最多 5 颗星，评级详情" [ref=e235]:
+                          - generic [ref=e237]: 4.6 颗星，最多 5 颗星
+                        - link "3,042 评级" [ref=e241]:
+                          - /url: /-/zh/dp/B0GHD69H8Y/ref=sr_1_1?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-1#customerReviews
+                          - text: (3042)
+                      - link "查看选项" [ref=e248]:
+                        - /url: /-/zh/dp/B0GHD69H8Y/ref=sr_1_1_so_PET_FOOD?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-1
+                      - generic [ref=e250]:
+                        - text: 没有精选优惠
+                        - text: CNY 239.36
+                        - link "（1 件新品）" [ref=e252]:
+                          - /url: /-/zh/gp/offer-listing/B0GHD69H8Y/ref=sr_1_1_olp?keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&qid=1779343017&sr=8-1
+                - listitem [ref=e253]:
+                  - generic [ref=e258]:
+                    - generic "亚马逊精选" [ref=e260]:
+                      - generic [ref=e269]: 全优选
+                    - link [ref=e273]:
+                      - /url: /-/zh/dp/B0GHDHTWC3/ref=sr_1_2?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-2
+                      - img [ref=e275]
+                    - generic [ref=e276]:
+                      - link "Blue Buffalo Homestyle 食谱成人湿狗粮,采用天然成分制成,火鸡和羊肉晚餐综合包装,12.5 盎司罐(每罐 3 个),(12 个装)" [ref=e278]:
+                        - /url: /-/zh/dp/B0GHDHTWC3/ref=sr_1_2?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-2
+                        - heading "Blue Buffalo Homestyle 食谱成人湿狗粮,采用天然成分制成,火鸡和羊肉晚餐综合包装,12.5 盎司罐(每罐 3 个),(12 个装)" [level=2] [ref=e279]
+                      - generic [ref=e281]:
+                        - text: "4.6"
+                        - button "4.6 颗星，最多 5 颗星，评级详情" [ref=e283]:
+                          - generic [ref=e285]: 4.6 颗星，最多 5 颗星
+                        - link "699 评级" [ref=e289]:
+                          - /url: /-/zh/dp/B0GHDHTWC3/ref=sr_1_2?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-2#customerReviews
+                          - text: (699)
+                      - link "查看选项" [ref=e296]:
+                        - /url: /-/zh/dp/B0GHDHTWC3/ref=sr_1_2_so_PET_FOOD?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-2
+                      - generic [ref=e298]:
+                        - text: 没有精选优惠
+                        - text: CNY 239.50
+                        - link "（1 件新品）" [ref=e300]:
+                          - /url: /-/zh/gp/offer-listing/B0GHDHTWC3/ref=sr_1_2_olp?keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&qid=1779343017&sr=8-2
+                - listitem [ref=e301]:
+                  - generic [ref=e306]:
+                    - link [ref=e309]:
+                      - /url: /-/zh/dp/B08WK68GF4/ref=sr_1_3?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-3
+                      - img [ref=e311]
+                    - generic [ref=e312]:
+                      - link "Blue Buffalo Homestyle 食谱天然成人湿狗粮综合包装,鸡肉和牛肉 12.5 盎司(约 354.4 克)罐装(每种口味各 12 个)" [ref=e314]:
+                        - /url: /-/zh/dp/B08WK68GF4/ref=sr_1_3?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-3
+                        - heading "Blue Buffalo Homestyle 食谱天然成人湿狗粮综合包装,鸡肉和牛肉 12.5 盎司(约 354.4 克)罐装(每种口味各 12 个)" [level=2] [ref=e315]
+                      - generic [ref=e317]:
+                        - text: "4.6"
+                        - button "4.6 颗星，最多 5 颗星，评级详情" [ref=e319]:
+                          - generic [ref=e321]: 4.6 颗星，最多 5 颗星
+                        - link "163 评级" [ref=e325]:
+                          - /url: /-/zh/dp/B08WK68GF4/ref=sr_1_3?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-3#customerReviews
+                          - text: (163)
+                      - link "查看选项" [ref=e332]:
+                        - /url: /-/zh/dp/B08WK68GF4/ref=sr_1_3_so_PET_FOOD?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-3
+                      - generic [ref=e334]:
+                        - text: 没有精选优惠
+                        - text: CNY 480.36
+                        - link "（1 件新品）" [ref=e336]:
+                          - /url: /-/zh/gp/offer-listing/B08WK68GF4/ref=sr_1_3_olp?keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&qid=1779343017&sr=8-3
+                - listitem [ref=e337]:
+                  - generic [ref=e342]:
+                    - link [ref=e345]:
+                      - /url: /-/zh/dp/B0GHCKPXCG/ref=sr_1_4?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-4
+                      - img [ref=e347]
+                    - generic [ref=e348]:
+                      - link "Blue Buffalo Homestyle 食谱成人湿狗粮,采用天然成分制成,鱼和红薯晚餐配花园蔬菜,12.5 盎司罐装,(24 包)" [ref=e350]:
+                        - /url: /-/zh/dp/B0GHCKPXCG/ref=sr_1_4?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-4
+                        - heading "Blue Buffalo Homestyle 食谱成人湿狗粮,采用天然成分制成,鱼和红薯晚餐配花园蔬菜,12.5 盎司罐装,(24 包)" [level=2] [ref=e351]
+                      - generic [ref=e353]:
+                        - text: "4.5"
+                        - button "4.5 颗星，最多 5 颗星，评级详情" [ref=e355]:
+                          - generic [ref=e357]: 4.5 颗星，最多 5 颗星
+                        - link "1,386 评级" [ref=e361]:
+                          - /url: /-/zh/dp/B0GHCKPXCG/ref=sr_1_4?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-4#customerReviews
+                          - text: (1386)
+                      - link "查看选项" [ref=e368]:
+                        - /url: /-/zh/dp/B0GHCKPXCG/ref=sr_1_4_so_PET_FOOD?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-4
+                      - generic [ref=e370]:
+                        - text: 没有精选优惠
+                        - text: CNY 548.44
+                        - link "（1 件新品）" [ref=e372]:
+                          - /url: /-/zh/gp/offer-listing/B0GHCKPXCG/ref=sr_1_4_olp?keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&qid=1779343017&sr=8-4
+                - listitem [ref=e373]:
+                  - generic [ref=e378]:
+                    - link [ref=e381]:
+                      - /url: /-/zh/dp/B0GHD5DZ18/ref=sr_1_5?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-5
+                      - img [ref=e383]
+                    - generic [ref=e384]:
+                      - link "Blue Buffalo Homestyle 食谱天然成人健康体重湿狗粮,12.5 盎司罐装,12 个装(2 件装)" [ref=e386]:
+                        - /url: /-/zh/dp/B0GHD5DZ18/ref=sr_1_5?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-5
+                        - heading "Blue Buffalo Homestyle 食谱天然成人健康体重湿狗粮,12.5 盎司罐装,12 个装(2 件装)" [level=2] [ref=e387]
+                      - generic [ref=e389]:
+                        - text: "4.6"
+                        - button "4.6 颗星，最多 5 颗星，评级详情" [ref=e391]:
+                          - generic [ref=e393]: 4.6 颗星，最多 5 颗星
+                        - link "1,617 评级" [ref=e397]:
+                          - /url: /-/zh/dp/B0GHD5DZ18/ref=sr_1_5?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-5#customerReviews
+                          - text: (1617)
+                      - link "查看选项" [ref=e404]:
+                        - /url: /-/zh/dp/B0GHD5DZ18/ref=sr_1_5_so_PET_FOOD?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-5
+                      - generic [ref=e406]:
+                        - text: 没有精选优惠
+                        - text: CNY 480.36
+                        - link "（1 件新品）" [ref=e408]:
+                          - /url: /-/zh/gp/offer-listing/B0GHD5DZ18/ref=sr_1_5_olp?keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&qid=1779343017&sr=8-5
+                - listitem [ref=e409]:
+                  - generic [ref=e414]:
+                    - link [ref=e417]:
+                      - /url: /-/zh/dp/B0BFKH7KHV/ref=sr_1_6?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-6
+                      - img [ref=e419]
+                    - generic [ref=e420]:
+                      - link "Blue Buffalo 天然湿狗粮 鸡肉和牛肉" [ref=e422]:
+                        - /url: /-/zh/dp/B0BFKH7KHV/ref=sr_1_6?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-6
+                        - heading "Blue Buffalo 天然湿狗粮 鸡肉和牛肉" [level=2] [ref=e423]
+                      - generic [ref=e425]:
+                        - text: "4.5"
+                        - button "4.5 颗星，最多 5 颗星，评级详情" [ref=e427]:
+                          - generic [ref=e429]: 4.5 颗星，最多 5 颗星
+                        - link "7 评级" [ref=e433]:
+                          - /url: /-/zh/dp/B0BFKH7KHV/ref=sr_1_6?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-6#customerReviews
+                          - text: (7)
+                      - link "查看选项" [ref=e440]:
+                        - /url: /-/zh/dp/B0BFKH7KHV/ref=sr_1_6_so_PET_FOOD?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-6
+                      - generic [ref=e442]:
+                        - text: 没有精选优惠
+                        - text: CNY 372.12
+                        - link "（1 件新品）" [ref=e444]:
+                          - /url: /-/zh/gp/offer-listing/B0BFKH7KHV/ref=sr_1_6_olp?keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&qid=1779343017&sr=8-6
+                - listitem [ref=e445]:
+                  - generic [ref=e450]:
+                    - link [ref=e453]:
+                      - /url: /-/zh/dp/B0GHCX1PDQ/ref=sr_1_7?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-7
+                      - img [ref=e455]
+                    - generic [ref=e456]:
+                      - link "Blue Buffalo Wilderness 高蛋白牛肉、鸡肉、鲑鱼和鸡肉湿狗粮综合包装,适合成年犬,无谷物,12.5 盎司罐装(12 个装)" [ref=e458]:
+                        - /url: /-/zh/dp/B0GHCX1PDQ/ref=sr_1_7?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-7
+                        - heading "Blue Buffalo Wilderness 高蛋白牛肉、鸡肉、鲑鱼和鸡肉湿狗粮综合包装,适合成年犬,无谷物,12.5 盎司罐装(12 个装)" [level=2] [ref=e459]
+                      - generic [ref=e461]:
+                        - text: "4.7"
+                        - button "4.7 颗星，最多 5 颗星，评级详情" [ref=e463]:
+                          - generic [ref=e465]: 4.7 颗星，最多 5 颗星
+                        - link "1,043 评级" [ref=e469]:
+                          - /url: /-/zh/dp/B0GHCX1PDQ/ref=sr_1_7?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-7#customerReviews
+                          - text: (1043)
+                      - link "查看选项" [ref=e476]:
+                        - /url: /-/zh/dp/B0GHCX1PDQ/ref=sr_1_7_so_PET_FOOD?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-7
+                      - generic [ref=e478]:
+                        - text: 没有精选优惠
+                        - text: CNY 261.15
+                        - link "（1 件新品）" [ref=e480]:
+                          - /url: /-/zh/gp/offer-listing/B0GHCX1PDQ/ref=sr_1_7_olp?keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&qid=1779343017&sr=8-7
+                - listitem [ref=e481]:
+                  - generic [ref=e486]:
+                    - link [ref=e489]:
+                      - /url: /-/zh/dp/B0GHBZ3Q8J/ref=sr_1_8?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-8
+                      - img [ref=e491]
+                    - generic [ref=e492]:
+                      - link "Blue Buffalo Wilderness Adult Wet Dog Food,High-Protein & Grain-Free,Made with Natural Ingredients,Beef & Chicken Grill,12.5-oz Cans,(Pack of 24)" [ref=e494]:
+                        - /url: /-/zh/dp/B0GHBZ3Q8J/ref=sr_1_8?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-8
+                        - heading "Blue Buffalo Wilderness Adult Wet Dog Food,High-Protein & Grain-Free,Made with Natural Ingredients,Beef & Chicken Grill,12.5-oz Cans,(Pack of 24)" [level=2] [ref=e495]
+                      - link "查看选项" [ref=e502]:
+                        - /url: /-/zh/dp/B0GHBZ3Q8J/ref=sr_1_8_so_PET_FOOD?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-8
+                      - generic [ref=e504]:
+                        - text: 没有精选优惠
+                        - text: CNY 505.96
+                        - link "（1 件新品）" [ref=e506]:
+                          - /url: /-/zh/gp/offer-listing/B0GHBZ3Q8J/ref=sr_1_8_olp?keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&qid=1779343017&sr=8-8
+                - listitem [ref=e507]:
+                  - generic [ref=e512]:
+                    - link [ref=e515]:
+                      - /url: /-/zh/dp/B0GHCSKDSK/ref=sr_1_9?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-9
+                      - img [ref=e517]
+                    - generic [ref=e518]:
+                      - link "Blue Buffalo Family Favorites Adult Wet Dog Food, Made with Natural Ingredients, Sunday Chicken Dinner, 12.5-oz Can, 12 Count (Pack of 2)" [ref=e520]:
+                        - /url: /-/zh/dp/B0GHCSKDSK/ref=sr_1_9?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-9
+                        - heading "Blue Buffalo Family Favorites Adult Wet Dog Food, Made with Natural Ingredients, Sunday Chicken Dinner, 12.5-oz Can, 12 Count (Pack of 2)" [level=2] [ref=e521]
+                      - generic [ref=e523]:
+                        - text: "4.6"
+                        - button "4.6 颗星，最多 5 颗星，评级详情" [ref=e525]:
+                          - generic [ref=e527]: 4.6 颗星，最多 5 颗星
+                        - link "1,217 评级" [ref=e531]:
+                          - /url: /-/zh/dp/B0GHCSKDSK/ref=sr_1_9?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-9#customerReviews
+                          - text: (1217)
+                      - link "查看选项" [ref=e538]:
+                        - /url: /-/zh/dp/B0GHCSKDSK/ref=sr_1_9_so_PET_FOOD?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-9
+                      - generic [ref=e540]:
+                        - text: 没有精选优惠
+                        - text: CNY 488.53
+                        - link "（1 件新品）" [ref=e542]:
+                          - /url: /-/zh/gp/offer-listing/B0GHCSKDSK/ref=sr_1_9_olp?keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&qid=1779343017&sr=8-9
+                - listitem [ref=e543]:
+                  - generic [ref=e548]:
+                    - link [ref=e551]:
+                      - /url: /-/zh/dp/B0BFKKVQ38/ref=sr_1_10?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-10
+                      - img [ref=e553]
+                    - generic [ref=e554]:
+                      - link "Blue Buffalo 湿狗粮杯和礼帽套装" [ref=e556]:
+                        - /url: /-/zh/dp/B0BFKKVQ38/ref=sr_1_10?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-10
+                        - heading "Blue Buffalo 湿狗粮杯和礼帽套装" [level=2] [ref=e557]
+                      - generic [ref=e559]:
+                        - text: "3.7"
+                        - button "3.7 颗星，最多 5 颗星，评级详情" [ref=e561]:
+                          - generic [ref=e563]: 3.7 颗星，最多 5 颗星
+                        - link "12 评级" [ref=e567]:
+                          - /url: /-/zh/dp/B0BFKKVQ38/ref=sr_1_10?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-10#customerReviews
+                          - text: (12)
+                      - link "查看选项" [ref=e574]:
+                        - /url: /-/zh/dp/B0BFKKVQ38/ref=sr_1_10_so_PET_FOOD?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-10
+                      - generic [ref=e576]:
+                        - text: 没有精选优惠
+                        - text: CNY 249.57
+                        - link "（1 件新品）" [ref=e578]:
+                          - /url: /-/zh/gp/offer-listing/B0BFKKVQ38/ref=sr_1_10_olp?keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&qid=1779343017&sr=8-10
+                - listitem [ref=e579]:
+                  - generic [ref=e584]:
+                    - link [ref=e587]:
+                      - /url: /-/zh/dp/B08WK75S7L/ref=sr_1_11?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-11
+                      - img [ref=e589]
+                    - generic [ref=e590]:
+                      - link "Blue Buffalo Delights 天然成人小型湿狗粮杯,Pate 风格,烤火鸡和烤鸡 3.5 盎司(24 个装-每种口味有 12 个)" [ref=e592]:
+                        - /url: /-/zh/dp/B08WK75S7L/ref=sr_1_11?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-11
+                        - heading "Blue Buffalo Delights 天然成人小型湿狗粮杯,Pate 风格,烤火鸡和烤鸡 3.5 盎司(24 个装-每种口味有 12 个)" [level=2] [ref=e593]
+                      - generic [ref=e595]:
+                        - text: "4.4"
+                        - button "4.4 颗星，最多 5 颗星，评级详情" [ref=e597]:
+                          - generic [ref=e599]: 4.4 颗星，最多 5 颗星
+                        - link "146 评级" [ref=e603]:
+                          - /url: /-/zh/dp/B08WK75S7L/ref=sr_1_11?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-11#customerReviews
+                          - text: (146)
+                      - link "查看选项" [ref=e610]:
+                        - /url: /-/zh/dp/B08WK75S7L/ref=sr_1_11_so_PET_FOOD?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-11
+                      - generic [ref=e612]:
+                        - text: 没有精选优惠
+                        - text: CNY 281.50
+                        - link "（1 件新品）" [ref=e614]:
+                          - /url: /-/zh/gp/offer-listing/B08WK75S7L/ref=sr_1_11_olp?keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&qid=1779343017&sr=8-11
+                - listitem [ref=e615]:
+                  - generic [ref=e620]:
+                    - link [ref=e623]:
+                      - /url: /-/zh/dp/B0GHC73YK5/ref=sr_1_12?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-12
+                      - img [ref=e625]
+                    - generic [ref=e626]:
+                      - link "Blue Buffalo Wilderness 成人湿狗粮,高蛋白质和无谷物,采用天然成分制成,鲑鱼和鸡肉烤架,12.5 盎司罐装,(24 个装)" [ref=e628]:
+                        - /url: /-/zh/dp/B0GHC73YK5/ref=sr_1_12?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-12
+                        - heading "Blue Buffalo Wilderness 成人湿狗粮,高蛋白质和无谷物,采用天然成分制成,鲑鱼和鸡肉烤架,12.5 盎司罐装,(24 个装)" [level=2] [ref=e629]
+                      - generic [ref=e631]:
+                        - text: "4.6"
+                        - button "4.6 颗星，最多 5 颗星，评级详情" [ref=e633]:
+                          - generic [ref=e635]: 4.6 颗星，最多 5 颗星
+                        - link "1,745 评级" [ref=e639]:
+                          - /url: /-/zh/dp/B0GHC73YK5/ref=sr_1_12?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-12#customerReviews
+                          - text: (1745)
+                      - link "查看选项" [ref=e646]:
+                        - /url: /-/zh/dp/B0GHC73YK5/ref=sr_1_12_so_PET_FOOD?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-12
+                      - generic [ref=e648]:
+                        - text: 没有精选优惠
+                        - text: CNY 477.91
+                        - link "（1 件新品）" [ref=e650]:
+                          - /url: /-/zh/gp/offer-listing/B0GHC73YK5/ref=sr_1_12_olp?keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&qid=1779343017&sr=8-12
+                - listitem [ref=e651]:
+                  - generic [ref=e656]:
+                    - link [ref=e659]:
+                      - /url: /-/zh/dp/B08GP8VZSZ/ref=sr_1_13?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-13
+                      - img [ref=e661]
+                    - generic [ref=e662]:
+                      - link "Blue Buffalo Delights Natural Adult Small Breed Wet Dog Food Cups, 3.5-oz (Pack of 12)" [ref=e664]:
+                        - /url: /-/zh/dp/B08GP8VZSZ/ref=sr_1_13?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-13
+                        - heading "Blue Buffalo Delights Natural Adult Small Breed Wet Dog Food Cups, 3.5-oz (Pack of 12)" [level=2] [ref=e665]
+                      - generic [ref=e667]:
+                        - text: "4.7"
+                        - button "4.7 颗星，最多 5 颗星，评级详情" [ref=e669]:
+                          - generic [ref=e671]: 4.7 颗星，最多 5 颗星
+                        - link "97 评级" [ref=e675]:
+                          - /url: /-/zh/dp/B08GP8VZSZ/ref=sr_1_13?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-13#customerReviews
+                          - text: (97)
+                      - link "查看选项" [ref=e682]:
+                        - /url: /-/zh/dp/B08GP8VZSZ/ref=sr_1_13_so_PET_FOOD?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-13
+                      - generic [ref=e684]:
+                        - text: 没有精选优惠
+                        - text: CNY 235.28
+                        - link "（1 件新品）" [ref=e686]:
+                          - /url: /-/zh/gp/offer-listing/B08GP8VZSZ/ref=sr_1_13_olp?keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&qid=1779343017&sr=8-13
+                - listitem [ref=e687]:
+                  - generic [ref=e692]:
+                    - link [ref=e695]:
+                      - /url: /-/zh/dp/B0GHD2CPW6/ref=sr_1_14?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-14
+                      - img [ref=e697]
+                    - generic [ref=e698]:
+                      - link "Blue Buffalo Wilderness Wolf Creek 炖湿狗粮,高蛋白质和无谷物,采用天然成分制成,肉汁中的丰盛牛肉,12.5 盎司罐装,(24 个装)" [ref=e700]:
+                        - /url: /-/zh/dp/B0GHD2CPW6/ref=sr_1_14?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-14
+                        - heading "Blue Buffalo Wilderness Wolf Creek 炖湿狗粮,高蛋白质和无谷物,采用天然成分制成,肉汁中的丰盛牛肉,12.5 盎司罐装,(24 个装)" [level=2] [ref=e701]
+                      - generic [ref=e703]:
+                        - text: "4.6"
+                        - button "4.6 颗星，最多 5 颗星，评级详情" [ref=e705]:
+                          - generic [ref=e707]: 4.6 颗星，最多 5 颗星
+                        - link "1,411 评级" [ref=e711]:
+                          - /url: /-/zh/dp/B0GHD2CPW6/ref=sr_1_14?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-14#customerReviews
+                          - text: (1411)
+                      - link "查看选项" [ref=e718]:
+                        - /url: /-/zh/dp/B0GHD2CPW6/ref=sr_1_14_so_PET_FOOD?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-14
+                      - generic [ref=e720]:
+                        - text: 没有精选优惠
+                        - text: CNY 531.01
+                        - link "（1 件新品）" [ref=e722]:
+                          - /url: /-/zh/gp/offer-listing/B0GHD2CPW6/ref=sr_1_14_olp?keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&qid=1779343017&sr=8-14
+                - listitem [ref=e723]:
+                  - generic [ref=e728]:
+                    - link [ref=e731]:
+                      - /url: /-/zh/dp/B095HVGMC4/ref=sr_1_15?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-15
+                      - img [ref=e733]
+                    - generic [ref=e734]:
+                      - link "Blue Buffalo Basics 限量配料饮食,天然老年犬食品套装,干狗粮和湿狗粮,土耳其(22 磅干粮 + 12.5 盎司罐装 12 克拉)" [ref=e736]:
+                        - /url: /-/zh/dp/B095HVGMC4/ref=sr_1_15?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-15
+                        - heading "Blue Buffalo Basics 限量配料饮食,天然老年犬食品套装,干狗粮和湿狗粮,土耳其(22 磅干粮 + 12.5 盎司罐装 12 克拉)" [level=2] [ref=e737]
+                      - generic [ref=e739]:
+                        - text: "4.4"
+                        - button "4.4 颗星，最多 5 颗星，评级详情" [ref=e741]:
+                          - generic [ref=e743]: 4.4 颗星，最多 5 颗星
+                        - link "7 评级" [ref=e747]:
+                          - /url: /-/zh/dp/B095HVGMC4/ref=sr_1_15?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-15#customerReviews
+                          - text: (7)
+                      - link "查看选项" [ref=e754]:
+                        - /url: /-/zh/dp/B095HVGMC4/ref=sr_1_15_so_PET_FOOD?dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&dib_tag=se&keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&qid=1779343017&sr=8-15
+                      - generic [ref=e756]:
+                        - text: 没有精选优惠
+                        - text: CNY 767.51
+                        - link "（1 件新品）" [ref=e758]:
+                          - /url: /-/zh/gp/offer-listing/B095HVGMC4/ref=sr_1_15_olp?keywords=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA&qid=1779343017&sr=8-15
+                - listitem [ref=e759]:
+                  - generic [ref=e766]:
+                    - group "最畅销商品在狗储粮桶中" [ref=e771]:
+                      - generic "最畅销商品" [ref=e773]
+                    - link [ref=e776]:
+                      - /url: /-/zh/sspa/click?ie=UTF8&spc=MTo4ODA3NzQzNjc2ODI1NTAzOjE3NzkzNDMwMTc6c3BfbXRmOjIwMDAyODg0NDg1NzIzMTo6MDo6&url=%2Fdp%2FB0746MLFB7%2Fref%3Dsr_1_16_sspa%3Fdib%3DeyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA%26dib_tag%3Dse%26keywords%3DBlue%2BBuffalo%2BHomestyle%2BRecipe%2Bwet%2Bdog%2Bfood%26qid%3D1779343017%26sr%3D8-16-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1
+                      - img [ref=e778]
+                    - generic [ref=e779]:
+                      - generic [ref=e780]:
+                        - button "查看赞助信息或留下广告反馈" [ref=e783]:
+                          - generic [ref=e784]: Sponsored
+                        - link "赞助广告- Comtim 宠物食品罐盖硅胶罐盖适用于狗和猫粮(通用尺寸,一个适合 3 个标准尺寸的食品罐),蓝色和绿色" [ref=e786]:
+                          - /url: /-/zh/sspa/click?ie=UTF8&spc=MTo4ODA3NzQzNjc2ODI1NTAzOjE3NzkzNDMwMTc6c3BfbXRmOjIwMDAyODg0NDg1NzIzMTo6MDo6&url=%2Fdp%2FB0746MLFB7%2Fref%3Dsr_1_16_sspa%3Fdib%3DeyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA%26dib_tag%3Dse%26keywords%3DBlue%2BBuffalo%2BHomestyle%2BRecipe%2Bwet%2Bdog%2Bfood%26qid%3D1779343017%26sr%3D8-16-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1
+                          - heading "赞助广告- Comtim 宠物食品罐盖硅胶罐盖适用于狗和猫粮(通用尺寸,一个适合 3 个标准尺寸的食品罐),蓝色和绿色" [level=2] [ref=e787]: Comtim 宠物食品罐盖硅胶罐盖适用于狗和猫粮(通用尺寸,一个适合 3 个标准尺寸的食品罐),蓝色和绿色
+                      - generic [ref=e788]:
+                        - generic [ref=e789]: 最受好评
+                        - generic [ref=e790]:
+                          - text: "4.8"
+                          - button "4.8 颗星，最多 5 颗星，评级详情" [ref=e792]:
+                            - generic [ref=e794]: 4.8 颗星，最多 5 颗星
+                          - link "37,341 评级" [ref=e798]:
+                            - /url: /-/zh/sspa/click?ie=UTF8&spc=MTo4ODA3NzQzNjc2ODI1NTAzOjE3NzkzNDMwMTc6c3BfbXRmOjIwMDAyODg0NDg1NzIzMTo6MDo6&url=%2Fdp%2FB0746MLFB7%2Fref%3Dsr_1_16_sspa%3Fdib%3DeyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA%26dib_tag%3Dse%26keywords%3DBlue%2BBuffalo%2BHomestyle%2BRecipe%2Bwet%2Bdog%2Bfood%26qid%3D1779343017%26sr%3D8-16-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1#customerReviews
+                            - text: (3.7万)
+                        - generic [ref=e799]: 过去一个月有7000+顾客购买
+                      - generic [ref=e802]:
+                        - generic [ref=e803]: 价格，商品页面
+                        - link "CNY 33.22" [ref=e804]:
+                          - /url: /-/zh/sspa/click?ie=UTF8&spc=MTo4ODA3NzQzNjc2ODI1NTAzOjE3NzkzNDMwMTc6c3BfbXRmOjIwMDAyODg0NDg1NzIzMTo6MDo6&url=%2Fdp%2FB0746MLFB7%2Fref%3Dsr_1_16_sspa%3Fdib%3DeyJ2IjoiMSJ9.ymYZwUE9Ne_kguHbKN3lLF8ljHDP2cOhSGl9FZMhUjm-hBo30ShPTO408M8DwzE56QHC0itYiuqO4-fzjUHdAiBTmpDX6GgLZeX36FwLy1cZChEvOLqIGK8rgaQRphvOhvGfecqq1W_DFMMfhfwLoZnhUmDFMKeri9aWgqn_VgX7-Nyo-MRuiPQZxVHFjpdhyoWKp55VE05HXefhK0uHEj_z8tCFOVTvYIgznZtVmBU.wSeDS1OAgkdq4SosOc_6zaJFrS1RqrnWK6Dfac7ZCCA%26dib_tag%3Dse%26keywords%3DBlue%2BBuffalo%2BHomestyle%2BRecipe%2Bwet%2Bdog%2Bfood%26qid%3D1779343017%26sr%3D8-16-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1
+                          - generic [ref=e805]:
+                            - generic [ref=e806]: CNY 33.22
+                            - generic [ref=e807]:
+                              - text: CNY
+                              - generic [ref=e808]:
+                                - text: "33"
+                                - generic [ref=e809]: .
+                              - text: "22"
+                      - generic [ref=e810]:
+                        - generic [ref=e816]: 配送费CNY 41.66, 预计5月29日周五送达
+                        - generic [ref=e817]: 配送至中国
+                      - button "加入购物车" [ref=e831] [cursor=pointer]
+          - generic [ref=e837]:
+            - heading "需要帮助？" [level=2] [ref=e840]
+            - generic [ref=e841]:
+              - link "访问帮助部分" [ref=e842]:
+                - /url: /-/zh/gp/help/customer/display.html?nodeId=468556
+              - text: 或
+              - link "联系我们" [ref=e843]:
+                - /url: /-/zh/gp/help/customer/contact-us
+          - generic [ref=e846]:
+            - iframe [ref=e847]:
+              - generic [ref=f5e4]:
+                - link "Your PET'S Kitchen 湿狗粮,鸡肉锅派食谱 - 13.5 盎司罐(6 个装),美国制造,配真鸡" [ref=f5e7]:
+                  - /url: https://aax-events-cell01-cf.us-east.ono.axp.amazon-adsystem.com/x/c/RAdNUbUbFMwAeQFYb74sBJIAAAGeSRvG3AEAAAH0AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDIgICBRxI-P/clv1c_ek8OM3GX57OOBXc78KNgvSuqsA99oo7NthM6cQx8jGVwOkKsmDdALSXgem7q7tXKxo4PPUW8pu7ZpYIwsObO85jPw0X1_egZ8WrOErRVPvD7viQmHgqtIZbpLE-6Y9vnWRsMDgZ4Kl-AitV8-fXDNNLq0i9Ne_fOFxRRqSv3w5YZULlNOGjjVD4eP-FpQ96pcYKfAy0sCeItMfCnbqzWaHPxRrYl3lcBQlafAdLnqvLSyATmEj0gCIWmCzNIRSY4iLJty4JNclcQK8xofQUlPTrYlQQzAFwiV2JUmWahM3apUI1ahq0KVXl-KomuZAdsw_ljz03GAnxTYx3rh380-_MNqBOkvNzTRNdxP_lc11LWLGvZYKZo7QYfsmYD8Yo/https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3OTg0MDcyODU5NTEzNzI6MTc3OTM0MzAxNzpzcF9zZWFyY2hfZm9vdGVyX3NoYXJlZDozMDA3NDAyNDU4MzU4MDI6Ojo6&url=%2Fdp%2FB0DHB5M5TZ%2Fref%3Dsspa_dk_bot_sx_aax_0%3Fpsc%3D1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfZm9vdGVyX3NoYXJlZA
+                - generic [ref=f5e8]:
+                  - img "Your PET'S Kitchen 湿狗粮,鸡肉锅派食谱 - 13.5 盎司罐(6 个装),美国制造,配真鸡" [ref=f5e10]
+                  - generic [ref=f5e11]:
+                    - generic [ref=f5e12]: Your PET'S Kitchen 湿狗粮,鸡肉锅派食谱 - 13.5 盎司罐(6 个装),美国制造,配真鸡
+                    - generic [ref=f5e13]:
+                      - text: CNY 98.17
+                      - link "415" [ref=f5e14]:
+                        - /url: https://aax-events-cell01-cf.us-east.ono.axp.amazon-adsystem.com/x/c/RAdNUbUbFMwAeQFYb74sBJIAAAGeSRvG3AEAAAH0AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDIgICBRxI-P/clv1c_ek8OM3GX57OOBXc78KNgvSuqsA99oo7NthM6cQx8jGVwOkKsmDdALSXgem7q7tXKxo4PPUW8pu7ZpYIwsObO85jPw0X1_egZ8WrOErRVPvD7viQmHgqtIZbpLE-6Y9vnWRsMDgZ4Kl-AitV8-fXDNNLq0i9Ne_fOFxRRqSv3w5YZULlNOGjjVD4eP-FpQ96pcYKfAy0sCeItMfCnbqzWaHPxRrYl3lcBQlafAdLnqvLSyATmEj0gCIWmCzNIRSY4iLJty4JNclcQK8xofQUlPTrYlQQzAFwiV2JUmWahM3apUI1ahq0KVXl-KomuZAdsw_ljz03GAnxTYx3rh380-_MNqBOkvNzTRNdxP_lc11LWLGvZYKZo7QYfsmYD8Yo/https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3OTg0MDcyODU5NTEzNzI6MTc3OTM0MzAxNzpzcF9zZWFyY2hfZm9vdGVyX3NoYXJlZDozMDA3NDAyNDU4MzU4MDI6Ojo6&url=%2Fdp%2FB0DHB5M5TZ%2Fref%3Dsspa_dk_bot_sx_aax_0%3Fpsc%3D1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfZm9vdGVyX3NoYXJlZA#customerReviews
+                        - text: "415"
+                  - link "立即购买" [ref=f5e18]:
+                    - /url: https://aax-events-cell01-cf.us-east.ono.axp.amazon-adsystem.com/x/c/RAdNUbUbFMwAeQFYb74sBJIAAAGeSRvG3AEAAAH0AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDIgICBRxI-P/clv1c_ek8OM3GX57OOBXc78KNgvSuqsA99oo7NthM6cQx8jGVwOkKsmDdALSXgem7q7tXKxo4PPUW8pu7ZpYIwsObO85jPw0X1_egZ8WrOErRVPvD7viQmHgqtIZbpLE-6Y9vnWRsMDgZ4Kl-AitV8-fXDNNLq0i9Ne_fOFxRRqSv3w5YZULlNOGjjVD4eP-FpQ96pcYKfAy0sCeItMfCnbqzWaHPxRrYl3lcBQlafAdLnqvLSyATmEj0gCIWmCzNIRSY4iLJty4JNclcQK8xofQUlPTrYlQQzAFwiV2JUmWahM3apUI1ahq0KVXl-KomuZAdsw_ljz03GAnxTYx3rh380-_MNqBOkvNzTRNdxP_lc11LWLGvZYKZo7QYfsmYD8Yo/https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3OTg0MDcyODU5NTEzNzI6MTc3OTM0MzAxNzpzcF9zZWFyY2hfZm9vdGVyX3NoYXJlZDozMDA3NDAyNDU4MzU4MDI6Ojo6&url=%2Fdp%2FB0DHB5M5TZ%2Fref%3Dsspa_dk_bot_sx_aax_0%3Fpsc%3D1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfZm9vdGVyX3NoYXJlZA
+            - button "针对推广广告留下反馈" [ref=e849] [cursor=pointer]:
+              - generic [ref=e850]: 推广
+        - link "返回至筛选菜单" [ref=e852]:
+          - /url: "#s-skipLinkTargetForFilterOptions"
+      - generic [ref=e854]:
+        - link "跳转至主要搜索结果" [ref=e855]:
+          - /url: "#s-skipLinkTargetForMainSearchResults"
+        - generic [ref=e861]:
+          - group "口味" [ref=e862]:
+            - heading "口味" [level=2] [ref=e863]
+            - list "口味" [ref=e864]:
+              - listitem [ref=e865]:
+                - link "应用 牛肉 筛选以缩小结果范围" [ref=e867]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-1003434527111%3A24398494011&dc&qid=1779343017&rnid=24398026011&ref=sr_nr_p_n_g-1003434527111_1&ds=v1%3AyasnxtQmEWZxshV4lhs0%2BZqeafs%2BfSHU8pXFtiYbxG4
+                  - checkbox [ref=e870] [cursor=pointer]
+                  - text: 牛肉
+              - listitem [ref=e872]:
+                - link "应用 鸡肉 筛选以缩小结果范围" [ref=e874]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-1003434527111%3A24398513011&dc&qid=1779343017&rnid=24398026011&ref=sr_nr_p_n_g-1003434527111_2&ds=v1%3AlX%2BOO4xWTiRmHvSehdt7%2Fw8kqjucbVBNSNA%2FdZzZRNQ
+                  - checkbox [ref=e877] [cursor=pointer]
+                  - text: 鸡肉
+          - group "品牌" [ref=e879]:
+            - heading "品牌" [level=2] [ref=e880]
+            - list "品牌" [ref=e881]:
+              - listitem [ref=e882]:
+                - link "应用 Blue Buffalo 筛选以缩小结果范围" [ref=e884]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_123%3A232782&dc&qid=1779343017&rnid=85457740011&ref=sr_nr_p_123_1&ds=v1%3AReZb6IJWvE7l0OLFcmhzk5LPMHUOEOG2Ozcgko5st9k
+                  - checkbox [ref=e887] [cursor=pointer]
+                  - text: Blue Buffalo
+          - group "年龄范围" [ref=e889]:
+            - heading "年龄范围" [level=2] [ref=e890]
+            - list "年龄范围" [ref=e891]:
+              - listitem [ref=e892]:
+                - link "应用 成年 筛选以缩小结果范围" [ref=e894]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101015646925111%3A204428485011&dc&qid=1779343017&rnid=204428480011&ref=sr_nr_p_n_g-101015646925111_1&ds=v1%3AR7Rg2KTXBjleaXVqxcwa%2FbqjYUGCmLOc5nsDvRbN1Do
+                  - checkbox [ref=e897] [cursor=pointer]
+                  - text: 成年
+              - listitem [ref=e899]:
+                - link "应用 老年 筛选以缩小结果范围" [ref=e901]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101015646925111%3A204428482011&dc&qid=1779343017&rnid=204428480011&ref=sr_nr_p_n_g-101015646925111_2&ds=v1%3AwaiLkDsf8Y6yz11mOVbfnHrne8KgmJyvKKZzfJKT5E8
+                  - checkbox [ref=e904] [cursor=pointer]
+                  - text: 老年
+          - group "容器类型" [ref=e906]:
+            - heading "容器类型" [level=2] [ref=e907]
+            - list "容器类型" [ref=e908]:
+              - listitem [ref=e909]:
+                - link "应用 罐装 筛选以缩小结果范围" [ref=e911]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101014777053111%3A116627623011&dc&qid=1779343017&rnid=116627617011&ref=sr_nr_p_n_g-101014777053111_1&ds=v1%3Ad27%2FWBqmt%2FgA3qPh6tn0YHvjZPp%2B0Zc75Y8ZUvrfb1M
+                  - checkbox [ref=e914] [cursor=pointer]
+                  - text: 罐装
+              - listitem [ref=e916]:
+                - link "应用 包 筛选以缩小结果范围" [ref=e918]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101014777053111%3A116627620011&dc&qid=1779343017&rnid=116627617011&ref=sr_nr_p_n_g-101014777053111_2&ds=v1%3AV6ivxwGtJ%2BTvt7dKp9m5cJ1g1hBnAKgCTdFzFu%2FfJDE
+                  - checkbox [ref=e921] [cursor=pointer]
+                  - text: 包
+          - group "客户评级" [ref=e923]:
+            - heading "客户评级" [level=2] [ref=e924]
+            - list "客户评级" [ref=e925]:
+              - listitem [ref=e926]:
+                - link "应用 4 星及以上 筛选以缩小结果范围" [ref=e929]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_72%3A2661618011&dc&qid=1779343017&rnid=2661617011&ref=sr_nr_p_72_1&ds=v1%3AH7yTtYjsG49eLJbelmX82LCv29xQKSqwnV7MZyUnQUw
+                  - generic [ref=e931]: 4 Stars
+                  - text: 及以上
+          - group "商品形式" [ref=e932]:
+            - heading "商品形式" [level=2] [ref=e933]
+            - list "商品形式" [ref=e934]:
+              - listitem [ref=e935]:
+                - link "应用 湿的 筛选以缩小结果范围" [ref=e937]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-1003438006111%3A217000755011&dc&qid=1779343017&rnid=24398025011&ref=sr_nr_p_n_g-1003438006111_1&ds=v1%3AeIaXabgqRHHuUc43qhp2aQfCOvQu1n2dATfny24g6Jc
+                  - checkbox [ref=e940] [cursor=pointer]
+                  - text: 湿的
+              - listitem [ref=e942]:
+                - link "应用 肉酱 筛选以缩小结果范围" [ref=e944]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-1003438006111%3A24398460011&dc&qid=1779343017&rnid=24398025011&ref=sr_nr_p_n_g-1003438006111_2&ds=v1%3ASu9vBbsinYlS14PKmdwt0UirrzxPDNXBc%2FQmWqufMEU
+                  - checkbox [ref=e947] [cursor=pointer]
+                  - text: 肉酱
+              - listitem [ref=e949]:
+                - link "应用 大块 筛选以缩小结果范围" [ref=e951]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-1003438006111%3A24436331011&dc&qid=1779343017&rnid=24398025011&ref=sr_nr_p_n_g-1003438006111_3&ds=v1%3AAwMojy36lKwWd7ljGldpDVc%2FJu5VxA50U9hALyqJePo
+                  - checkbox [ref=e954] [cursor=pointer]
+                  - text: 大块
+          - group "数量" [ref=e956]:
+            - heading "数量" [level=2] [ref=e957]
+            - list "数量" [ref=e958]:
+              - listitem [ref=e959]:
+                - link "应用 2 件 筛选以缩小结果范围" [ref=e961]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-1003565262111%3A85457737011&dc&qid=1779343017&rnid=85457736011&ref=sr_nr_p_n_g-1003565262111_1&ds=v1%3AvElmtYzLwYBtYbHecJh95KbFFKS28ue5%2F8nZG3adKo4
+                  - checkbox [ref=e964] [cursor=pointer]
+                  - text: 2 件
+              - listitem [ref=e966]:
+                - link "应用 3 件及以上 筛选以缩小结果范围" [ref=e968]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-1003565262111%3A85457739011&dc&qid=1779343017&rnid=85457736011&ref=sr_nr_p_n_g-1003565262111_2&ds=v1%3AzSDLppmYTCyMOT9PC0dWnuq6aU%2BAHlUX2sYpulflXms
+                  - checkbox [ref=e971] [cursor=pointer]
+                  - text: 3 件及以上
+          - group "畅销品牌" [ref=e973]:
+            - heading "畅销品牌" [level=2] [ref=e974]
+            - list "畅销品牌" [ref=e975]:
+              - listitem [ref=e976]:
+                - link "应用 热门品牌 筛选以缩小结果范围" [ref=e978]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101014971069111%3A119653281011&dc&qid=1779343017&rnid=119653280011&ref=sr_nr_p_n_g-101014971069111_1&ds=v1%3AWrOHoqKej3BPEbu4H85w0Ehy4BZB%2BTnAJWKNk5AQmf0
+                  - checkbox [ref=e981] [cursor=pointer]
+                  - text: 热门品牌
+          - group "重量" [ref=e983]:
+            - heading "重量" [level=2] [ref=e984]
+            - list "重量" [ref=e985]:
+              - listitem [ref=e986]:
+                - link "应用 最多 1.9 磅 筛选以缩小结果范围" [ref=e988]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-1003485959111%3A25140514011&dc&qid=1779343017&rnid=25140478011&ref=sr_nr_p_n_g-1003485959111_1&ds=v1%3Acre6Vmi3CWSPod5J7W%2BjCgi3j1Y%2B4gb4kZPZgxzeTvQ
+                  - checkbox [ref=e991] [cursor=pointer]
+                  - text: 最多 1.9 磅
+              - listitem [ref=e993]:
+                - link "应用 2 到 3.9 磅 筛选以缩小结果范围" [ref=e995]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-1003485959111%3A25140515011&dc&qid=1779343017&rnid=25140478011&ref=sr_nr_p_n_g-1003485959111_2&ds=v1%3AUTzQ4nRb36ur3jrn%2BBT5kKdQzi3GD54wn3quEauTBTY
+                  - checkbox [ref=e998] [cursor=pointer]
+                  - text: 2 到 3.9 磅
+              - listitem [ref=e1000]:
+                - link "应用 6 磅及以上 筛选以缩小结果范围" [ref=e1002]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-1003485959111%3A25140512011&dc&qid=1779343017&rnid=25140478011&ref=sr_nr_p_n_g-1003485959111_3&ds=v1%3AI9pH6dEu1XapHKi79NeB5Ko8Nn540QqHR0XG%2F8EvOtQ
+                  - checkbox [ref=e1005] [cursor=pointer]
+                  - text: 6 磅及以上
+          - group "物种" [ref=e1007]:
+            - heading "物种" [level=2] [ref=e1008]
+            - list "物种" [ref=e1009]:
+              - listitem [ref=e1010]:
+                - link "应用 狗 筛选以缩小结果范围" [ref=e1012]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-1003243633111%3A23885463011&dc&qid=1779343017&rnid=23885371011&ref=sr_nr_p_n_g-1003243633111_1&ds=v1%3AQquYe8IfXY88CQN9eWegJoCggWA98GATa6CTzs4NZaU
+                  - checkbox [ref=e1015] [cursor=pointer]
+                  - text: 狗
+          - group "情况" [ref=e1017]:
+            - heading "情况" [level=2] [ref=e1018]
+            - list "情况" [ref=e1019]:
+              - listitem [ref=e1020]:
+                - link "应用 全新 筛选以缩小结果范围" [ref=e1022]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_condition-type%3A6358196011&dc&qid=1779343017&rnid=6358194011&ref=sr_nr_p_n_condition-type_1&ds=v1%3AC6WavqA3LSuxCkApXlhysxLTck%2FOSt9q%2BXYqoavzDkk
+                  - checkbox [ref=e1025] [cursor=pointer]
+                  - text: 全新
+          - group "狗大小" [ref=e1027]:
+            - heading "狗大小" [level=2] [ref=e1028]
+            - list "狗大小" [ref=e1029]:
+              - listitem [ref=e1030]:
+                - link "应用 小型 筛选以缩小结果范围" [ref=e1032]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101015545324111%3A122342479011&dc&qid=1779343017&rnid=122342379011&ref=sr_nr_p_n_g-101015545324111_1&ds=v1%3AMBSlKbruCo9maaX2Zd%2FCYbYatFUPWKOE48tseHgJIPA
+                  - checkbox [ref=e1035] [cursor=pointer]
+                  - text: 小型
+              - listitem [ref=e1037]:
+                - link "应用 中型 筛选以缩小结果范围" [ref=e1039]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101015545324111%3A122342478011&dc&qid=1779343017&rnid=122342379011&ref=sr_nr_p_n_g-101015545324111_2&ds=v1%3A%2FcMFNwmwxz1CRIXH%2F1YJT3JCuf0IO9JkWYvveWLMfmU
+                  - checkbox [ref=e1042] [cursor=pointer]
+                  - text: 中型
+              - listitem [ref=e1044]:
+                - link "应用 所有类型 筛选以缩小结果范围" [ref=e1046]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101015545324111%3A211959703011&dc&qid=1779343017&rnid=122342379011&ref=sr_nr_p_n_g-101015545324111_3&ds=v1%3AWRNsvKH75HKieIV%2FKoqrbgsnBBJevNGwbkPIPRXGT4I
+                  - checkbox [ref=e1049] [cursor=pointer]
+                  - text: 所有类型
+          - group "动物性食品饮食类型" [ref=e1051]:
+            - heading "动物性食品饮食类型" [level=2] [ref=e1052]
+            - list "动物性食品饮食类型" [ref=e1053]:
+              - listitem [ref=e1054]:
+                - link "应用 限定性原料 筛选以缩小结果范围" [ref=e1056]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101016647903111%3A207854990011&dc&qid=1779343017&rnid=207854989011&ref=sr_nr_p_n_g-101016647903111_1&ds=v1%3Az1K5s31FIaAQA0Wz1WMjCVRphR4oqu9WcPCa%2FwM3bmw
+                  - checkbox [ref=e1059] [cursor=pointer]
+                  - text: 限定性原料
+              - listitem [ref=e1061]:
+                - link "应用 未加工 筛选以缩小结果范围" [ref=e1063]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101016647903111%3A207854994011&dc&qid=1779343017&rnid=207854989011&ref=sr_nr_p_n_g-101016647903111_2&ds=v1%3A1gPhx%2BC%2BRm%2FmRFpol3%2BROpFrKjqi2ymIQ9aPDlUA8Y0
+                  - checkbox [ref=e1066] [cursor=pointer]
+                  - text: 未加工
+          - group "过敏原信息" [ref=e1068]:
+            - heading "过敏原信息" [level=2] [ref=e1069]
+            - list "过敏原信息" [ref=e1070]:
+              - listitem [ref=e1071]:
+                - link "应用 不含过敏原 筛选以缩小结果范围" [ref=e1073]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101015544709111%3A122342493011&dc&qid=1779343017&rnid=122342380011&ref=sr_nr_p_n_g-101015544709111_1&ds=v1%3Agyui%2Bv1d5ROalUb1IAUXRYrfL6heJhx298CDoi0SAhY
+                  - checkbox [ref=e1076] [cursor=pointer]
+                  - text: 不含过敏原
+              - listitem [ref=e1078]:
+                - link "应用 不含玉米 筛选以缩小结果范围" [ref=e1080]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101015544709111%3A122342503011&dc&qid=1779343017&rnid=122342380011&ref=sr_nr_p_n_g-101015544709111_2&ds=v1%3AS2cyTlYtCeJ4cHBP2GjPwr%2BDWndgqsjTcbg0ptiEb10
+                  - checkbox [ref=e1083] [cursor=pointer]
+                  - text: 不含玉米
+              - listitem [ref=e1085]:
+                - link "应用 不含大豆 筛选以缩小结果范围" [ref=e1087]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101015544709111%3A122342516011&dc&qid=1779343017&rnid=122342380011&ref=sr_nr_p_n_g-101015544709111_3&ds=v1%3ANjH5BEfdq8Tl%2Bmtky2iyf5wQdKRvouFAJi8RZMFQCCY
+                  - checkbox [ref=e1090] [cursor=pointer]
+                  - text: 不含大豆
+              - listitem [ref=e1092]:
+                - link "应用 无小麦 筛选以缩小结果范围" [ref=e1094]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101015544709111%3A122342509011&dc&qid=1779343017&rnid=122342380011&ref=sr_nr_p_n_g-101015544709111_4&ds=v1%3A5znGuezrqL5rPKz7BYScGqjGmeg6gsByzsG%2BnJTi%2Bpk
+                  - checkbox [ref=e1097] [cursor=pointer]
+                  - text: 无小麦
+          - group "包装大小" [ref=e1099]:
+            - heading "包装大小" [level=2] [ref=e1100]
+            - list "包装大小" [ref=e1101]:
+              - listitem [ref=e1102]:
+                - link "应用 3至5磅 筛选以缩小结果范围" [ref=e1104]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-1001412580111%3A13146153011&dc&qid=1779343017&rnid=13146150011&ref=sr_nr_p_n_g-1001412580111_1&ds=v1%3A9sLMIjGsWdEK%2F8QOJBLzHUcuBqQ7%2FhW6NY1g%2F9ytRXE
+                  - checkbox [ref=e1107] [cursor=pointer]
+                  - text: 3至5磅
+              - listitem [ref=e1109]:
+                - link "应用 6至11磅 筛选以缩小结果范围" [ref=e1111]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-1001412580111%3A13146154011&dc&qid=1779343017&rnid=13146150011&ref=sr_nr_p_n_g-1001412580111_2&ds=v1%3AxAJWoamf3OIZZpeYgL0tuEVkw0H5bl90NqAY1l0Fius
+                  - checkbox [ref=e1114] [cursor=pointer]
+                  - text: 6至11磅
+              - listitem [ref=e1116]:
+                - link "应用 18至23磅 筛选以缩小结果范围" [ref=e1118]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-1001412580111%3A13146156011&dc&qid=1779343017&rnid=13146150011&ref=sr_nr_p_n_g-1001412580111_3&ds=v1%3AzlNUJIOqphyEXnZJZ80ZBCe4m%2BTvZYcRmKuEVd6hbWY
+                  - checkbox [ref=e1121] [cursor=pointer]
+                  - text: 18至23磅
+          - group "颜色" [ref=e1123]:
+            - heading "颜色" [level=2] [ref=e1124]
+            - list "颜色" [ref=e1125]:
+              - listitem [ref=e1126]:
+                - generic:
+                  - link "应用 棕色 筛选以缩小结果范围":
+                    - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-1001308742111%3A2972984011&dc&qid=1779343017&rnid=2972980011&ref=sr_nr_p_n_g-1001308742111_1&ds=v1%3A%2FHPJG6O1NQrrQKX9b72%2BSn1mXg8FuLldEXhuY14mYhA
+              - listitem [ref=e1128]:
+                - generic:
+                  - link "应用 蓝色 筛选以缩小结果范围":
+                    - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-1001308742111%3A2972983011&dc&qid=1779343017&rnid=2972980011&ref=sr_nr_p_n_g-1001308742111_2&ds=v1%3AiExTdug%2Fv7s4Z4NBuRP7MiG%2B97j0SBszKLkqYS3GZH8
+          - group "特殊成分" [ref=e1130]:
+            - heading "特殊成分" [level=2] [ref=e1131]
+            - list "特殊成分" [ref=e1132]:
+              - listitem [ref=e1133]:
+                - link "应用 亚麻籽 筛选以缩小结果范围" [ref=e1135]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101015537685111%3A122342457011&dc&qid=1779343017&rnid=122342378011&ref=sr_nr_p_n_g-101015537685111_1&ds=v1%3ACb4HMy3pkMIKVoDdQbQ1Lr2NQ%2BIk0wBTJ%2Bh80KwSL6E
+                  - checkbox [ref=e1138] [cursor=pointer]
+                  - text: 亚麻籽
+              - listitem [ref=e1140]:
+                - link "应用 豌豆 筛选以缩小结果范围" [ref=e1142]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101015537685111%3A122342473011&dc&qid=1779343017&rnid=122342378011&ref=sr_nr_p_n_g-101015537685111_2&ds=v1%3ArRfOFG%2B3qp52NOVvk%2BKMjQvvE98mKmtisNje%2F%2F%2FY7%2FE
+                  - checkbox [ref=e1145] [cursor=pointer]
+                  - text: 豌豆
+          - group "成分声明" [ref=e1147]:
+            - heading "成分声明" [level=2] [ref=e1148]
+            - list "成分声明" [ref=e1149]:
+              - listitem [ref=e1150]:
+                - link "应用 不含人造香料 筛选以缩小结果范围" [ref=e1152]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101015369996111%3A121535372011&dc&qid=1779343017&rnid=121535284011&ref=sr_nr_p_n_g-101015369996111_1&ds=v1%3AY8QO4I3m%2FvuMTDlPz0BFlgRJbcOjxq9QCCMZqDn6fPo
+                  - checkbox [ref=e1155] [cursor=pointer]
+                  - text: 不含人造香料
+              - listitem [ref=e1157]:
+                - link "应用 无添加剂 筛选以缩小结果范围" [ref=e1159]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101015369996111%3A121535370011&dc&qid=1779343017&rnid=121535284011&ref=sr_nr_p_n_g-101015369996111_2&ds=v1%3Ap7l9TyoO01UProZEzx6BSqH9w%2BGwI4Yg95KyHRVkMT4
+                  - checkbox [ref=e1162] [cursor=pointer]
+                  - text: 无添加剂
+              - listitem [ref=e1164]:
+                - link "应用 不添加激素 筛选以缩小结果范围" [ref=e1166]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Homestyle+Recipe+wet+dog+food&rh=p_n_g-101015369996111%3A121535367011&dc&qid=1779343017&rnid=121535284011&ref=sr_nr_p_n_g-101015369996111_3&ds=v1%3ASsvfbJvI2EVADzCEF3MRCrxjWED2jPw7b4%2FR%2FlVeVNY
+                  - checkbox [ref=e1169] [cursor=pointer]
+                  - text: 不添加激素
+  - complementary "您最近查看的商品和相关推荐"
+  - generic [ref=e1171]:
+    - button "回到顶部" [ref=e1172] [cursor=pointer]:
+      - generic [ref=e1173]: 回到顶部
+    - generic [ref=e1174]:
+      - generic [ref=e1175]:
+        - heading "了解我们" [level=6] [ref=e1176]
+        - list [ref=e1177]:
+          - listitem [ref=e1178]:
+            - link "人才招聘" [ref=e1179]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=e1180]:
+            - link "博客" [ref=e1181]:
+              - /url: https://blog.aboutamazon.com/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e1182]:
+            - link "关于亚马逊" [ref=e1183]:
+              - /url: https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e1184]:
+            - link "投资者关系" [ref=e1185]:
+              - /url: https://www.amazon.com/-/zh/ir
+          - listitem [ref=e1186]:
+            - link "亚马逊设备" [ref=e1187]:
+              - /url: /-/zh/gp/browse.html?node=2102313011&ref_=footer_devices
+          - listitem [ref=e1188]:
+            - link "亚马逊科学" [ref=e1189]:
+              - /url: https://www.amazon.science
+      - generic [ref=e1191]:
+        - heading "合作信息" [level=6] [ref=e1192]
+        - list [ref=e1193]:
+          - listitem [ref=e1194]:
+            - link "我要开店" [ref=e1195]:
+              - /url: https://services.amazon.com/sell.html?ld=AZFSSOA&ref_=footer_soa
+          - listitem [ref=e1196]:
+            - link "在亚马逊企业购开店" [ref=e1197]:
+              - /url: https://services.amazon.com/amazon-business.html?ld=usb2bunifooter&ref_=footer_b2b
+          - listitem [ref=e1198]:
+            - link "在亚马逊上销售您的应用程序" [ref=e1199]:
+              - /url: https://developer.amazon.com
+          - listitem [ref=e1200]:
+            - link "加入联盟" [ref=e1201]:
+              - /url: https://affiliate-program.amazon.com/
+          - listitem [ref=e1202]:
+            - link "我要推广" [ref=e1203]:
+              - /url: https://advertising.amazon.com/?ref=ext_amzn_ftr
+          - listitem [ref=e1204]:
+            - link "自行出版" [ref=e1205]:
+              - /url: /-/zh/gp/seller-account/mm-summary-page.html?ld=AZFooterSelfPublish&topic=200260520&ref_=footer_publishing
+          - listitem [ref=e1206]:
+            - link "托管亚马逊中心" [ref=e1207]:
+              - /url: https://go.thehub-amazon.com/amazon-hub-locker
+          - listitem [ref=e1208]:
+            - text: ›
+            - link "查看“合作信息”的更多内容" [ref=e1209]:
+              - /url: /-/zh/b/?node=18190131011&ld=AZUSSOA-seemore&ref_=footer_seemore
+      - generic [ref=e1211]:
+        - heading "亚马逊支付服务商品" [level=6] [ref=e1212]
+        - list [ref=e1213]:
+          - listitem [ref=e1214]:
+            - link "使用积分购物" [ref=e1215]:
+              - /url: /-/zh/gp/browse.html?node=16218619011&ref_=footer_swp
+          - listitem [ref=e1216]:
+            - link "账户充值" [ref=e1217]:
+              - /url: /-/zh/dp/B0CHTVMXZJ?th=1?ref_=footer_reload_us
+          - listitem [ref=e1218]:
+            - link "亚马逊货币换算器" [ref=e1219]:
+              - /url: /-/zh/gp/browse.html?node=388305011&ref_=footer_tfx
+      - generic [ref=e1221]:
+        - heading "帮助中心和购物指南" [level=6] [ref=e1222]
+        - list [ref=e1223]:
+          - listitem [ref=e1224]:
+            - link "COVID-19疫情相关问题" [ref=e1225]:
+              - /url: /-/zh/gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid
+          - listitem [ref=e1226]:
+            - link "我的账户" [ref=e1227]:
+              - /url: https://www.amazon.com/-/zh/gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e1228]:
+            - link "我的订单" [ref=e1229]:
+              - /url: https://www.amazon.com/-/zh/gp/css/order-history?ref_=footer_yo
+          - listitem [ref=e1230]:
+            - link "发货与配送" [ref=e1231]:
+              - /url: /-/zh/gp/help/customer/display.html?nodeId=468520&ref_=footer_shiprates
+          - listitem [ref=e1232]:
+            - link "退货与换货" [ref=e1233]:
+              - /url: /-/zh/gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e1234]:
+            - link "管理我的内容和设备" [ref=e1235]:
+              - /url: /-/zh/gp/digital/fiona/manage?ref_=footer_myk
+          - listitem [ref=e1236]:
+            - link "帮助中心" [ref=e1237]:
+              - /url: /-/zh/gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=e1239]:
+      - link "Amazon US Home" [ref=e1242]:
+        - /url: /-/zh/?ref_=footer_logo
+      - generic [ref=e1245]:
+        - generic [ref=e1246]:
+          - link "选择购物语言。当前选择的是 简体中文。" [ref=e1247]:
+            - /url: /-/zh/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e1249]: 简体中文
+          - button "展开以更改语言或国家" [ref=e1250] [cursor=pointer]
+        - link "¥ CNY - 人民币" [ref=e1251]:
+          - /url: /-/zh/customer-preferences/edit?ie=UTF8&ref_=footer_cop&preferencesReturnUrl=%2Fs%3Fk%3DBlue%2BBuffalo%2BHomestyle%2BRecipe%2Bwet%2Bdog%2Bfoods
+          - generic [ref=e1252]: ¥
+          - generic [ref=e1253]: CNY - 人民币
+        - button "选择国家/地区进行购物。当前选择是美国。" [ref=e1254]:
+          - generic [ref=e1256]: 美国
+    - navigation "有关 Amazon 的更多信息" [ref=e1257]:
+      - generic "有关 Amazon 的更多信息" [ref=e1258]:
+        - list [ref=e1259]:
+          - listitem [ref=e1260]:
+            - link "亚马逊音乐 畅听海量歌曲" [ref=e1261]:
+              - /url: https://music.amazon.com?ref=dm_aff_amz_com
+              - heading "亚马逊音乐" [level=5] [ref=e1262]
+              - generic [ref=e1263]: 畅听海量歌曲
+          - listitem [ref=e1264]
+          - listitem [ref=e1265]:
+            - link "亚马逊广告 吸引买家 无论他们身在何处 消磨时光" [ref=e1266]:
+              - /url: https://advertising.amazon.com/?ref=footer_advtsing_amzn_com
+              - heading "亚马逊广告" [level=5] [ref=e1267]
+              - generic [ref=e1268]:
+                - text: 吸引买家
+                - text: 无论他们身在何处
+                - text: 消磨时光
+          - listitem [ref=e1269]
+          - listitem [ref=e1270]:
+            - link "6pm 对时尚品牌 进行评分" [ref=e1271]:
+              - /url: https://www.6pm.com
+              - heading "6pm" [level=5] [ref=e1272]
+              - generic [ref=e1273]:
+                - text: 对时尚品牌
+                - text: 进行评分
+          - listitem [ref=e1274]
+          - listitem [ref=e1275]:
+            - link "AbeBooks 图书、艺术 和收藏品" [ref=e1276]:
+              - /url: https://www.abebooks.com
+              - heading "AbeBooks" [level=5] [ref=e1277]
+              - generic [ref=e1278]:
+                - text: 图书、艺术
+                - text: 和收藏品
+          - listitem [ref=e1279]
+          - listitem [ref=e1280]:
+            - link "ACX 有声读物出版 轻松实现" [ref=e1281]:
+              - /url: https://www.acx.com/
+              - heading "ACX" [level=5] [ref=e1282]
+              - generic [ref=e1283]:
+                - text: 有声读物出版
+                - text: 轻松实现
+          - listitem [ref=e1284]
+          - listitem [ref=e1285]:
+            - link "我要开店 启动卖家账户" [ref=e1286]:
+              - /url: https://sell.amazon.com/?ld=AZUSSOA-footer-aff&ref_=footer_sell
+              - heading "我要开店" [level=5] [ref=e1287]
+              - generic [ref=e1288]: 启动卖家账户
+          - listitem [ref=e1289]
+          - listitem [ref=e1290]:
+            - link "Veeqo 运输软件 库存管理" [ref=e1291]:
+              - /url: https://www.veeqo.com/?utm_source=amazon&utm_medium=website&utm_campaign=footer
+              - heading "Veeqo" [level=5] [ref=e1292]
+              - generic [ref=e1293]:
+                - text: 运输软件
+                - text: 库存管理
+        - list [ref=e1294]:
+          - listitem [ref=e1295]:
+            - link "亚马逊企业采购商城 您的企业 所需的一切" [ref=e1296]:
+              - /url: /-/zh/business?ref_=footer_retail_b2b
+              - heading "亚马逊企业采购商城" [level=5] [ref=e1297]
+              - generic [ref=e1298]:
+                - text: 您的企业
+                - text: 所需的一切
+          - listitem [ref=e1299]
+          - listitem [ref=e1300]:
+            - link "亚马逊海外购 配送订单 国际" [ref=e1301]:
+              - /url: /-/zh/gp/browse.html?node=20338496011&ref_=footer_amazonglobal
+              - heading "亚马逊海外购" [level=5] [ref=e1302]
+              - generic [ref=e1303]:
+                - text: 配送订单
+                - text: 国际
+          - listitem [ref=e1304]
+          - listitem [ref=e1305]:
+            - link "亚马逊云科技 可扩展云 计算服务" [ref=e1306]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=amazonfooter
+              - heading "亚马逊云科技" [level=5] [ref=e1307]
+              - generic [ref=e1308]:
+                - text: 可扩展云
+                - text: 计算服务
+          - listitem [ref=e1309]
+          - listitem [ref=e1310]:
+            - link "Audible 下载 有声读物" [ref=e1311]:
+              - /url: https://www.audible.com
+              - heading "Audible" [level=5] [ref=e1312]
+              - generic [ref=e1313]:
+                - text: 下载
+                - text: 有声读物
+          - listitem [ref=e1314]
+          - listitem [ref=e1315]:
+            - link "Box Office Mojo 查找电影 票房数据" [ref=e1316]:
+              - /url: https://www.boxofficemojo.com/?ref_=amzn_nav_ftr
+              - heading "Box Office Mojo" [level=5] [ref=e1317]
+              - generic [ref=e1318]:
+                - text: 查找电影
+                - text: 票房数据
+          - listitem [ref=e1319]
+          - listitem [ref=e1320]:
+            - link "Goodreads 电子书评论 和建议" [ref=e1321]:
+              - /url: https://www.goodreads.com
+              - heading "Goodreads" [level=5] [ref=e1322]
+              - generic [ref=e1323]:
+                - text: 电子书评论
+                - text: 和建议
+          - listitem [ref=e1324]
+          - listitem [ref=e1325]:
+            - link "IMDb 电影、电视 和名人" [ref=e1326]:
+              - /url: https://www.imdb.com
+              - heading "IMDb" [level=5] [ref=e1327]
+              - generic [ref=e1328]:
+                - text: 电影、电视
+                - text: 和名人
+        - list [ref=e1329]:
+          - listitem [ref=e1330]:
+            - link "IMDbPro 获取娱乐信息 专业人士需要" [ref=e1331]:
+              - /url: https://pro.imdb.com?ref_=amzn_nav_ftr
+              - heading "IMDbPro" [level=5] [ref=e1332]
+              - generic [ref=e1333]:
+                - text: 获取娱乐信息
+                - text: 专业人士需要
+          - listitem [ref=e1334]
+          - listitem [ref=e1335]:
+            - link "Kindle直接出版 独立数字出版 轻松实现" [ref=e1336]:
+              - /url: https://kdp.amazon.com
+              - heading "Kindle直接出版" [level=5] [ref=e1337]
+              - generic [ref=e1338]:
+                - text: 独立数字出版
+                - text: 轻松实现
+          - listitem [ref=e1339]
+          - listitem [ref=e1340]:
+            - link "Prime视频直接 视频分配 轻松实现" [ref=e1341]:
+              - /url: https://videodirect.amazon.com/home/landing
+              - heading "Prime视频直接" [level=5] [ref=e1342]
+              - generic [ref=e1343]:
+                - text: 视频分配
+                - text: 轻松实现
+          - listitem [ref=e1344]
+          - listitem [ref=e1345]:
+            - link "Shopbop 设计师 时尚品牌" [ref=e1346]:
+              - /url: https://www.shopbop.com
+              - heading "Shopbop" [level=5] [ref=e1347]
+              - generic [ref=e1348]:
+                - text: 设计师
+                - text: 时尚品牌
+          - listitem [ref=e1349]
+          - listitem [ref=e1350]:
+            - link "Woot! 优惠商品和 恶作剧" [ref=e1351]:
+              - /url: https://www.woot.com/
+              - heading "Woot!" [level=5] [ref=e1352]
+              - generic [ref=e1353]:
+                - text: 优惠商品和
+                - text: 恶作剧
+          - listitem [ref=e1354]
+          - listitem [ref=e1355]:
+            - link "Zappos 鞋靴和 服装" [ref=e1356]:
+              - /url: https://www.zappos.com
+              - heading "Zappos" [level=5] [ref=e1357]
+              - generic [ref=e1358]:
+                - text: 鞋靴和
+                - text: 服装
+          - listitem [ref=e1359]
+          - listitem [ref=e1360]:
+            - link "Ring 智能家居安防系统" [ref=e1361]:
+              - /url: https://ring.com
+              - heading "Ring" [level=5] [ref=e1362]
+              - generic [ref=e1363]: 智能家居安防系统
+        - list [ref=e1364]:
+          - listitem [ref=e1365]
+          - listitem [ref=e1366]
+          - listitem [ref=e1367]:
+            - link "Eero WiFi 在每个房间播放 4K 视频" [ref=e1368]:
+              - /url: https://eero.com/
+              - heading "Eero WiFi" [level=5] [ref=e1369]
+              - generic [ref=e1370]: 在每个房间播放 4K 视频
+          - listitem [ref=e1371]
+          - listitem [ref=e1372]:
+            - link "Blink 每个家庭的智能安防" [ref=e1373]:
+              - /url: https://blinkforhome.com/?ref=nav_footer
+              - heading "Blink" [level=5] [ref=e1374]
+              - generic [ref=e1375]: 每个家庭的智能安防
+          - listitem [ref=e1376]
+          - listitem [ref=e1377]:
+            - link "Neighbors App 实时犯罪 和安全警报" [ref=e1378]:
+              - /url: https://shop.ring.com/pages/neighbors-app
+              - heading "Neighbors App" [level=5] [ref=e1379]
+              - generic [ref=e1380]:
+                - text: 实时犯罪
+                - text: 和安全警报
+          - listitem [ref=e1381]
+          - listitem [ref=e1382]:
+            - link "PillPack 药房已简化" [ref=e1383]:
+              - /url: https://www.pillpack.com
+              - heading "PillPack" [level=5] [ref=e1384]
+              - generic [ref=e1385]: 药房已简化
+          - listitem [ref=e1386]
+          - listitem [ref=e1387]
+          - listitem [ref=e1388]
+          - listitem [ref=e1389]
+    - generic [ref=e1390]:
+      - list [ref=e1391]:
+        - listitem [ref=e1392]:
+          - link "使用条件" [ref=e1393]:
+            - /url: /-/zh/gp/help/customer/display.html?nodeId=508088&ref_=footer_cou
+        - listitem [ref=e1394]:
+          - link "隐私声明条款" [ref=e1395]:
+            - /url: /-/zh/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ&ref_=footer_privacy
+        - listitem [ref=e1396]:
+          - link "消费者健康数据隐私披露" [ref=e1397]:
+            - /url: /-/zh/gp/help/customer/display.html?ie=UTF8&nodeId=TnACMrGVghHocjL8KB&ref_=footer_consumer_health_data_privacy
+        - listitem [ref=e1398]:
+          - link "您的广告隐私选择" [ref=e1399]:
+            - /url: /-/zh/privacyprefs?ref_=footer_iba
+        - listitem [ref=e1400]
+      - generic [ref=e1402]: © 1996-2026，Amazon.com, Inc.或其附属公司

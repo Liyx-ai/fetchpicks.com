@@ -1,0 +1,2 @@
+[    3040ms] [ERROR] Beacon API cannot load https://unagi.amazon.com/1/events/com.amazon.csm.csa.prod. Reached maximum amount of queued data of 64Kb for keepalive requests @ https://www.amazon.com/s?k=Rabbitgoo%20No-Pull%20Dog%20Harness:452
+[    5008ms] [WARNING] AES-CBC and AES-CTR do not provide authentication by default, and implementing it manually can result in minor, but serious mistakes. We recommended using authenticated encryption like AES-GCM to protect against chosen-ciphertext attacks. @ https://www.amazon.com/s?k=Rabbitgoo+No-Pull+Dog+Harness:6805

@@ -1,7 +1,7 @@
 ---
 title: "Best Orthopedic Dog Beds: 8 Picks for Joint Support & Comfort (2026)"
 description: "Give your dog the gift of great sleep with an orthopedic bed. We tested 12 beds for joint relief and durability with our aging Rocky."
-pubDate: 2026-05-20
+pubDate: 2026-05-22
 category: dog-gear
 featured: true
 tags: ["dog bed", "orthopedic", "joint pain", "comfort", "senior dog"]

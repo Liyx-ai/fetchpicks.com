@@ -1,0 +1,900 @@
+- generic [ref=e2]:
+  - navigation "快捷键菜单" [ref=e3]:
+    - heading "跳至" [level=2] [ref=e4]
+    - list "跳至" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "主要内容" [ref=e7]:
+          - /url: "#skippedLink"
+      - listitem [ref=e8]:
+        - link "结果" [ref=e9]:
+          - /url: .s-asin a:has(h2)
+          - text: 搜索结果
+      - listitem [ref=e10]:
+        - link "筛选条件" [ref=e11]:
+          - /url: "#s-refinements > div.a-section > div:first-child"
+    - separator [ref=e12]
+    - heading "键盘快捷键" [level=2] [ref=e13]
+    - list "键盘快捷键" [ref=e14]:
+      - listitem [ref=e15]:
+        - link "搜索：option 键、斜杠" [ref=e16]:
+          - /url: javascript:void(0)
+          - generic [ref=e17]:
+            - generic [ref=e18]: 搜索
+            - generic [ref=e19]:
+              - generic [ref=e20]: opt 键
+              - generic [ref=e21]: +
+              - generic [ref=e22]: /
+      - listitem [ref=e23]:
+        - link "购物车：shift 键、option 键、c" [ref=e24]:
+          - /url: javascript:void(0)
+          - generic [ref=e25]:
+            - generic [ref=e26]: 购物车
+            - generic [ref=e27]:
+              - generic [ref=e28]: shift 键
+              - generic [ref=e29]: +
+              - generic [ref=e30]: opt 键
+              - generic [ref=e31]: +
+              - generic [ref=e32]: C
+      - listitem [ref=e33]:
+        - link "主页：shift 键、option 键、h" [ref=e34]:
+          - /url: javascript:void(0)
+          - generic [ref=e35]:
+            - generic [ref=e36]: 主页
+            - generic [ref=e37]:
+              - generic [ref=e38]: shift 键
+              - generic [ref=e39]: +
+              - generic [ref=e40]: opt 键
+              - generic [ref=e41]: +
+              - generic [ref=e42]: H
+      - listitem [ref=e43]:
+        - link "我的订单：shift 键、option 键、o" [ref=e44]:
+          - /url: javascript:void(0)
+          - generic [ref=e45]:
+            - generic [ref=e46]: 订单
+            - generic [ref=e47]:
+              - generic [ref=e48]: shift 键
+              - generic [ref=e49]: +
+              - generic [ref=e50]: opt 键
+              - generic [ref=e51]: +
+              - generic [ref=e52]: O
+      - listitem [ref=e53]:
+        - button "显示/隐藏快捷方式：shift 键、option 键、z" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]:
+            - generic [ref=e56]: 显示/隐藏快捷键
+            - generic [ref=e57]:
+              - generic [ref=e58]: shift 键
+              - generic [ref=e59]: +
+              - generic [ref=e60]: opt 键
+              - generic [ref=e61]: +
+              - generic [ref=e62]: Z
+    - generic [ref=e68]: 请使用键盘的上下箭头移动。
+  - banner [ref=e69]:
+    - navigation "主要" [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - link "Amazon" [ref=e74] [cursor=pointer]:
+            - /url: /-/zh/ref=nav_logo
+          - 'button "配送至: 中国大陆" [ref=e77] [cursor=pointer]':
+            - generic [ref=e79]:
+              - generic [ref=e80]: "配送至:"
+              - generic [ref=e81]: 中国大陆
+        - search [ref=e84]:
+          - generic [ref=e87]:
+            - generic [ref=e89]: 全部分类
+            - combobox "选择要在其中进行搜索的部门" [ref=e91] [cursor=pointer]:
+              - option "全部分类" [selected]
+              - option "Kindle商店"
+              - option "MP3 音乐"
+              - option "Prime Video"
+              - option "Sales & Angebote"
+              - option "健康和家居用品"
+              - option "图书"
+              - option "女士时尚"
+              - option "女童时尚"
+              - option "婴儿用品"
+              - option "宠物用品"
+              - option "家居厨房用品"
+              - option "工业科技"
+              - option "工具与家居装饰"
+              - option "工艺品"
+              - option "影视"
+              - option "汽车"
+              - option "玩具与游戏"
+              - option "电子产品"
+              - option "男士时尚"
+              - option "男童时尚"
+              - option "美容和个人护理"
+              - option "行李箱包"
+              - option "视频游戏"
+              - option "计算机"
+              - option "软件"
+              - option "运动与户外用品"
+              - option "音乐、CD 和黑胶唱片"
+          - searchbox "搜索 Amazon" [ref=e94]: Blue Buffalo Life Protection Puppy dog food
+          - generic [ref=e95]:
+            - generic "搜索" [ref=e97] [cursor=pointer]:
+              - button "搜索" [ref=e98]
+            - button [ref=e100]: Agent Search
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - link "选择在美国亚马逊进行购物的语言。当前选择是简体中文（ZH）。" [ref=e104] [cursor=pointer]:
+              - /url: /-/zh/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang_ais
+              - generic [ref=e107]:
+                - img "美国" [ref=e108]
+                - generic [ref=e109]: ZH
+            - button "展开以更改语言或国家" [ref=e110] [cursor=pointer]
+          - generic [ref=e111]:
+            - link "您好, 登录 账户及心愿单" [ref=e112] [cursor=pointer]:
+              - /url: https://www.amazon.com/-/zh/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%3Fk%3DBlue%2BBuffalo%2BLife%2BProtection%2BPuppy%2Bdog%2Bfood%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e114]: 您好, 登录
+              - generic [ref=e115]: 账户及心愿单
+            - button "扩展账户和待买清单" [ref=e116] [cursor=pointer]
+          - link "退货 与我的订单" [ref=e117] [cursor=pointer]:
+            - /url: /-/zh/gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e118]: 退货
+            - generic [ref=e119]: 与我的订单
+          - link "购物车中有 0 件商品" [ref=e120] [cursor=pointer]:
+            - /url: /-/zh/gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e122]: "0"
+            - generic [ref=e125]: 购物车
+      - alertdialog "国际购物转移提醒" [ref=e126]:
+        - generic [ref=e127]:
+          - generic [ref=e131]:
+            - text: 我们正向您显示配送至
+            - strong [ref=e132]: 中国
+            - text: 的商品。 要查看配送至其他国家/地区的商品，请更改您的配送地址。
+          - generic [ref=e133]:
+            - generic [ref=e135] [cursor=pointer]:
+              - button "Submit" [ref=e136]
+              - generic [ref=e137]: 继续
+            - generic [ref=e139] [cursor=pointer]:
+              - button "Submit" [ref=e140]
+              - generic [ref=e141]: 更改此地址
+      - generic [ref=e145]:
+        - link "立即登录" [ref=e146] [cursor=pointer]:
+          - /url: https://www.amazon.com/-/zh/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%3Fk%3DBlue%2BBuffalo%2BLife%2BProtection%2BPuppy%2Bdog%2Bfood%26ref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+          - generic [ref=e147]: 立即登录
+        - generic [ref=e148]:
+          - text: 新客户？
+          - link "初次使用亚马逊？ 从这里开始创建账户" [ref=e149] [cursor=pointer]:
+            - /url: https://www.amazon.com/-/zh/ap/register?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%2F%3F_encoding%3DUTF8%26k%3DBlue%2520Buffalo%2520Life%2520Protection%2520Puppy%2520dog%2520food%26ref_%3Dnav_custrec_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+            - text: 免费注册
+      - generic [ref=e154]:
+        - button "打开“所有类别”菜单" [ref=e156]:
+          - generic [ref=e158]: 全部
+        - list [ref=e162]:
+          - listitem [ref=e163]:
+            - link "今日特价" [ref=e165] [cursor=pointer]:
+              - /url: /-/zh/gp/goldbox?ref_=nav_cs_gb
+          - listitem [ref=e166]:
+            - link "礼品卡" [ref=e168] [cursor=pointer]:
+              - /url: /-/zh/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc
+          - listitem [ref=e169]:
+            - link "全球开店" [ref=e171] [cursor=pointer]:
+              - /url: /-/zh/b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell
+          - listitem [ref=e172]:
+            - link "礼品心愿单" [ref=e174] [cursor=pointer]:
+              - /url: /-/zh/gp/browse.html?node=16115931011&ref_=nav_cs_registry
+          - listitem [ref=e175]:
+            - link "Prime Video" [ref=e177] [cursor=pointer]:
+              - /url: /-/zh/Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_cs_prime_video
+          - listitem [ref=e178]:
+            - link "客户服务" [ref=e180] [cursor=pointer]:
+              - /url: /-/zh/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice
+          - link "单击以致电我们的残障客户支持热线，或拨打1-888-283-1678直接联系我们" [ref=e181]:
+            - /url: /-/zh/gp/help/customer/accessibility
+            - text: 残障客户支持
+      - dialog [ref=e184]
+  - generic [ref=e186]:
+    - 'heading "共 5 个结果 \"Blue Buffalo Life Protection Puppy dog food\" 排序方式：: 精选" [level=1] [ref=e189]':
+      - generic [ref=e190]:
+        - heading "共 5 个结果 \"Blue Buffalo Life Protection Puppy dog food\"" [level=2] [ref=e193]
+        - generic [ref=e198]:
+          - generic [ref=e199]: "排序方式：:"
+          - combobox "排序方式：:" [ref=e200]:
+            - option "精选" [selected]
+            - option "价格： 从低到高"
+            - option "价格： 从高到低"
+            - option "平均买家评论数"
+            - option "最新商品"
+            - option "畅销商品"
+          - generic [ref=e203] [cursor=pointer]: 排序方式：:精选
+    - generic [ref=e205]:
+      - generic [ref=e207]:
+        - generic [ref=e209]:
+          - generic [ref=e211]:
+            - generic [ref=e214]:
+              - heading "结果" [level=2] [ref=e215]
+              - generic [ref=e216]: 查看每个商品页面以了解其他购买选项。
+            - generic:
+              - list:
+                - listitem [ref=e217]:
+                  - generic [ref=e222]:
+                    - generic "亚马逊精选" [ref=e224]:
+                      - generic [ref=e233]: 全优选
+                    - link [ref=e237]:
+                      - /url: /-/zh/dp/B0BMF4T13H/ref=sr_1_1?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-1
+                      - img [ref=e239]
+                    - generic [ref=e240]:
+                      - link "Blue Buffalo Baby Blue Natural Dry Food for Puppies, Healthy Growth Formula with DHA, High-Protein Savory Chicken Recipe, 4-lb. Bag" [ref=e242]:
+                        - /url: /-/zh/dp/B0BMF4T13H/ref=sr_1_1?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-1
+                        - heading "Blue Buffalo Baby Blue Natural Dry Food for Puppies, Healthy Growth Formula with DHA, High-Protein Savory Chicken Recipe, 4-lb. Bag" [level=2] [ref=e243]
+                      - generic [ref=e244]:
+                        - generic [ref=e245]:
+                          - text: "4.5"
+                          - button "4.5 颗星，最多 5 颗星，评级详情" [ref=e247]:
+                            - generic [ref=e249]: 4.5 颗星，最多 5 颗星
+                          - link "74 评级" [ref=e253]:
+                            - /url: /-/zh/dp/B0BMF4T13H/ref=sr_1_1?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-1#customerReviews
+                            - text: (74)
+                        - generic [ref=e254]: 过去一个月有50+顾客购买
+                      - link "查看选项" [ref=e261]:
+                        - /url: /-/zh/dp/B0BMF4T13H/ref=sr_1_1_so_PET_FOOD?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-1
+                      - generic [ref=e263]:
+                        - text: 没有精选优惠
+                        - text: CNY 129.21
+                        - link "（1 件新品）" [ref=e265]:
+                          - /url: /-/zh/gp/offer-listing/B0BMF4T13H/ref=sr_1_1_olp?keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&qid=1779343117&sr=8-1
+                - listitem [ref=e266]:
+                  - generic [ref=e271]:
+                    - link [ref=e274]:
+                      - /url: /-/zh/dp/B09S9D2FFJ/ref=sr_1_2?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-2
+                      - img [ref=e276]
+                    - generic [ref=e277]:
+                      - link "Blue Buffalo 生命保护配方天然小狗入门套装 - 干湿狗粮,Blue Bits 小狗零食,鸡肉" [ref=e279]:
+                        - /url: /-/zh/dp/B09S9D2FFJ/ref=sr_1_2?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-2
+                        - heading "Blue Buffalo 生命保护配方天然小狗入门套装 - 干湿狗粮,Blue Bits 小狗零食,鸡肉" [level=2] [ref=e280]
+                      - generic [ref=e282]:
+                        - text: "4.7"
+                        - button "4.7 颗星，最多 5 颗星，评级详情" [ref=e284]:
+                          - generic [ref=e286]: 4.7 颗星，最多 5 颗星
+                        - link "65 评级" [ref=e290]:
+                          - /url: /-/zh/dp/B09S9D2FFJ/ref=sr_1_2?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-2#customerReviews
+                          - text: (65)
+                      - link "查看选项" [ref=e297]:
+                        - /url: /-/zh/dp/B09S9D2FFJ/ref=sr_1_2_so_PET_FOOD?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-2
+                      - generic [ref=e299]:
+                        - text: 没有精选优惠
+                        - text: CNY 393.08
+                        - link "（1 件新品）" [ref=e301]:
+                          - /url: /-/zh/gp/offer-listing/B09S9D2FFJ/ref=sr_1_2_olp?keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&qid=1779343117&sr=8-2
+                - listitem [ref=e302]:
+                  - generic [ref=e307]:
+                    - link [ref=e310]:
+                      - /url: /-/zh/dp/B0D7VPWRMV/ref=sr_1_3?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-3
+                      - img [ref=e312]
+                    - generic [ref=e313]:
+                      - link "Blue Buffalo 狗粮,鸡肉,小狗,小型犬 | 健康生长配方 | 含 DHA | 燕麦食谱 | 4 磅 2 件装" [ref=e315]:
+                        - /url: /-/zh/dp/B0D7VPWRMV/ref=sr_1_3?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-3
+                        - heading "Blue Buffalo 狗粮,鸡肉,小狗,小型犬 | 健康生长配方 | 含 DHA | 燕麦食谱 | 4 磅 2 件装" [level=2] [ref=e316]
+                      - generic [ref=e318]:
+                        - text: "4.6"
+                        - button "4.6 颗星，最多 5 颗星，评级详情" [ref=e320]:
+                          - generic [ref=e322]: 4.6 颗星，最多 5 颗星
+                        - link "3,074 评级" [ref=e326]:
+                          - /url: /-/zh/dp/B0D7VPWRMV/ref=sr_1_3?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-3#customerReviews
+                          - text: (3074)
+                      - link "查看选项" [ref=e333]:
+                        - /url: /-/zh/dp/B0D7VPWRMV/ref=sr_1_3_so_PET_FOOD?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-3
+                      - generic [ref=e335]:
+                        - text: 没有精选优惠
+                        - text: CNY 169.92
+                        - link "（1 件新品）" [ref=e337]:
+                          - /url: /-/zh/gp/offer-listing/B0D7VPWRMV/ref=sr_1_3_olp?keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&qid=1779343117&sr=8-3
+                - listitem [ref=e338]:
+                  - generic [ref=e343]:
+                    - link [ref=e346]:
+                      - /url: /-/zh/dp/B0D7VP4VZ4/ref=sr_1_4?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-4
+                      - img [ref=e348]
+                    - generic [ref=e349]:
+                      - link "Blue Buffalo Life Protection Formula 天然成人玩具品种干狗粮,鸡肉和糙米 4 磅(2 件装)" [ref=e351]:
+                        - /url: /-/zh/dp/B0D7VP4VZ4/ref=sr_1_4?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-4
+                        - heading "Blue Buffalo Life Protection Formula 天然成人玩具品种干狗粮,鸡肉和糙米 4 磅(2 件装)" [level=2] [ref=e352]
+                      - generic [ref=e354]:
+                        - text: "4.6"
+                        - button "4.6 颗星，最多 5 颗星，评级详情" [ref=e356]:
+                          - generic [ref=e358]: 4.6 颗星，最多 5 颗星
+                        - link "1,739 评级" [ref=e362]:
+                          - /url: /-/zh/dp/B0D7VP4VZ4/ref=sr_1_4?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-4#customerReviews
+                          - text: (1739)
+                      - link "查看选项" [ref=e369]:
+                        - /url: /-/zh/dp/B0D7VP4VZ4/ref=sr_1_4_so_PET_FOOD?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-4
+                      - generic [ref=e371]:
+                        - text: 没有精选优惠
+                        - text: CNY 272.04
+                        - link "（1 件新品）" [ref=e373]:
+                          - /url: /-/zh/gp/offer-listing/B0D7VP4VZ4/ref=sr_1_4_olp?keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&qid=1779343117&sr=8-4
+                - listitem [ref=e374]:
+                  - generic [ref=e379]:
+                    - link [ref=e382]:
+                      - /url: /-/zh/dp/B0094RW6ZC/ref=sr_1_5?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-5
+                      - img [ref=e384]
+                    - generic [ref=e385]:
+                      - link "Purina ONE Plus 健康小狗配方高蛋白天然干狗粮添加维生素、矿物质和营养素 - 7.5 千克袋" [ref=e387]:
+                        - /url: /-/zh/dp/B0094RW6ZC/ref=sr_1_5?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-5
+                        - heading "Purina ONE Plus 健康小狗配方高蛋白天然干狗粮添加维生素、矿物质和营养素 - 7.5 千克袋" [level=2] [ref=e388]
+                      - generic [ref=e389]:
+                        - generic [ref=e390]:
+                          - text: "4.7"
+                          - button "4.7 颗星，最多 5 颗星，评级详情" [ref=e392]:
+                            - generic [ref=e394]: 4.7 颗星，最多 5 颗星
+                          - link "11,530 评级" [ref=e398]:
+                            - /url: /-/zh/dp/B0094RW6ZC/ref=sr_1_5?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-5#customerReviews
+                            - text: (1.1万)
+                        - generic [ref=e399]: 过去一个月有2000+顾客购买
+                      - link "查看选项" [ref=e406]:
+                        - /url: /-/zh/dp/B0094RW6ZC/ref=sr_1_5_so_PET_FOOD?dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&dib_tag=se&keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&qid=1779343117&sr=8-5
+                      - generic [ref=e408]:
+                        - text: 没有精选优惠
+                        - text: CNY 214.99
+                        - link "（5 件新品）" [ref=e410]:
+                          - /url: /-/zh/gp/offer-listing/B0094RW6ZC/ref=sr_1_5_olp?keywords=Blue+Buffalo+Life+Protection+Puppy+dog+food&dib_tag=se&dib=eyJ2IjoiMSJ9.917E0rJcV5guJrdGZY9rXLw3kM0cSSNMhy80R2jL6wu3sq9H91W4XIjEpBu2XwvUl_5s2T-3lIUmthErew9xnw.8jMSBKorPR_xuF7lT5sYZxQ5gYZTvsYXUQSOlfcgWGQ&qid=1779343117&sr=8-5
+          - generic [ref=e416]:
+            - heading "需要帮助？" [level=2] [ref=e419]
+            - generic [ref=e420]:
+              - link "访问帮助部分" [ref=e421]:
+                - /url: /-/zh/gp/help/customer/display.html?nodeId=468556
+              - text: 或
+              - link "联系我们" [ref=e422]:
+                - /url: /-/zh/gp/help/customer/contact-us
+          - generic [ref=e425]:
+            - iframe [ref=e426]:
+              - generic [ref=f26e4]:
+                - link "IAMS Proactive Health 小狗粮,大型犬种优质小狗粮,30 磅(约 13.9 千克)袋装" [ref=f26e7]:
+                  - /url: https://aax-events-cell01-cf.us-east.ono.axp.amazon-adsystem.com/x/c/RHLpxGKmulTBgIjcoGrBlnIAAAGeSR1PwwEAAAH0AQBvbm9fdHhuX2JpZDQgICBvbm9fdHhuX2ltcDEgICCjR50l/clv1c_ek8OM3GX57OOBXc78KNgzRvqwoBOY7rFM5P-8Ei88-1JQTYqLjHgpCn2em7q7tXKxo4PPUW8pu7ZpYIwsObO85jPzQIKIoGQaOSncvQEEM7jp_2fCJSNIZbpLE-6Y9vnWRsMDgZ4Kl-AitV8-UUDsNXN0f9Ne3VLgAM8VWbe8c9uc2cY-WjjVDwePeFpQ96pcYKfA63tCuIsw74kU15a6wDA9EXlHflgTFfvQ2FWKcJhNwvnEDPticSk97M5uiTJyv0TS38A8meRVD5Y_pYlQXhfA_ghwuOjuw7VJPuRsglG8r7oxC0olvvD-2e9lUWnzYgrUE8n4FosEalQiHlGP78KJzOUu9jZ1sYXXeGAtStcugv2Qu-DBS43BdKPHQ/https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyMjU4OTY5NzA4Nzk3NjEyOjE3NzkzNDMxMTc6c3Bfc2VhcmNoX2Zvb3Rlcl9zaGFyZWQ6MzAxMTA5NjMyMjIzNjAyOjo6Og&url=%2Fdp%2FB00C3HSSWU%2Fref%3Dsspa_dk_bot_sx_aax_0%3Fpsc%3D1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfZm9vdGVyX3NoYXJlZA
+                - generic [ref=f26e8]:
+                  - img "IAMS Proactive Health 小狗粮,大型犬种优质小狗粮,30 磅(约 13.9 千克)袋装" [ref=f26e10]
+                  - generic [ref=f26e11]:
+                    - generic [ref=f26e12]: IAMS Proactive Health 小狗粮,大型犬种优质小狗粮,30 磅(约 13.9 千克)袋装
+                    - generic [ref=f26e13]:
+                      - text: CNY 326.11
+                      - link "6,890" [ref=f26e14]:
+                        - /url: https://aax-events-cell01-cf.us-east.ono.axp.amazon-adsystem.com/x/c/RHLpxGKmulTBgIjcoGrBlnIAAAGeSR1PwwEAAAH0AQBvbm9fdHhuX2JpZDQgICBvbm9fdHhuX2ltcDEgICCjR50l/clv1c_ek8OM3GX57OOBXc78KNgzRvqwoBOY7rFM5P-8Ei88-1JQTYqLjHgpCn2em7q7tXKxo4PPUW8pu7ZpYIwsObO85jPzQIKIoGQaOSncvQEEM7jp_2fCJSNIZbpLE-6Y9vnWRsMDgZ4Kl-AitV8-UUDsNXN0f9Ne3VLgAM8VWbe8c9uc2cY-WjjVDwePeFpQ96pcYKfA63tCuIsw74kU15a6wDA9EXlHflgTFfvQ2FWKcJhNwvnEDPticSk97M5uiTJyv0TS38A8meRVD5Y_pYlQXhfA_ghwuOjuw7VJPuRsglG8r7oxC0olvvD-2e9lUWnzYgrUE8n4FosEalQiHlGP78KJzOUu9jZ1sYXXeGAtStcugv2Qu-DBS43BdKPHQ/https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyMjU4OTY5NzA4Nzk3NjEyOjE3NzkzNDMxMTc6c3Bfc2VhcmNoX2Zvb3Rlcl9zaGFyZWQ6MzAxMTA5NjMyMjIzNjAyOjo6Og&url=%2Fdp%2FB00C3HSSWU%2Fref%3Dsspa_dk_bot_sx_aax_0%3Fpsc%3D1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfZm9vdGVyX3NoYXJlZA#customerReviews
+                        - text: 6,890
+                  - link "立即购买" [ref=f26e18]:
+                    - /url: https://aax-events-cell01-cf.us-east.ono.axp.amazon-adsystem.com/x/c/RHLpxGKmulTBgIjcoGrBlnIAAAGeSR1PwwEAAAH0AQBvbm9fdHhuX2JpZDQgICBvbm9fdHhuX2ltcDEgICCjR50l/clv1c_ek8OM3GX57OOBXc78KNgzRvqwoBOY7rFM5P-8Ei88-1JQTYqLjHgpCn2em7q7tXKxo4PPUW8pu7ZpYIwsObO85jPzQIKIoGQaOSncvQEEM7jp_2fCJSNIZbpLE-6Y9vnWRsMDgZ4Kl-AitV8-UUDsNXN0f9Ne3VLgAM8VWbe8c9uc2cY-WjjVDwePeFpQ96pcYKfA63tCuIsw74kU15a6wDA9EXlHflgTFfvQ2FWKcJhNwvnEDPticSk97M5uiTJyv0TS38A8meRVD5Y_pYlQXhfA_ghwuOjuw7VJPuRsglG8r7oxC0olvvD-2e9lUWnzYgrUE8n4FosEalQiHlGP78KJzOUu9jZ1sYXXeGAtStcugv2Qu-DBS43BdKPHQ/https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyMjU4OTY5NzA4Nzk3NjEyOjE3NzkzNDMxMTc6c3Bfc2VhcmNoX2Zvb3Rlcl9zaGFyZWQ6MzAxMTA5NjMyMjIzNjAyOjo6Og&url=%2Fdp%2FB00C3HSSWU%2Fref%3Dsspa_dk_bot_sx_aax_0%3Fpsc%3D1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfZm9vdGVyX3NoYXJlZA
+            - button "针对推广广告留下反馈" [ref=e428] [cursor=pointer]:
+              - generic [ref=e429]: 推广
+        - link "返回至筛选菜单" [ref=e431]:
+          - /url: "#s-skipLinkTargetForFilterOptions"
+      - generic [ref=e433]:
+        - link "跳转至主要搜索结果" [ref=e434]:
+          - /url: "#s-skipLinkTargetForMainSearchResults"
+        - generic [ref=e440]:
+          - group "年龄范围" [ref=e441]:
+            - heading "年龄范围" [level=2] [ref=e442]
+            - list "年龄范围" [ref=e443]:
+              - listitem [ref=e444]:
+                - link "应用 成年 筛选以缩小结果范围" [ref=e446]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-101015646925111%3A204428485011&dc&qid=1779343117&rnid=204428480011&ref=sr_nr_p_n_g-101015646925111_1&ds=v1%3A7T8t54FYME9uj7NWkUabE1AZEZ0jatf6fojWnM6eSWo
+                  - checkbox [ref=e449] [cursor=pointer]
+                  - text: 成年
+              - listitem [ref=e451]:
+                - link "应用 小狗 筛选以缩小结果范围" [ref=e453]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-101015646925111%3A204428486011&dc&qid=1779343117&rnid=204428480011&ref=sr_nr_p_n_g-101015646925111_2&ds=v1%3AcNKjDSqmPWbhHqPM5YEEy7gIIGjCHNcilW6OAnIO55M
+                  - checkbox [ref=e456] [cursor=pointer]
+                  - text: 小狗
+          - group "品牌" [ref=e458]:
+            - heading "品牌" [level=2] [ref=e459]
+            - list "品牌" [ref=e460]:
+              - listitem [ref=e461]:
+                - link "应用 Blue Buffalo 筛选以缩小结果范围" [ref=e463]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_123%3A232782&dc&qid=1779343117&rnid=85457740011&ref=sr_nr_p_123_1&ds=v1%3ARXyzrWLwUgQxK8k6LZPsqD1gwsHMKVXEmvlKdY0ib8I
+                  - checkbox [ref=e466] [cursor=pointer]
+                  - text: Blue Buffalo
+              - listitem [ref=e468]:
+                - link "应用 PURINA ONE 筛选以缩小结果范围" [ref=e470]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_123%3A213867&dc&qid=1779343117&rnid=85457740011&ref=sr_nr_p_123_2&ds=v1%3AASm3CTx%2BlKbZv7c68BCZT1lxiNDRMzcXgNq%2FV7k3PeE
+                  - checkbox [ref=e473] [cursor=pointer]
+                  - text: PURINA ONE
+          - group "口味" [ref=e475]:
+            - heading "口味" [level=2] [ref=e476]
+            - list "口味" [ref=e477]:
+              - listitem [ref=e478]:
+                - link "应用 鸡肉 筛选以缩小结果范围" [ref=e480]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-1003434527111%3A24398513011&dc&qid=1779343117&rnid=24398026011&ref=sr_nr_p_n_g-1003434527111_1&ds=v1%3A%2BIuOOq6cmwBporFXOxJgEwrBlyDWVNBsHA6AljTB03k
+                  - checkbox [ref=e483] [cursor=pointer]
+                  - text: 鸡肉
+          - group "重量" [ref=e485]:
+            - heading "重量" [level=2] [ref=e486]
+            - list "重量" [ref=e487]:
+              - listitem [ref=e488]:
+                - link "应用 4 到 5.9 磅 筛选以缩小结果范围" [ref=e490]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-1003485959111%3A25140513011&dc&qid=1779343117&rnid=25140478011&ref=sr_nr_p_n_g-1003485959111_1&ds=v1%3AyzvbCMamqkGzOORrocBaYi4wCkjF8kv9socTyHdF%2BEw
+                  - checkbox [ref=e493] [cursor=pointer]
+                  - text: 4 到 5.9 磅
+              - listitem [ref=e495]:
+                - link "应用 6 磅及以上 筛选以缩小结果范围" [ref=e497]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-1003485959111%3A25140512011&dc&qid=1779343117&rnid=25140478011&ref=sr_nr_p_n_g-1003485959111_2&ds=v1%3AZbEbY%2B9LfXhIPbXxVlr6RQYT%2FrifgFQKwMUxU8CshJw
+                  - checkbox [ref=e500] [cursor=pointer]
+                  - text: 6 磅及以上
+          - group "容器类型" [ref=e502]:
+            - heading "容器类型" [level=2] [ref=e503]
+            - list "容器类型" [ref=e504]:
+              - listitem [ref=e505]:
+                - link "应用 包 筛选以缩小结果范围" [ref=e507]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-101014777053111%3A116627620011&dc&qid=1779343117&rnid=116627617011&ref=sr_nr_p_n_g-101014777053111_1&ds=v1%3AU7nPUX4aSjIczP1xeuxixXuw2%2B%2FczKXyn3CxVcZCPi4
+                  - checkbox [ref=e510] [cursor=pointer]
+                  - text: 包
+          - group "客户评级" [ref=e512]:
+            - heading "客户评级" [level=2] [ref=e513]
+            - list "客户评级" [ref=e514]:
+              - listitem [ref=e515]:
+                - link "应用 4 星及以上 筛选以缩小结果范围" [ref=e518]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_72%3A2661618011&dc&qid=1779343117&rnid=2661617011&ref=sr_nr_p_72_1&ds=v1%3AliVC2JqurxpWIRbxCT%2F79NQOmorJhKIgV3D5kpLwhYc
+                  - generic [ref=e520]: 4 Stars
+                  - text: 及以上
+          - group "卖家" [ref=e521]:
+            - heading "卖家" [level=2] [ref=e522]
+            - list "卖家" [ref=e523]:
+              - listitem [ref=e524]:
+                - link "应用 Triplenet Pricing INC 筛选以缩小结果范围" [ref=e526]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_6%3AAAZRLVTNON75Z&dc&qid=1779343117&rnid=2661622011&ref=sr_nr_p_6_1&ds=v1%3AGHms%2Fgu6H3GhIZmZNuZsmUkgU3QZ8T6bLMhMDuvhlCE
+                  - checkbox [ref=e529] [cursor=pointer]
+                  - text: Triplenet Pricing INC
+          - group "商品形式" [ref=e531]:
+            - heading "商品形式" [level=2] [ref=e532]
+            - list "商品形式" [ref=e533]:
+              - listitem [ref=e534]:
+                - link "应用 软颗粒 筛选以缩小结果范围" [ref=e536]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-1003438006111%3A24398465011&dc&qid=1779343117&rnid=24398025011&ref=sr_nr_p_n_g-1003438006111_1&ds=v1%3Aa7sU5CXPSeQ3p1cwh8g6JZJ8vuygBkNpYxWdzotE8%2B8
+                  - checkbox [ref=e539] [cursor=pointer]
+                  - text: 软颗粒
+          - group "动物性食品饮食类型" [ref=e541]:
+            - heading "动物性食品饮食类型" [level=2] [ref=e542]
+            - list "动物性食品饮食类型" [ref=e543]:
+              - listitem [ref=e544]:
+                - link "应用 兽医饮食 筛选以缩小结果范围" [ref=e546]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-101016647903111%3A207854991011&dc&qid=1779343117&rnid=207854989011&ref=sr_nr_p_n_g-101016647903111_1&ds=v1%3AS%2F0ZZFsPYTvnGjnfnfChD42azjwqMVmrUdhmk7f2SVs
+                  - checkbox [ref=e549] [cursor=pointer]
+                  - text: 兽医饮食
+          - group "成分声明" [ref=e551]:
+            - heading "成分声明" [level=2] [ref=e552]
+            - list "成分声明" [ref=e553]:
+              - listitem [ref=e554]:
+                - link "应用 不含人造香料 筛选以缩小结果范围" [ref=e556]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-101015369996111%3A121535372011&dc&qid=1779343117&rnid=121535284011&ref=sr_nr_p_n_g-101015369996111_1&ds=v1%3AnsrnOSZkHZFQfG0cppRLKZpUSBXS0RO8KyFmmKAw7VQ
+                  - checkbox [ref=e559] [cursor=pointer]
+                  - text: 不含人造香料
+              - listitem [ref=e561]:
+                - link "应用 不含人工色素 筛选以缩小结果范围" [ref=e563]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-101015369996111%3A121535369011&dc&qid=1779343117&rnid=121535284011&ref=sr_nr_p_n_g-101015369996111_2&ds=v1%3AixrscwLOUgT063N50S2ugkrPbHw74QsUxdMbHQvVCE0
+                  - checkbox [ref=e566] [cursor=pointer]
+                  - text: 不含人工色素
+          - group "颜色" [ref=e568]:
+            - heading "颜色" [level=2] [ref=e569]
+            - list "颜色" [ref=e570]:
+              - listitem [ref=e571]:
+                - generic:
+                  - link "应用 棕色 筛选以缩小结果范围":
+                    - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-1001308742111%3A2972984011&dc&qid=1779343117&rnid=2972980011&ref=sr_nr_p_n_g-1001308742111_1&ds=v1%3AhsrS3VTWAZ%2FNOKupSDrs5F8vPwEyD5UUwJqCU3wYZaM
+          - group "特殊成分" [ref=e573]:
+            - heading "特殊成分" [level=2] [ref=e574]
+            - list "特殊成分" [ref=e575]:
+              - listitem [ref=e576]:
+                - link "应用 抗氧化剂 筛选以缩小结果范围" [ref=e578]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-101015537685111%3A122342461011&dc&qid=1779343117&rnid=122342378011&ref=sr_nr_p_n_g-101015537685111_1&ds=v1%3AMsT4ueLNrWB0XIqj9ZvJzS%2Bu4k%2FMtXp1rDmhJZ58h3o
+                  - checkbox [ref=e581] [cursor=pointer]
+                  - text: 抗氧化剂
+          - group "营养成分声明" [ref=e583]:
+            - heading "营养成分声明" [level=2] [ref=e584]
+            - list "营养成分声明" [ref=e585]:
+              - listitem [ref=e586]:
+                - link "应用 高蛋白 筛选以缩小结果范围" [ref=e588]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-101015369385111%3A121535383011&dc&qid=1779343117&rnid=121535285011&ref=sr_nr_p_n_g-101015369385111_1&ds=v1%3AIABHzFP9JTpBc8kma6c7O5ecbjejzJRaMNf4edTD51w
+                  - checkbox [ref=e591] [cursor=pointer]
+                  - text: 高蛋白
+          - group "物种" [ref=e593]:
+            - heading "物种" [level=2] [ref=e594]
+            - list "物种" [ref=e595]:
+              - listitem [ref=e596]:
+                - link "应用 狗 筛选以缩小结果范围" [ref=e598]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-1003243633111%3A23885463011&dc&qid=1779343117&rnid=23885371011&ref=sr_nr_p_n_g-1003243633111_1&ds=v1%3A10xd23gUhaIcKKVg%2F5yvfiERuOOhqIVAnXCur3E%2FXY8
+                  - checkbox [ref=e601] [cursor=pointer]
+                  - text: 狗
+          - group "情况" [ref=e603]:
+            - heading "情况" [level=2] [ref=e604]
+            - list "情况" [ref=e605]:
+              - listitem [ref=e606]:
+                - link "应用 全新 筛选以缩小结果范围" [ref=e608]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_condition-type%3A6358196011&dc&qid=1779343117&rnid=6358194011&ref=sr_nr_p_n_condition-type_1&ds=v1%3AgOex8BTQlspoeF2iHiWkS6O61cOCKBe1q52HbhU2yzw
+                  - checkbox [ref=e611] [cursor=pointer]
+                  - text: 全新
+          - group "畅销品牌" [ref=e613]:
+            - heading "畅销品牌" [level=2] [ref=e614]
+            - list "畅销品牌" [ref=e615]:
+              - listitem [ref=e616]:
+                - link "应用 热门品牌 筛选以缩小结果范围" [ref=e618]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-101014971069111%3A119653281011&dc&qid=1779343117&rnid=119653280011&ref=sr_nr_p_n_g-101014971069111_1&ds=v1%3AiMf2%2B4C%2BkNPR%2F57%2Byyara9b9E8XAtP8TrIg5VnF4FGk
+                  - checkbox [ref=e621] [cursor=pointer]
+                  - text: 热门品牌
+          - group "包装大小" [ref=e623]:
+            - heading "包装大小" [level=2] [ref=e624]
+            - list "包装大小" [ref=e625]:
+              - listitem [ref=e626]:
+                - link "应用 3至5磅 筛选以缩小结果范围" [ref=e628]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-1001412580111%3A13146153011&dc&qid=1779343117&rnid=13146150011&ref=sr_nr_p_n_g-1001412580111_1&ds=v1%3AjpzYAf98zX25evyN1nGcnS937W5%2BF8%2Fgmx7%2BG5mWepk
+                  - checkbox [ref=e631] [cursor=pointer]
+                  - text: 3至5磅
+              - listitem [ref=e633]:
+                - link "应用 6至11磅 筛选以缩小结果范围" [ref=e635]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-1001412580111%3A13146154011&dc&qid=1779343117&rnid=13146150011&ref=sr_nr_p_n_g-1001412580111_2&ds=v1%3AIopAC99LWnnFqUq%2FIqAoc3YrBugOt8xE2igz3pYWj5s
+                  - checkbox [ref=e638] [cursor=pointer]
+                  - text: 6至11磅
+              - listitem [ref=e640]:
+                - link "应用 12至17磅 筛选以缩小结果范围" [ref=e642]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-1001412580111%3A13146155011&dc&qid=1779343117&rnid=13146150011&ref=sr_nr_p_n_g-1001412580111_3&ds=v1%3AunUJjoQvJIE9CzJ1FDs6pUXGGgyyU3mDDftKL59nT7w
+                  - checkbox [ref=e645] [cursor=pointer]
+                  - text: 12至17磅
+          - group "数量" [ref=e647]:
+            - heading "数量" [level=2] [ref=e648]
+            - list "数量" [ref=e649]:
+              - listitem [ref=e650]:
+                - link "应用 1 件 筛选以缩小结果范围" [ref=e652]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-1003565262111%3A85457738011&dc&qid=1779343117&rnid=85457736011&ref=sr_nr_p_n_g-1003565262111_1&ds=v1%3AHkM0CVAlcOSeVvn5XiCpQH0psGJKV6LJ4jXH0y0PdF8
+                  - checkbox [ref=e655] [cursor=pointer]
+                  - text: 1 件
+              - listitem [ref=e657]:
+                - link "应用 2 件 筛选以缩小结果范围" [ref=e659]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-1003565262111%3A85457737011&dc&qid=1779343117&rnid=85457736011&ref=sr_nr_p_n_g-1003565262111_2&ds=v1%3AM2uHaTrzBHgEenqHT8aSvTijQpalC0294MchjLq1BOU
+                  - checkbox [ref=e662] [cursor=pointer]
+                  - text: 2 件
+          - group "过敏原信息" [ref=e664]:
+            - heading "过敏原信息" [level=2] [ref=e665]
+            - list "过敏原信息" [ref=e666]:
+              - listitem [ref=e667]:
+                - link "应用 不含过敏原 筛选以缩小结果范围" [ref=e669]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-101015544709111%3A122342493011&dc&qid=1779343117&rnid=122342380011&ref=sr_nr_p_n_g-101015544709111_1&ds=v1%3A%2BnGxMdMycb%2BpWZdsdkST7VE5rGWZ5qCVXhG23ZWf7rM
+                  - checkbox [ref=e672] [cursor=pointer]
+                  - text: 不含过敏原
+              - listitem [ref=e674]:
+                - link "应用 不含玉米 筛选以缩小结果范围" [ref=e676]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-101015544709111%3A122342503011&dc&qid=1779343117&rnid=122342380011&ref=sr_nr_p_n_g-101015544709111_2&ds=v1%3AOl3SDkxm23a0omtkeL9Ma8yBsgDoB%2BIZ7nikelQoBBc
+                  - checkbox [ref=e679] [cursor=pointer]
+                  - text: 不含玉米
+              - listitem [ref=e681]:
+                - link "应用 不含大豆 筛选以缩小结果范围" [ref=e683]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-101015544709111%3A122342516011&dc&qid=1779343117&rnid=122342380011&ref=sr_nr_p_n_g-101015544709111_3&ds=v1%3A0subOfDAn7ZcO4eZA6snMm1dHzgvFr2d0KzJ9SFUWSU
+                  - checkbox [ref=e686] [cursor=pointer]
+                  - text: 不含大豆
+              - listitem [ref=e688]:
+                - link "应用 无小麦 筛选以缩小结果范围" [ref=e690]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-101015544709111%3A122342509011&dc&qid=1779343117&rnid=122342380011&ref=sr_nr_p_n_g-101015544709111_4&ds=v1%3ANK2kLzdrD2mkwSjhBr%2FMyDG%2F4W46rQqRRbMx3YPGzCU
+                  - checkbox [ref=e693] [cursor=pointer]
+                  - text: 无小麦
+          - group "狗大小" [ref=e695]:
+            - heading "狗大小" [level=2] [ref=e696]
+            - list "狗大小" [ref=e697]:
+              - listitem [ref=e698]:
+                - link "应用 超小 筛选以缩小结果范围" [ref=e700]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-101015545324111%3A122342481011&dc&qid=1779343117&rnid=122342379011&ref=sr_nr_p_n_g-101015545324111_1&ds=v1%3A%2BpfPQlmAszZ9OEACTztbcElO9hDcmrbd8VPAwjpr2Bk
+                  - checkbox [ref=e703] [cursor=pointer]
+                  - text: 超小
+              - listitem [ref=e705]:
+                - link "应用 小型 筛选以缩小结果范围" [ref=e707]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-101015545324111%3A122342479011&dc&qid=1779343117&rnid=122342379011&ref=sr_nr_p_n_g-101015545324111_2&ds=v1%3AILGlImi09dgUuv%2BQiP5PMU9dbkJlya1a2jLw1qZ3WDk
+                  - checkbox [ref=e710] [cursor=pointer]
+                  - text: 小型
+              - listitem [ref=e712]:
+                - link "应用 中型 筛选以缩小结果范围" [ref=e714]:
+                  - /url: /-/zh/s?k=Blue+Buffalo+Life+Protection+Puppy+dog+food&rh=p_n_g-101015545324111%3A122342478011&dc&qid=1779343117&rnid=122342379011&ref=sr_nr_p_n_g-101015545324111_3&ds=v1%3AgvZazna3lloTDz8pjx2EC0hzUMnAcxaNJ39BPdCEzR8
+                  - checkbox [ref=e717] [cursor=pointer]
+                  - text: 中型
+  - complementary "您最近查看的商品和相关推荐"
+  - generic [ref=e719]:
+    - button "回到顶部" [ref=e720] [cursor=pointer]:
+      - generic [ref=e721]: 回到顶部
+    - generic [ref=e722]:
+      - generic [ref=e723]:
+        - heading "了解我们" [level=6] [ref=e724]
+        - list [ref=e725]:
+          - listitem [ref=e726]:
+            - link "人才招聘" [ref=e727]:
+              - /url: https://www.amazon.jobs
+          - listitem [ref=e728]:
+            - link "博客" [ref=e729]:
+              - /url: https://blog.aboutamazon.com/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e730]:
+            - link "关于亚马逊" [ref=e731]:
+              - /url: https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e732]:
+            - link "投资者关系" [ref=e733]:
+              - /url: https://www.amazon.com/-/zh/ir
+          - listitem [ref=e734]:
+            - link "亚马逊设备" [ref=e735]:
+              - /url: /-/zh/gp/browse.html?node=2102313011&ref_=footer_devices
+          - listitem [ref=e736]:
+            - link "亚马逊科学" [ref=e737]:
+              - /url: https://www.amazon.science
+      - generic [ref=e739]:
+        - heading "合作信息" [level=6] [ref=e740]
+        - list [ref=e741]:
+          - listitem [ref=e742]:
+            - link "我要开店" [ref=e743]:
+              - /url: https://services.amazon.com/sell.html?ld=AZFSSOA&ref_=footer_soa
+          - listitem [ref=e744]:
+            - link "在亚马逊企业购开店" [ref=e745]:
+              - /url: https://services.amazon.com/amazon-business.html?ld=usb2bunifooter&ref_=footer_b2b
+          - listitem [ref=e746]:
+            - link "在亚马逊上销售您的应用程序" [ref=e747]:
+              - /url: https://developer.amazon.com
+          - listitem [ref=e748]:
+            - link "加入联盟" [ref=e749]:
+              - /url: https://affiliate-program.amazon.com/
+          - listitem [ref=e750]:
+            - link "我要推广" [ref=e751]:
+              - /url: https://advertising.amazon.com/?ref=ext_amzn_ftr
+          - listitem [ref=e752]:
+            - link "自行出版" [ref=e753]:
+              - /url: /-/zh/gp/seller-account/mm-summary-page.html?ld=AZFooterSelfPublish&topic=200260520&ref_=footer_publishing
+          - listitem [ref=e754]:
+            - link "托管亚马逊中心" [ref=e755]:
+              - /url: https://go.thehub-amazon.com/amazon-hub-locker
+          - listitem [ref=e756]:
+            - text: ›
+            - link "查看“合作信息”的更多内容" [ref=e757]:
+              - /url: /-/zh/b/?node=18190131011&ld=AZUSSOA-seemore&ref_=footer_seemore
+      - generic [ref=e759]:
+        - heading "亚马逊支付服务商品" [level=6] [ref=e760]
+        - list [ref=e761]:
+          - listitem [ref=e762]:
+            - link "使用积分购物" [ref=e763]:
+              - /url: /-/zh/gp/browse.html?node=16218619011&ref_=footer_swp
+          - listitem [ref=e764]:
+            - link "账户充值" [ref=e765]:
+              - /url: /-/zh/dp/B0CHTVMXZJ?th=1?ref_=footer_reload_us
+          - listitem [ref=e766]:
+            - link "亚马逊货币换算器" [ref=e767]:
+              - /url: /-/zh/gp/browse.html?node=388305011&ref_=footer_tfx
+      - generic [ref=e769]:
+        - heading "帮助中心和购物指南" [level=6] [ref=e770]
+        - list [ref=e771]:
+          - listitem [ref=e772]:
+            - link "COVID-19疫情相关问题" [ref=e773]:
+              - /url: /-/zh/gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid
+          - listitem [ref=e774]:
+            - link "我的账户" [ref=e775]:
+              - /url: https://www.amazon.com/-/zh/gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e776]:
+            - link "我的订单" [ref=e777]:
+              - /url: https://www.amazon.com/-/zh/gp/css/order-history?ref_=footer_yo
+          - listitem [ref=e778]:
+            - link "发货与配送" [ref=e779]:
+              - /url: /-/zh/gp/help/customer/display.html?nodeId=468520&ref_=footer_shiprates
+          - listitem [ref=e780]:
+            - link "退货与换货" [ref=e781]:
+              - /url: /-/zh/gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e782]:
+            - link "管理我的内容和设备" [ref=e783]:
+              - /url: /-/zh/gp/digital/fiona/manage?ref_=footer_myk
+          - listitem [ref=e784]:
+            - link "帮助中心" [ref=e785]:
+              - /url: /-/zh/gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+    - generic [ref=e787]:
+      - link "Amazon US Home" [ref=e790]:
+        - /url: /-/zh/?ref_=footer_logo
+      - generic [ref=e793]:
+        - generic [ref=e794]:
+          - link "选择购物语言。当前选择的是 简体中文。" [ref=e795]:
+            - /url: /-/zh/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e797]: 简体中文
+          - button "展开以更改语言或国家" [ref=e798] [cursor=pointer]
+        - link "¥ CNY - 人民币" [ref=e799]:
+          - /url: /-/zh/customer-preferences/edit?ie=UTF8&ref_=footer_cop&preferencesReturnUrl=%2Fs%3Fk%3DBlue%2BBuffalo%2BLife%2BProtection%2BPuppy%2Bdog%2Bfoods
+          - generic [ref=e800]: ¥
+          - generic [ref=e801]: CNY - 人民币
+        - button "选择国家/地区进行购物。当前选择是美国。" [ref=e802]:
+          - generic [ref=e804]: 美国
+    - navigation "有关 Amazon 的更多信息" [ref=e805]:
+      - generic "有关 Amazon 的更多信息" [ref=e806]:
+        - list [ref=e807]:
+          - listitem [ref=e808]:
+            - link "亚马逊音乐 畅听海量歌曲" [ref=e809]:
+              - /url: https://music.amazon.com?ref=dm_aff_amz_com
+              - heading "亚马逊音乐" [level=5] [ref=e810]
+              - generic [ref=e811]: 畅听海量歌曲
+          - listitem [ref=e812]
+          - listitem [ref=e813]:
+            - link "亚马逊广告 吸引买家 无论他们身在何处 消磨时光" [ref=e814]:
+              - /url: https://advertising.amazon.com/?ref=footer_advtsing_amzn_com
+              - heading "亚马逊广告" [level=5] [ref=e815]
+              - generic [ref=e816]:
+                - text: 吸引买家
+                - text: 无论他们身在何处
+                - text: 消磨时光
+          - listitem [ref=e817]
+          - listitem [ref=e818]:
+            - link "6pm 对时尚品牌 进行评分" [ref=e819]:
+              - /url: https://www.6pm.com
+              - heading "6pm" [level=5] [ref=e820]
+              - generic [ref=e821]:
+                - text: 对时尚品牌
+                - text: 进行评分
+          - listitem [ref=e822]
+          - listitem [ref=e823]:
+            - link "AbeBooks 图书、艺术 和收藏品" [ref=e824]:
+              - /url: https://www.abebooks.com
+              - heading "AbeBooks" [level=5] [ref=e825]
+              - generic [ref=e826]:
+                - text: 图书、艺术
+                - text: 和收藏品
+          - listitem [ref=e827]
+          - listitem [ref=e828]:
+            - link "ACX 有声读物出版 轻松实现" [ref=e829]:
+              - /url: https://www.acx.com/
+              - heading "ACX" [level=5] [ref=e830]
+              - generic [ref=e831]:
+                - text: 有声读物出版
+                - text: 轻松实现
+          - listitem [ref=e832]
+          - listitem [ref=e833]:
+            - link "我要开店 启动卖家账户" [ref=e834]:
+              - /url: https://sell.amazon.com/?ld=AZUSSOA-footer-aff&ref_=footer_sell
+              - heading "我要开店" [level=5] [ref=e835]
+              - generic [ref=e836]: 启动卖家账户
+          - listitem [ref=e837]
+          - listitem [ref=e838]:
+            - link "Veeqo 运输软件 库存管理" [ref=e839]:
+              - /url: https://www.veeqo.com/?utm_source=amazon&utm_medium=website&utm_campaign=footer
+              - heading "Veeqo" [level=5] [ref=e840]
+              - generic [ref=e841]:
+                - text: 运输软件
+                - text: 库存管理
+        - list [ref=e842]:
+          - listitem [ref=e843]:
+            - link "亚马逊企业采购商城 您的企业 所需的一切" [ref=e844]:
+              - /url: /-/zh/business?ref_=footer_retail_b2b
+              - heading "亚马逊企业采购商城" [level=5] [ref=e845]
+              - generic [ref=e846]:
+                - text: 您的企业
+                - text: 所需的一切
+          - listitem [ref=e847]
+          - listitem [ref=e848]:
+            - link "亚马逊海外购 配送订单 国际" [ref=e849]:
+              - /url: /-/zh/gp/browse.html?node=20338496011&ref_=footer_amazonglobal
+              - heading "亚马逊海外购" [level=5] [ref=e850]
+              - generic [ref=e851]:
+                - text: 配送订单
+                - text: 国际
+          - listitem [ref=e852]
+          - listitem [ref=e853]:
+            - link "亚马逊云科技 可扩展云 计算服务" [ref=e854]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=amazonfooter
+              - heading "亚马逊云科技" [level=5] [ref=e855]
+              - generic [ref=e856]:
+                - text: 可扩展云
+                - text: 计算服务
+          - listitem [ref=e857]
+          - listitem [ref=e858]:
+            - link "Audible 下载 有声读物" [ref=e859]:
+              - /url: https://www.audible.com
+              - heading "Audible" [level=5] [ref=e860]
+              - generic [ref=e861]:
+                - text: 下载
+                - text: 有声读物
+          - listitem [ref=e862]
+          - listitem [ref=e863]:
+            - link "Box Office Mojo 查找电影 票房数据" [ref=e864]:
+              - /url: https://www.boxofficemojo.com/?ref_=amzn_nav_ftr
+              - heading "Box Office Mojo" [level=5] [ref=e865]
+              - generic [ref=e866]:
+                - text: 查找电影
+                - text: 票房数据
+          - listitem [ref=e867]
+          - listitem [ref=e868]:
+            - link "Goodreads 电子书评论 和建议" [ref=e869]:
+              - /url: https://www.goodreads.com
+              - heading "Goodreads" [level=5] [ref=e870]
+              - generic [ref=e871]:
+                - text: 电子书评论
+                - text: 和建议
+          - listitem [ref=e872]
+          - listitem [ref=e873]:
+            - link "IMDb 电影、电视 和名人" [ref=e874]:
+              - /url: https://www.imdb.com
+              - heading "IMDb" [level=5] [ref=e875]
+              - generic [ref=e876]:
+                - text: 电影、电视
+                - text: 和名人
+        - list [ref=e877]:
+          - listitem [ref=e878]:
+            - link "IMDbPro 获取娱乐信息 专业人士需要" [ref=e879]:
+              - /url: https://pro.imdb.com?ref_=amzn_nav_ftr
+              - heading "IMDbPro" [level=5] [ref=e880]
+              - generic [ref=e881]:
+                - text: 获取娱乐信息
+                - text: 专业人士需要
+          - listitem [ref=e882]
+          - listitem [ref=e883]:
+            - link "Kindle直接出版 独立数字出版 轻松实现" [ref=e884]:
+              - /url: https://kdp.amazon.com
+              - heading "Kindle直接出版" [level=5] [ref=e885]
+              - generic [ref=e886]:
+                - text: 独立数字出版
+                - text: 轻松实现
+          - listitem [ref=e887]
+          - listitem [ref=e888]:
+            - link "Prime视频直接 视频分配 轻松实现" [ref=e889]:
+              - /url: https://videodirect.amazon.com/home/landing
+              - heading "Prime视频直接" [level=5] [ref=e890]
+              - generic [ref=e891]:
+                - text: 视频分配
+                - text: 轻松实现
+          - listitem [ref=e892]
+          - listitem [ref=e893]:
+            - link "Shopbop 设计师 时尚品牌" [ref=e894]:
+              - /url: https://www.shopbop.com
+              - heading "Shopbop" [level=5] [ref=e895]
+              - generic [ref=e896]:
+                - text: 设计师
+                - text: 时尚品牌
+          - listitem [ref=e897]
+          - listitem [ref=e898]:
+            - link "Woot! 优惠商品和 恶作剧" [ref=e899]:
+              - /url: https://www.woot.com/
+              - heading "Woot!" [level=5] [ref=e900]
+              - generic [ref=e901]:
+                - text: 优惠商品和
+                - text: 恶作剧
+          - listitem [ref=e902]
+          - listitem [ref=e903]:
+            - link "Zappos 鞋靴和 服装" [ref=e904]:
+              - /url: https://www.zappos.com
+              - heading "Zappos" [level=5] [ref=e905]
+              - generic [ref=e906]:
+                - text: 鞋靴和
+                - text: 服装
+          - listitem [ref=e907]
+          - listitem [ref=e908]:
+            - link "Ring 智能家居安防系统" [ref=e909]:
+              - /url: https://ring.com
+              - heading "Ring" [level=5] [ref=e910]
+              - generic [ref=e911]: 智能家居安防系统
+        - list [ref=e912]:
+          - listitem [ref=e913]
+          - listitem [ref=e914]
+          - listitem [ref=e915]:
+            - link "Eero WiFi 在每个房间播放 4K 视频" [ref=e916]:
+              - /url: https://eero.com/
+              - heading "Eero WiFi" [level=5] [ref=e917]
+              - generic [ref=e918]: 在每个房间播放 4K 视频
+          - listitem [ref=e919]
+          - listitem [ref=e920]:
+            - link "Blink 每个家庭的智能安防" [ref=e921]:
+              - /url: https://blinkforhome.com/?ref=nav_footer
+              - heading "Blink" [level=5] [ref=e922]
+              - generic [ref=e923]: 每个家庭的智能安防
+          - listitem [ref=e924]
+          - listitem [ref=e925]:
+            - link "Neighbors App 实时犯罪 和安全警报" [ref=e926]:
+              - /url: https://shop.ring.com/pages/neighbors-app
+              - heading "Neighbors App" [level=5] [ref=e927]
+              - generic [ref=e928]:
+                - text: 实时犯罪
+                - text: 和安全警报
+          - listitem [ref=e929]
+          - listitem [ref=e930]:
+            - link "PillPack 药房已简化" [ref=e931]:
+              - /url: https://www.pillpack.com
+              - heading "PillPack" [level=5] [ref=e932]
+              - generic [ref=e933]: 药房已简化
+          - listitem [ref=e934]
+          - listitem [ref=e935]
+          - listitem [ref=e936]
+          - listitem [ref=e937]
+    - generic [ref=e938]:
+      - list [ref=e939]:
+        - listitem [ref=e940]:
+          - link "使用条件" [ref=e941]:
+            - /url: /-/zh/gp/help/customer/display.html?nodeId=508088&ref_=footer_cou
+        - listitem [ref=e942]:
+          - link "隐私声明条款" [ref=e943]:
+            - /url: /-/zh/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ&ref_=footer_privacy
+        - listitem [ref=e944]:
+          - link "消费者健康数据隐私披露" [ref=e945]:
+            - /url: /-/zh/gp/help/customer/display.html?ie=UTF8&nodeId=TnACMrGVghHocjL8KB&ref_=footer_consumer_health_data_privacy
+        - listitem [ref=e946]:
+          - link "您的广告隐私选择" [ref=e947]:
+            - /url: /-/zh/privacyprefs?ref_=footer_iba
+        - listitem [ref=e948]
+      - generic [ref=e950]: © 1996-2026，Amazon.com, Inc.或其附属公司

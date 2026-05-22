@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Toys for Aggressive Chewers: 7 Indestructible Picks (2026)"
 description: "If your dog destroys every toy in minutes, you need these. We tested 20+ heavy-duty toys with Rocky the 'demolition expert.'"
-pubDate: 2026-05-20
+pubDate: 2026-05-22
 category: dog-toys
 featured: false
 tags: ["aggressive chewer", "indestructible toys", "durable", "heavy chewer", "dog toys"]

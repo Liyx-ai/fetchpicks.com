@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Harnesses: 9 Top Picks for Walking, Hiking & Training"
 description: "We tested 25+ harnesses with our puller Rocky and our sensitive Luna. Here are the ones that actually work."
-pubDate: 2026-05-20
+pubDate: 2026-05-22
 category: dog-gear
 featured: true
 tags: ["harness", "walking", "training", "no-pull", "gear"]
