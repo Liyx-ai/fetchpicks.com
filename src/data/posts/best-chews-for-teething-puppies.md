@@ -1,7 +1,7 @@
 ---
 title: "Best Chews for Teething Puppies: 7 Safe Options for Sore Gums (2026)"
 description: "Teething hurts — for puppies and your furniture. We tested 10 teething chews with Milo to find what soothes sore gums safely."
-pubDate: 2026-05-22
+pubDate: 2026-05-23
 category: dog-treats
 featured: false
 tags: ["teething", "puppy", "chews", "teething pain", "Milo"]

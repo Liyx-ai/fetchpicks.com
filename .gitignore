@@ -3,3 +3,4 @@ dist/
 .astro/
 *.zip
 .DS_Store
+.playwright-cli/

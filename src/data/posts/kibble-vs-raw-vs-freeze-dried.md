@@ -1,7 +1,7 @@
 ---
 title: "Kibble vs Raw vs Freeze-Dried Dog Food: Which is Best for Your Dog?"
 description: "Not sure which type of dog food to choose? We break down the pros, cons, and costs of kibble, raw, freeze-dried, and fresh food."
-pubDate: 2026-05-22
+pubDate: 2026-05-23
 category: guides
 featured: true
 tags: ["kibble", "raw", "freeze-dried", "comparison", "nutrition", "fresh food"]

@@ -1,2 +1,0 @@
-[    2914ms] [WARNING] AES-CBC and AES-CTR do not provide authentication by default, and implementing it manually can result in minor, but serious mistakes. We recommended using authenticated encryption like AES-GCM to protect against chosen-ciphertext attacks. @ https://www.amazon.com/s?k=Royal+Canin+Canned+Dog+Food+wet:5451
-[   10622ms] [ERROR] Beacon API cannot load https://unagi.amazon.com/1/events/com.amazon.csm.csa.prod. Reached maximum amount of queued data of 64Kb for keepalive requests @ https://www.amazon.com/s?k=Royal%20Canin%20Canned%20Dog%20Food%20wet:452

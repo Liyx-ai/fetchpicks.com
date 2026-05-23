@@ -1,7 +1,7 @@
 ---
 title: "10 Best Dry Dog Foods in 2026: Expert Picks for Every Budget"
 description: "We tested 15+ dry dog foods with our dogs Luna and Rocky. From budget-friendly to premium, here's what's actually worth your money."
-pubDate: 2026-05-22
+pubDate: 2026-05-23
 category: dog-food
 featured: true
 tags: ["dry dog food", "kibble", "budget", "premium", "review"]

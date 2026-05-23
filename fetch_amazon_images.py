@@ -101,6 +101,20 @@ PRODUCTS = [
     # === Guides ===
     ("product-midwest-icrate", "MidWest iCrate Dog Crate", "guides", "new-puppy-essentials-checklist"),
     ("product-nylabone-puppy", "Nylabone Puppy Teething Set", "guides", "new-puppy-essentials-checklist"),
+
+    # === New Weekly (May 24, 2026) — cat-supplies ===
+    ("product-litter-robot", "Litter-Robot 4 self cleaning litter box", "cat-supplies", "best-cat-litter-boxes"),
+    ("product-modkat-flip", "Modkat Flip Litter Box top entry", "cat-supplies", "best-cat-litter-boxes"),
+    ("product-natures-miracle-box", "Nature's Miracle High Sided Litter Box", "cat-supplies", "best-cat-litter-boxes"),
+
+    # === New Weekly (May 24, 2026) — dog-toys ===
+    ("product-nina-ottosson-tornado", "Nina Ottosson Dog Tornado puzzle toy", "dog-toys", "best-interactive-dog-toys"),
+    ("product-hide-a-squirrel", "Outward Hound Hide-A-Squirrel puzzle toy", "dog-toys", "best-interactive-dog-toys"),
+    ("product-kong-goodie-bone", "KONG Goodie Bone dog treat toy", "dog-toys", "best-interactive-dog-toys"),
+
+    # === New Weekly (May 24, 2026) — dog-training ===
+    ("product-petmate-sky", "Petmate Sky Kennel dog crate travel", "dog-training", "how-to-crate-train-a-puppy"),
+    ("product-kh-crate-pad", "K&H Pet Products Bolster Crate Pad", "dog-training", "how-to-crate-train-a-puppy"),
 ]
 
 # Products that come from same Amazon listing (share images)

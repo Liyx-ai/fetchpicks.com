@@ -1,7 +1,7 @@
 ---
 title: "New Puppy Essentials Checklist: Everything You Need (2026)"
 description: "Bringing home a new puppy? This checklist covers every essential item you'll need — from food bowls to crates, toys to training tools."
-pubDate: 2026-05-22
+pubDate: 2026-05-23
 category: guides
 featured: true
 tags: ["puppy", "new puppy", "checklist", "essentials", "beginner"]
