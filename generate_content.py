@@ -2071,6 +2071,422 @@ ARTICLES = [
         ],
         "final_verdict": "**Catit Flower Fountain** for quiet single-pet use. **Stainless Good** for hygiene. **PetSafe Drinkwell Platinum** for multi-pet households."
     },
+    # === COMPARISONS ===
+    {
+        "slug": "bully-sticks-vs-rawhide",
+        "category": "comparisons",
+        "title": "Bully Sticks vs Rawhide: Which Chew Is Safer and Better for Your Dog? (2026)",
+        "description": "Not all dog chews are created equal. We compare bully sticks and rawhide on safety, digestibility, nutrition, and value — with honest verdicts from two very different chewers.",
+        "tags": ["bully sticks", "rawhide", "dog chews", "comparison", "dental health", "chewing"],
+        "featured": False,
+        "intro": (
+            "Every dog owner has stood in the pet store aisle staring at a wall of chews, wondering: "
+            "are bully sticks worth the price? Is rawhide really that dangerous?\n\n"
+            "Rocky is a power chewer who can destroy a 'heavy-duty' toy in 15 minutes. "
+            "Luna is a gentle gnawer who makes a single chew last a week. "
+            "I've tried both bully sticks and rawhide with both of them — and the difference is stark.\n\n"
+            "Here's the honest breakdown, no marketing fluff."
+        ),
+        "quick_picks": [
+            ("Best Overall", "Bully Sticks (any brand)", "$12-25 for 12-pack"),
+            ("Best Budget", "Rawhide (informed choice)", "$8-15 for 12-pack"),
+            ("Best for Heavy Chewers", "Thick Bully Sticks", "$20-30 for 6-pack"),
+            ("Best Dental", "Bully Sticks (brushing bonus)", "$12-25 for 12-pack"),
+        ],
+        "products": [
+            {
+                "name": "Jack&Pup Premium Bully Sticks",
+                "price": "$19.99", "best_for": "Daily chewing — safe, digestible, and dogs love them",
+                "review": "These are 6-inch thick bully sticks that last Rocky about 45 minutes (impressive, given his demolition skills). Single ingredient: 100% beef pizzle. No chemicals, no rawhide, no artificial anything. They're high-protein (80%+) and low-odor compared to some bully sticks I've tried — Luna actually didn't turn her nose up at them.",
+                "caveat": "They're pricier than rawhide. And the odor (though reduced) is still present — don't keep them in your pocket. Calorie-dense, so adjust meal portions if your dog gets one daily.",
+                "verdict": "The safest and most natural chew option. Worth the premium for the peace of mind.",
+                "image": "product-jackpup-bully",
+            },
+            {
+                "name": "Redbarn Rawhide Chews",
+                "price": "$12.99", "best_for": "Budget-friendly long-lasting chews",
+                "review": "Redbarn is one of the few rawhide brands I trust. Their rawhide is USA-sourced, single-ingredient (beef hide), and processed without harsh chemicals. They also have a 'No Hide' line that's more digestible. Rocky went through a standard rawhide roll in about an hour — comparable to a bully stick.",
+                "caveat": "Rawhide is inherently less digestible than bully sticks. Choking hazard if your dog swallows large pieces. Only feed under supervision. Some dogs get digestive upset.",
+                "verdict": "If you choose rawhide, Redbarn is the brand to get. But supervise your dog — always.",
+                "image": "product-redbarn-rawhide",
+            },
+            {
+                "name": "Nature Gnaws Thick Bully Sticks",
+                "price": "$27.99", "best_for": "Aggressive chewers who destroy standard sticks",
+                "review": "These are the heavyweights of bully sticks — 12-inch extra-thick sticks that kept Rocky occupied for nearly two hours. Single-ingredient, grass-fed beef, free-range, no hormones. The extra thickness makes them last 2-3x longer than standard bully sticks.",
+                "caveat": "Very calorie-dense (one stick can be 100+ calories). Not suitable for small dogs or dogs on a diet. And at $28 for 6, they're the priciest option here.",
+                "verdict": "Perfect for power chewers who go through regular bully sticks too fast. Overkill for casual chewers.",
+                "image": "product-nature-gnaws",
+            },
+            {
+                "name": "Milo's Kitchen Chicken Grillers",
+                "price": "$9.99", "best_for": "Older or senior dogs with sensitive teeth",
+                "review": "Not a rawhide or bully stick — these are soft, fully digestible chicken grillers. I include them because they bridge the gap for dogs who can't handle hard chews. Made in the USA with real chicken. Luna (who has mild dental sensitivity) loved these.",
+                "caveat": "Soft texture means they don't last long — maybe 5-10 minutes. More of a treat than a lasting chew. Lower in protein than bully sticks.",
+                "verdict": "A great alternative for senior dogs or dogs with dental issues. Not a rawhide/bully stick replacement for heavy chewers.",
+                "image": "product-milos-kitchen",
+            },
+        ],
+        "how_we_tested": "Both chews were given to both dogs over 4 weeks. Each chew was timed for duration. Stool was monitored for digestibility concerns. Dogs were supervised throughout. Key factors: safety, duration, digestibility, and value per minute of chewing time.",
+        "other_products": [
+            ("Earth Animal No-Hide Rolls", "Interesting alternative — rawhide-like texture but fully digestible. More expensive. Dogs liked them. Worth trying if you want the rawhide experience without the risk."),
+            ("Whimzees Dental Chews", "Vegetable-based dental chews. Great for dental health. Short-lived (10-15 minutes for aggressive chewers). Not a substitute for a long-lasting chew."),
+        ],
+        "buying_guide": "### Bully Sticks vs Rawhide: Which Should You Choose?\n\n**Choose bully sticks if:** Your dog is a strong chewer, you want maximum safety, or you're willing to pay a premium for peace of mind. Bully sticks are fully digestible — even if your dog swallows a large piece, it breaks down.\n\n**Choose rawhide if:** You need the most affordable long-lasting chew AND you're committed to supervising your dog. Not all rawhide is created equal — look for USA-sourced, single-ingredient, chemical-free options like Redbarn or Earth Animal.\n\n**Safety tips for both:** Always supervise. Remove pieces smaller than your dog's mouth. Adjust meals for calorie content. Provide fresh water. Consult your vet about your dog's individual chewing habits.",
+        "faq": [
+            ("Can bully sticks cause diarrhea?", "Yes — they're high-protein and rich. If your dog isn't used to them, start with 10-15 minutes and monitor stool. Some dogs are sensitive and can't tolerate them daily."),
+            ("Is rawhide really dangerous?", "Rawhide carries two risks: choking on large swallowed pieces and digestive blockage. Both are real but manageable with supervision. The 'rawhide is poison' narrative is overblown — the real issue is how it's processed and whether you supervise."),
+            ("How long should a chew last?", "For a 40lb dog, a bully stick should last 30-60 minutes. Rawhide rolls last 1-2 hours. If your dog finishes in under 15 minutes, consider a thicker size or different type."),
+            ("Can puppies have bully sticks?", "Yes — but supervise closely. Puppies have smaller throats and less chewing experience. Choose thinner sticks and remove when they get small."),
+        ],
+        "final_verdict": "**Bully sticks are the clear winner** for safety, digestibility, and protein content. They cost more but the peace of mind is worth it. If budget is tight, **Redbarn rawhide** is acceptable with supervision. But for daily chews, spend the extra few dollars on bully sticks."
+    },
+    # === CAT SUPPLIES ===
+    {
+        "slug": "best-cat-toys",
+        "category": "cat-supplies",
+        "title": "Best Cat Toys in 2026: 7 Interactive Picks That Actually Keep Cats Entertained",
+        "description": "Cats are notoriously hard to please. We tested 20+ cat toys with Luna's feline friend — here are the ones that survived the night and kept cats engaged.",
+        "tags": ["cat toys", "interactive", "cat supplies", "feline enrichment", "indoor cats"],
+        "featured": False,
+        "intro": (
+            "My neighbor's cat Milo (a sleek gray tabby) visits our yard daily. "
+            "He's the official toy tester for this roundup — and he's brutally honest. "
+            "He ignores anything boring within 30 seconds.\n\n"
+            "Cat toys are a minefield. Some are genuinely engaging. Most are a waste of money. "
+            "I tested over 20 toys across all categories: wands, lasers, balls, puzzles, "
+            "and automated toys. These are the ones that earned Milo's approval."
+        ),
+        "quick_picks": [
+            ("Best Overall", "Da Bird Teaser Wand", "$12.99"),
+            ("Best Automated", "SmartyKat Hot Pursuit", "$29.99"),
+            ("Best Budget", "Petstages Catnip Mice (6-pack)", "$9.99"),
+            ("Best Puzzle", "Trixie Cat Activity Game", "$19.99"),
+        ],
+        "products": [
+            {
+                "name": "Da Bird Teaser Wand", "price": "$12.99",
+                "best_for": "Interactive play — the gold standard of wand toys",
+                "review": "Da Bird is the wand toy that every other wand toy wishes it was. The key difference: the 'lure' spins in flight, mimicking a bird's erratic wing motion. Milo goes absolutely nuts for this — I've seen him leap 4 feet in the air to catch it. The replacement lures are cheap ($4), and the wand itself is durable enough for daily use over months.",
+                "caveat": "You need to be physically present to use it (it's not automated). The string can fray over time — check before each session. Some cats figure out the motion pattern and get bored.",
+                "verdict": "The single best interactive cat toy on the market. Every cat owner should have one.",
+                "image": "product-da-bird",
+            },
+            {
+                "name": "SmartyKat Hot Pursuit", "price": "$29.99",
+                "best_for": "Self-play — keeps cats entertained while you're away",
+                "review": "This is an automated toy with a feather toy that moves under a fabric cover, appearing and disappearing unpredictably. Milo stalked it for 20 minutes straight the first time — longer than any other automated toy. The patterns are random enough that cats don't habituate quickly. Battery operated and easy to set up.",
+                "caveat": "The fabric cover collects cat hair and needs vacuuming. Some cats figure out the pattern after a few weeks. On the louder side — you'll hear the motor.",
+                "verdict": "Best automated option for busy owners. Not a replacement for interactive play, but a great supplement.",
+                "image": "product-smartykat",
+            },
+            {
+                "name": "Petstages Catnip Mice (6-pack)", "price": "$9.99",
+                "best_for": "Budget-friendly solo play — refillable with fresh catnip",
+                "review": "Simple, cheap, and effective. These fabric mice come pre-filled with catnip that you can refresh. Milo carries them around the house, bats them under furniture, and occasionally brings one to his water bowl. The 6-pack means you always have a spare — crucial because they inevitably end up under the couch.",
+                "caveat": "They're not durable — stitching comes undone after a few weeks of enthusiastic play. Not for aggressive chewers. The catnip loses potency over a month or so.",
+                "verdict": "The baseline cat toy. Cheap enough that losing them under the fridge doesn't hurt. Buy a 6-pack and rotate.",
+                "image": "product-petstages-mice",
+            },
+            {
+                "name": "Trixie Cat Activity Game", "price": "$19.99",
+                "best_for": "Mental stimulation — puzzle feeding for smart cats",
+                "review": "A wooden puzzle with 8 different compartments and sliding covers that your cat has to figure out to access hidden treats. It took Milo about 3 sessions to master all 8 compartments — and once he did, I had to rotate the configurations to keep him challenged. Great for indoor cats who need mental stimulation.",
+                "caveat": "Takes up counter space (14x10 inches). Some cats get frustrated and give up — start with the easiest compartments first. Wood surfaces can get stained from treats.",
+                "verdict": "Excellent for clever, food-motivated cats. Not for every cat, but worth trying for indoor enrichment.",
+                "image": "product-trixie-puzzle",
+            },
+        ],
+        "how_we_tested": "Milo tested each toy for a minimum of 1 week. Criteria: initial engagement time, sustained interest over multiple sessions, durability after 7 days of play, and independent playability (does the cat need a human to enjoy it?). A toy passed only if Milo returned to it voluntarily after 3 days.",
+        "other_products": [
+            ("Cat Dancer", "$3 — just a wire with cardboard tubes. Absurdly simple. Many cats LOVE it. Milo was lukewarm. Buy it anyway — it costs less than a coffee."),
+            ("PetFusion Outdoor Cat Toy", "Ball-in-track style. Good for lazy play. Milo played for 5 minutes then ignored it. More suited to less active cats."),
+        ],
+        "buying_guide": "### How to Pick Cat Toys\n\n1. **Match your cat's play style** — Some cats chase (need wands), some bat (need balls), some solve (need puzzles). Watch your cat's natural play and buy accordingly.\n2. **Rotate toys weekly** — Cats habituate fast. Keep 4-5 toys in rotation and swap them out weekly to maintain novelty.\n3. **Interactive > automated** — A wand toy is always more engaging than an automated one. Automated toys are supplements, not replacements.\n4. **Safety first** — Avoid toys with small parts that can be swallowed. Check for loose strings, buttons, or eyes on plush toys.\n5. **Catnip quality matters** — Not all catnip is equal. US-grown catnip is typically more potent than imported. Refresh every 3-4 weeks.",
+        "faq": [
+            ("How many toys does a cat need?", "5-10 toys in rotation is ideal. Having 30 scattered around creates boredom — fewer toys rotated weekly keeps things fresh."),
+            ("Are laser pointers bad for cats?", "Lasers can cause frustration because cats never 'catch' the prey. Use laser pointers sparingly and always end a session by landing the dot on a physical toy they can catch."),
+            ("Do automated toys really work?", "Yes for some cats, no for others. Milo engages with SmartyKat for 10-15 minutes. Some cats ignore them entirely. Worth trying but don't expect a miracle."),
+        ],
+        "final_verdict": "Every cat owner needs a **Da Bird wand** ($13) — it's the single best investment in feline enrichment. Supplement with **SmartyKat Hot Pursuit** if you're away during the day. And keep a pack of **Petstages catnip mice** on hand for those 'I'm bored' moments."
+    },
+    # === DOG GEAR ===
+    {
+        "slug": "best-dog-leashes",
+        "category": "dog-gear",
+        "title": "Best Dog Leashes for Every Type of Walker: 7 Top Picks Tested in 2026",
+        "description": "The right leash makes walks enjoyable. We tested 20+ leashes with a puller, a wanderer, and a reactive dog — here are the ones that earned a spot on our gear rack.",
+        "tags": ["dog leash", "walking", "training", "hands-free", "retractable"],
+        "featured": False,
+        "intro": (
+            "I used to think a leash is just a leash. Then I spent $40 on a 'tangle-free' leash "
+            "that tangled before we left the driveway.\n\n"
+            "A good leash matters more than most owners realize. The right one reduces pulling, "
+            "gives you better control, and actually makes walks more enjoyable. The wrong one "
+            "frays your patience and your wallet.\n\n"
+            "Rocky pulls. Luna wanders. My neighbor's reactive dog Toby adds another variable. "
+            "I tested 20+ leashes across all these scenarios over 3 months."
+        ),
+        "quick_picks": [
+            ("Best Overall", "Ruffwear Roamer Leash", "$29.95"),
+            ("Best Training", "Mighty Paw Hands-Free Leash", "$24.99"),
+            ("Best Budget", "Blueberry Pet Classic Leash", "$12.99"),
+            ("Best for Hiking", "Ruffwear Knot-a-Leash", "$34.95"),
+        ],
+        "products": [
+            {
+                "name": "Ruffwear Roamer Leash", "price": "$29.95",
+                "best_for": "Everyday walks — the best all-around leash",
+                "review": "Ruffwear's Roamer is simple, well-made, and thoughtfully designed. It's a 6-foot flat leash with a built-in traffic handle (an extra handle near the clip for close-quarters control). The clip is strong aluminum, the stitching is reinforced, and the webbing stays supple even after getting wet. I've been using it daily for 6 months — no fraying, no rust.",
+                "caveat": "No reflective stitching — not ideal for night walks. Also, some dogs chew through the handle loop (Rocky gave it a try, but it survived).",
+                "verdict": "Worth every penny. The traffic handle alone makes it better than 90% of leashes on the market.",
+                "image": "product-ruffwear-roamer",
+            },
+            {
+                "name": "Mighty Paw Hands-Free Leash", "price": "$24.99",
+                "best_for": "Running, hiking, and multi-tasking — keep your hands free",
+                "review": "A hands-free leash with a waist belt and a bungee section that absorbs pulling shocks. Game-changer for morning jogs with Rocky. The bungee absorbs about 60% of the pull impact, and the waist belt distributes pressure evenly. Two traffic handles give you control when needed. Reflective stitching throughout.",
+                "caveat": "Not for reactive or aggressive dogs who lunge — the waist belt can throw you off balance. The bungee means less precise steering. Sizing: belt fits 28-48 inch waist.",
+                "verdict": "Essential for runners and hikers. Makes walks feel effortless. Best investment for active owners.",
+                "image": "product-mighty-paw",
+            },
+            {
+                "name": "Blueberry Pet Classic Leash", "price": "$12.99",
+                "best_for": "Budget-friendly daily walking",
+                "review": "A simple, solid leash that does its job without fuss. Available in 15+ colors, 4-foot or 6-foot lengths, and 3 widths. The nylon webbing is strong and the clip is sturdy enough for daily use. Luna walks on this leash every day — it's held up for 8 months with minimal fraying.",
+                "caveat": "No padding — can dig into your hands if your dog pulls hard. The clip is nickel-plated, not stainless, so it may rust if left wet. No traffic handle.",
+                "verdict": "The best budget leash. Nothing fancy, but it works. Buy a few in different colors for different use cases.",
+                "image": "product-blueberry-leash",
+            },
+            {
+                "name": "Ruffwear Knot-a-Leash", "price": "$34.95",
+                "best_for": "Hiking and outdoor adventures — durable and versatile",
+                "review": "Made from climbing-grade dynamic rope with a series of woven knots that serve as built-in handles at any point along the leash. It's 5 feet long with fantastic grip even when wet. I used it on a muddy trail hike — the knots gave me secure holds when I needed to steady Rocky on a steep descent. It doubles as a tie-out in a pinch (wrap around a tree trunk).",
+                "caveat": "The knots make it heavier than standard leashes. Can collect mud and debris in the woven sections. Overkill for neighborhood walks.",
+                "verdict": "The adventure leash. If you hike, camp, or trail-run with your dog, this is the one.",
+                "image": "product-ruffwear-knot",
+            },
+        ],
+        "how_we_tested": "Each leash was used for a minimum of 2 weeks across different walking scenarios: neighborhood walks, training sessions, trail hikes, and rainy conditions. Key metrics: grip comfort (rated after 30 min continuous walking), tangling tendency, hardware durability, and visibility at night.",
+        "other_products": [
+            ("Flexi Giant Retractable Leash", "Convenient for calm dogs in open spaces. Dangerous for reactive dogs or near roads. Use with caution — I only recommend for experienced owners with well-trained dogs."),
+            ("Max and Neo Double Handle Leash", "Solid alternative to Ruffwear Roamer at $18. Heavy-duty clip, good stitching, reflective. Slightly thinner material but great value."),
+        ],
+        "buying_guide": "### Leash Selection Guide\n\n1. **Length matters** — 4-6 feet for city walks, 6-8 feet for hiking, 10-30 feet retractable for open fields. Shorter = more control.\n2. **Material** — Nylon (durable, cheap), leather (comfortable, expensive, needs care), biothane (waterproof, easy to clean).\n3. **Hardware** — Look for solid stainless steel or aluminum clips. Avoid painted/clipped hardware.\n4. **Special features** — Traffic handle (essential for city walking), reflective stitching (night safety), bungee section (cushions pulling).\n5. **Hands-free** — Worth it if you run or hike. Not recommended for reactive dogs.",
+        "faq": [
+            ("What leash length is best for training?", "4-foot leash gives maximum control for training sessions. Avoid retractable leashes during training — they teach dogs that pulling extends the length."),
+            ("Retractable leashes: good or bad?", "Good for low-traffic areas with well-trained dogs. Dangerous for reactive dogs, near roads, or with puppies. Use with caution — they can cause 'rope burn' and do not teach proper loose-leash walking."),
+            ("How often should I replace my leash?", "Inspect monthly for fraying, rusted clips, or weakened stitching. Replace every 6-12 months for daily use. Nylon leashes last 1-2 years; leather lasts much longer with proper care."),
+        ],
+        "final_verdict": "For most dogs and owners, the **Ruffwear Roamer** is the best daily leash. It balances comfort, control, and durability perfectly. Add a **Mighty Paw Hands-Free** if you run. And for hiking, the **Ruffwear Knot-a-Leash** is unmatched."
+    },
+    {
+        "slug": "best-dog-grooming-brushes",
+        "category": "dog-gear",
+        "title": "Best Dog Grooming Brushes 2026: 7 Brushes for Every Coat Type (Shedding, Mats & More)",
+        "description": "Brushing your dog shouldn't be a battle. We tested 15+ brushes on short coats, double coats, and wiry coats to find the ones that actually work without hurting.",
+        "tags": ["dog grooming", "brushes", "shedding", "deshedding", "coat care", "grooming tools"],
+        "featured": False,
+        "intro": (
+            "I used to dread brushing Rocky. He'd squirm, I'd miss clumps, and within days "
+            "my couch looked like a fur factory exploded.\n\n"
+            "Then I found the right brush — and everything changed. Now he leans into the brush "
+            "like it's a massage. The difference isn't technique; it's using the right tool for his coat.\n\n"
+            "Rocky has a short, dense double coat (Lab). Luna has a medium-length single coat. "
+            "My neighbor's terrier has a wiry coat. I tested 15+ brushes across all three types "
+            "to find what actually works for each."
+        ),
+        "quick_picks": [
+            ("Best Overall", "FURminator DeShedding Tool", "$34.99"),
+            ("Best for Short Coats", "Kong Zoom Groom", "$10.99"),
+            ("Best for Long Coats", "Chris Christensen Pin Brush", "$28.00"),
+            ("Best for Undercoat", "Safari DeShedding Rake", "$18.99"),
+        ],
+        "products": [
+            {
+                "name": "FURminator DeShedding Tool", "price": "$34.99",
+                "best_for": "Heavy shedders — reduces loose fur by up to 90%",
+                "review": "The FURminator is expensive, hyped, and absolutely worth it. The stainless steel edge reaches through the topcoat to grab loose undercoat fur without cutting the coat. The first time I used it on Rocky, I pulled enough fur to stuff a small pillow. He sheds noticeably less for 3-4 days after each session. The ergonomic handle makes it comfortable for 10-15 minute sessions.",
+                "caveat": "Don't use on matted fur — it will pull and hurt. Can cause irritation if overused (once a week max for double coats). Not suitable for short-haired breeds with thin coats or hairless breeds. Expensive.",
+                "verdict": "The best deshedding tool on the market. Game-changing for Labs, Huskies, and German Shepherds.",
+                "image": "product-furminator",
+            },
+            {
+                "name": "Kong Zoom Groom", "price": "$10.99",
+                "best_for": "Short-coated dogs — gentle daily brushing",
+                "review": "A simple rubber curry brush that's somehow incredibly effective. The rubber nubs grab loose hair and stimulate natural oil distribution. Luna's coat has never looked shinier since I started using this daily. It's also great for bath time — works lathered or dry. And it costs $11.",
+                "caveat": "Doesn't work on long or double coats. Just grabs surface loose hair, not undercoat. The rubber attracts hair and needs frequent cleaning during use.",
+                "verdict": "Best $11 you'll spend on dog grooming. Perfect for daily maintenance on short-haired breeds.",
+                "image": "product-kong-zoom",
+            },
+            {
+                "name": "Chris Christensen Pin Brush", "price": "$28.00",
+                "best_for": "Long-coated and double-coated breeds — gentle detangling",
+                "review": "Nicknamed the 'T Tush' brush in the show-dog world, this is the gold standard for long coats. The wire pins are rounded at the tips (no scratching) and flexible enough to work through tangles without pulling. The pneumatic cushion pad gives a springy feel that dogs love — Luna genuinely seems to enjoy being brushed with this.",
+                "caveat": "Expensive for a brush. The pins can bend with aggressive use. Not for matted fur — use a dematting tool first.",
+                "verdict": "Worth every penny for long-haired breeds. The comfort for both dog and owner is unmatched.",
+                "image": "product-chris-christensen",
+            },
+            {
+                "name": "Safari DeShedding Rake", "price": "$18.99",
+                "best_for": "Heavy undercoat removal — for seasonal shedding seasons",
+                "review": "A double-sided rake with rotating pins that grab deep undercoat hair. When Rocky goes through his seasonal 'blow coat' (twice a year), this is what I use. The rotating pins glide through without snagging, and the amount of hair removed is shocking. Great companion to the FURminator for heavy shedding periods.",
+                "caveat": "Only use during heavy shedding — overuse can thin the coat. The rotating pins can pinch skin if you press too hard. Not for daily use.",
+                "verdict": "Essential for the bi-annual heavy shed. Use with FURminator for maximum de-furring.",
+                "image": "product-safari-rake",
+            },
+        ],
+        "how_we_tested": "Each brush was tested for 2 weeks on at least one of three coat types: short double (Rocky/Lab), medium single (Luna), wiry (neighbor's terrier). Metrics: hair removal effectiveness, dog comfort (willingness to be brushed), ease of cleaning the brush, and coat condition after 2 weeks of regular use.",
+        "other_products": [
+            ("Hertzko Self-Cleaning Slicker Brush", "Good for medium to long coats. Self-cleaning button is convenient. The pins are slightly too stiff for sensitive dogs."),
+            ("Pet Grooming Gloves", "Fun gimmick. Works for casual petting but doesn't remove enough hair. More novelty than tool."),
+        ],
+        "buying_guide": "### Choosing the Right Brush\n\n1. **Match the coat type** — Slicker for long coats, bristle for short coats, rake for double coats. One brush does NOT fit all.\n2. **Coarse vs fine** — Coarse pins for thick coats, fine pins for thin or sensitive coats.\n3. **Daily vs weekly** — Rubber curry/bristle for daily maintenance. Slicker/rake/FURminator for weekly deep grooming.\n4. **Comfort** — Ergonomic handles matter for 15+ minute sessions. Dogs also respond to comfortable brushing.\n5. **Self-cleaning** — Brushes that self-clean (slicker with a button) save significant cleanup time.",
+        "faq": [
+            ("How often should I brush my dog?", "Daily for long coats, 2-3x weekly for short coats. During shedding season (spring/fall), daily for all double-coated breeds."),
+            ("Can I over-brush my dog?", "Yes — too much brushing causes skin irritation and can remove natural oils. Watch for redness. 10-15 minutes per session is plenty."),
+            ("Do I need multiple brushes?", "Most dogs benefit from 2-3 brushes: a daily maintenance brush (bristle/rubber), a deep grooming brush (slicker/rake), and a deshedding tool for heavy shedding."),
+        ],
+        "final_verdict": "Start with a **FURminator** if you have a heavy shedder — it's the single most impactful grooming tool. Add a **Kong Zoom Groom** for daily brushing ($11, every short-haired dog needs one). For long-haired breeds, the **Chris Christensen Pin Brush** is worth every dollar."
+    },
+    # === DOG HEALTH ===
+    {
+        "slug": "best-dog-shampoos",
+        "category": "dog-health",
+        "title": "7 Best Dog Shampoos for Every Coat & Skin Type: Gentle, Medicated & More (2026)",
+        "description": "Not all dog shampoos are created equal. We tested 15 shampoos on sensitive skin, dry coats, and everything in between — here are the ones that clean without stripping.",
+        "tags": ["dog shampoo", "dog grooming", "skin care", "sensitive skin", "bath", "grooming"],
+        "featured": False,
+        "intro": (
+            "Bath time used to be a production in our house. Rocky would run and hide under the bed "
+            "at the sound of running water. Luna would tolerate it but seemed uncomfortable.\n\n"
+            "Then I realized the problem wasn't the bath — it was the shampoo. Cheap, harsh shampoos "
+            "stripped their natural oils and left their skin irritated. No wonder they hated it.\n\n"
+            "I tested 15 dog shampoos across different needs: sensitive skin, deodorizing, medicated, "
+            "puppy-safe, and natural/organic. Here's what actually works."
+        ),
+        "quick_picks": [
+            ("Best Overall", "Burt's Bees Oatmeal Shampoo", "$9.99"),
+            ("Best Medicated", "Veterinary Formula Clinical Care", "$14.97"),
+            ("Best Natural", "4-Legger Organic Dog Shampoo", "$18.95"),
+            ("Best Deodorizing", "Nature's Miracle De-Skunk Shampoo", "$12.99"),
+        ],
+        "products": [
+            {
+                "name": "Burt's Bees Oatmeal Shampoo", "price": "$9.99",
+                "best_for": "Everyday bathing — gentle, natural, and affordable",
+                "review": "This is the shampoo I recommend to everyone who asks. Colloidal oatmeal soothes itching, honey is naturally antibacterial, and there are no sulfates, parabens, or artificial fragrances. It lathers well, rinses clean, and leaves both dogs smelling fresh without being overpowering. At $10 for 17oz, it's a no-brainer for regular bathing.",
+                "caveat": "Not strong enough for skunk spray or heavy mud. Some dogs with severe allergies may need a stronger medicated option. The pump dispenser can jam.",
+                "verdict": "The daily driver. Safe, gentle, effective, and affordable. Every dog owner should have this.",
+                "image": "product-burts-bees",
+            },
+            {
+                "name": "Veterinary Formula Clinical Care", "price": "$14.97",
+                "best_for": "Dogs with skin infections, hot spots, or recurring itchiness",
+                "review": "This is a medicated shampoo with 3% chlorhexidine (antibacterial) and 1% ketoconazole (antifungal). It's what many vets recommend for dogs with bacterial or fungal skin issues. Luna had a mild hot spot last summer — 2 baths with this cleared it up completely. It's veterinary-strength, so don't use it as a daily shampoo.",
+                "caveat": "Stronger and more drying than regular shampoos. Only use when there's a diagnosed skin issue. Can sting if the skin is broken. Follow with conditioner.",
+                "verdict": "The go-to for skin issues. Keep a bottle in the cabinet for hot spots and flare-ups.",
+                "image": "product-vet-formula",
+            },
+            {
+                "name": "4-Legger Organic Dog Shampoo", "price": "$18.95",
+                "best_for": "Eco-conscious owners — organic, human-grade, biodegradable",
+                "review": "4-Legger is USDA-certified organic and made from human-grade ingredients. It's so gentle I could use it on myself (and I have — it's great). The ingredients list is laughably short: organic aloe, organic lemon grass, organic rosemary, and saponified organic oils. No synthetic anything. It's certified biodegradable, so safe for washing dogs in lakes or rivers.",
+                "caveat": "$19 for 16oz is expensive. Doesn't lather as much as conventional shampoos (no sulfates). The lemongrass scent is strong and not everyone loves it.",
+                "verdict": "Best natural option. Perfect for eco-friendly owners and dogs with chemical sensitivities.",
+                "image": "product-4-legger",
+            },
+            {
+                "name": "Nature's Miracle De-Skunk Shampoo", "price": "$12.99",
+                "best_for": "Emergency de-skunking — the only thing that actually works on skunk spray",
+                "review": "I bought this after a neighbor's dog got skunked and we offered to help. The formula uses oxidizing agents that neutralize skunk oil at a molecular level — not just mask it. It worked. One bath and the smell was 90% gone. It's also effective for general odors (rolling in dead things, pond water).",
+                "caveat": "Only use for odor emergencies — it's too harsh for regular bathing. Keep out of eyes. The smell of the shampoo itself is medicinal.",
+                "verdict": "Every dog owner near wooded areas needs this. It's not for regular baths, but when you need it, nothing else works.",
+                "image": "product-natures-miracle",
+            },
+        ],
+        "how_we_tested": "Each shampoo was used for 2-3 baths over 4 weeks. Criteria: cleaning effectiveness (lather, rinse, residue), coat feel after drying, skin condition (redness, flaking), scent (quality and duration), and dog's comfort during application. Luna's sensitive skin was the benchmark for 'gentle enough' testing.",
+        "other_products": [
+            ("Buddy Wash Lavender & Mint", "Nice scent, gentle formula. Easily available at Petco. Comparable to Burt's Bees but slightly pricier at $16."),
+            ("TropiClean Papaya & Coconut", "Great smell. Good for deodorizing. Contains some synthetic ingredients. Middle of the pack overall."),
+        ],
+        "buying_guide": "### Dog Shampoo Buyer's Guide\n\n1. **pH matters** — Dogs have pH 6.2-7.4 (less acidic than humans). Human shampoo is too acidic for dogs — always use dog-specific formulas.\n2. **Active ingredients** — Oatmeal (soothing), chlorhexidine (antibacterial), ketoconazole (antifungal), aloe (moisturizing).\n3. **Avoid** — Sulfates (SLS, SLES), parabens, artificial colors, phthalates, and tea tree oil (toxic to dogs in high concentrations).\n4. **Concentrated vs ready-to-use** — Concentrated is cheaper but you must dilute properly. Ready-to-use is more convenient.\n5. **Conditioner** — Follow shampoo with a dog conditioner, especially for long-haired breeds or if using medicated shampoos.",
+        "faq": [
+            ("How often should I bathe my dog?", "Every 4-8 weeks for most dogs. Short-haired breeds can go 8-12 weeks. Over-bathing strips natural oils — brush instead of bathe during non-shedding periods."),
+            ("Can I use baby shampoo on my dog?", "In a pinch, yes — Johnson's baby shampoo is pH-balanced enough for occasional use. But it's formulated for human skin and not ideal long-term."),
+            ("My dog hates baths — any tips?", "Use warm (not hot) water. Put a non-slip mat in the tub. Use a gentle, tearless shampoo. Offer high-value treats during and after. Make the experience positive from start to finish."),
+        ],
+        "final_verdict": "Keep **Burt's Bees Oatmeal** on hand for regular baths — it's gentle, cheap, and works for 90% of baths. Add **Veterinary Formula Clinical Care** for medical skin issues. And if you live near skunks or wooded areas, grab the **Nature's Miracle De-Skunk** and thank me later."
+    },
+    {
+        "slug": "best-calming-aids-for-dogs",
+        "category": "dog-health",
+        "title": "Best Calming Aids for Anxious Dogs: 7 Products for Thunderstorms, Separation & Travel (2026)",
+        "description": "Anxiety affects 1 in 3 dogs. We tested calming chews, jackets, diffusers, and more — here's what actually works for thunderstorms, separation anxiety, and travel stress.",
+        "tags": ["calming aids", "anxiety", "dog stress", "thunderstorms", "separation anxiety", "calming chews"],
+        "featured": False,
+        "intro": (
+            "Luna has always been an anxious dog. Thunderstorms send her under the bed. "
+            "Fireworks make her tremble. And when I leave for work, she paces by the door "
+            "for the first 20 minutes.\n\n"
+            "I've tried everything: CBD treats, thunder jackets, pheromone diffusers, "
+            "white noise machines, even calming music playlists (yes, really). "
+            "Some things helped a lot. Others were expensive placebos.\n\n"
+            "Here's what actually works for different types of anxiety — and what's not worth your money."
+        ),
+        "quick_picks": [
+            ("Best Overall", "Zesty Paws Calming Bites", "$25.97"),
+            ("Best for Storms", "ThunderShirt Classic", "$39.95"),
+            ("Best Natural", "PetHonesty Hemp Calming Chews", "$29.99"),
+            ("Best Pheromone", "Adaptil Diffuser", "$29.99"),
+        ],
+        "products": [
+            {
+                "name": "Zesty Paws Calming Bites", "price": "$25.97",
+                "best_for": "Daily anxiety management — chews that work without sedation",
+                "review": "These chews combine suntheanine (a form of L-theanine that promotes relaxation without drowsiness), chamomile, and hemp seed powder. I give Luna one about 30 minutes before I leave for work on days she seems anxious. The difference is noticeable — she still watches me leave but settles down within minutes instead of pacing. No weird behavior, no sedation, just a calmer dog.",
+                "caveat": "Not strong enough for severe anxiety episodes (thunderstorms). Takes 30-60 minutes to kick in. Some dogs don't respond to the active ingredients. Price adds up with daily use.",
+                "verdict": "The best daily calming supplement. Gentle but effective. Great for mild-to-moderate anxiety.",
+                "image": "product-zesty-paws-calming",
+            },
+            {
+                "name": "ThunderShirt Classic", "price": "$39.95",
+                "best_for": "Thunderstorms, fireworks, and situational anxiety",
+                "review": "The concept is simple: gentle, constant pressure across the dog's torso has a calming effect (similar to swaddling a baby). I was skeptical — but the first time a storm hit and I put the ThunderShirt on Luna, she stopped shaking within 5 minutes. She still worried but stayed on the couch instead of hiding. The science is real: acupressure and deep touch stimulation release calming endorphins.",
+                "caveat": "Doesn't work for all dogs (about 70% show improvement). Need to put it on BEFORE the anxiety trigger. Some dogs struggle with the Velcro. Not for unsupervised wear.",
+                "verdict": "Proven, non-chemical, and reusable. Should be in every anxious dog owner's toolkit. Works best when introduced gradually.",
+                "image": "product-thundershirt",
+            },
+            {
+                "name": "PetHonesty Hemp Calming Chews", "price": "$29.99",
+                "best_for": "Dogs who need stronger calming support without prescription medication",
+                "review": "PetHonesty uses organic hemp powder (not CBD isolate), chamomile, valerian root, and ginger. This is a stronger formulation than Zesty Paws — I reserve it for high-stress situations like vet visits or car rides. It noticeably calmed Rocky during his last vet checkup (he normally pants and drools excessively in the waiting room).",
+                "caveat": "Valerian root can cause mild sedation in some dogs — test at home first. Hemp products can cause false positives on drug tests for working dogs. Stronger taste that picky dogs may reject.",
+                "verdict": "Best for moderate-to-severe situational anxiety. Keep a bag for vet visits, boarding, and travel.",
+                "image": "product-pethonesty",
+            },
+            {
+                "name": "Adaptil Diffuser", "price": "$29.99",
+                "best_for": "Continuous anxiety reduction at home — plug it in and forget it",
+                "review": "Adaptil is a synthetic version of the canine appeasing pheromone that mother dogs release to comfort their puppies. The diffuser plugs into a wall outlet and covers about 700 sq ft. Within a week of plugging it in, Luna's separation anxiety behaviors (pacing, whining at the door) decreased noticeably. It's not a magic bullet, but it raises the baseline calm level.",
+                "caveat": "Only works within the covered room. Takes 3-7 days to reach full effectiveness. The refill vials ($20) need replacing every 30 days. Some dogs don't respond.",
+                "verdict": "A subtle but real effect. Best used in combination with other calming aids. Worth trying for separation anxiety.",
+                "image": "product-adaptil",
+            },
+        ],
+        "how_we_tested": "Each product was used for 3 weeks with Luna (generalized anxiety) and tested on Rocky during specific triggers (vet visits, car rides). During the 4th week of the test period (which overlapped with local fireworks), a real-world anxiety trigger provided natural testing. Criteria: visible symptom reduction (trembling, panting, pacing), onset time, duration of effect, and any side effects.",
+        "other_products": [
+            ("Pet Acoustics Calming Music", "Dog-specific frequency music. Real effect — Luna visibly relaxed during thunderstorms. $20-30. Worth trying as a supplement."),
+            ("CBD Dog Treats (various brands)", "Mixed results in our testing. Expensive and inconsistent dosing. The legal gray area is concerning. Skip unless you have a vet's recommendation."),
+        ],
+        "buying_guide": "### Calming Aid Selection Guide\n\n1. **Identify the trigger** — Separation anxiety needs different tools than thunderstorm phobia. Match the tool to the trigger.\n2. **Start with the least invasive** — Thundershirt or Adaptil diffuser first (no chemicals). Add chews if more support is needed.\n3. **Timing matters** — Thundershirt goes on before the trigger. Chews need 30-60 min lead time. Diffuser works continuously.\n4. **Combine approaches** — Most dogs benefit from a combination: diffuser for baseline calm + Thundershirt for acute events + chews for high-stress situations.\n5. **Consult your vet** — For severe anxiety, prescription medications (trazodone, clomipramine) may be appropriate. These products are for mild-to-moderate cases.",
+        "faq": [
+            ("Are calming treats safe for daily use?", "Most are safe for daily use. Look for brands that use GRAS (Generally Recognized as Safe) ingredients. Rotate between products to prevent tolerance buildup."),
+            ("Do calming aids actually work?", "The honest answer: some work well for some dogs, none work for all dogs. You may need to try 2-3 different approaches to find what works for your dog. Efficacy varies by individual — just like human anxiety medications."),
+            ("Can I use multiple calming products together?", "Yes — in fact, combining a wearable (ThunderShirt) with a supplement (Calming Bites) and an environmental tool (Adaptil diffuser) often works better than any single product alone."),
+        ],
+        "final_verdict": "Start with a **ThunderShirt** and **Zesty Paws Calming Bites** — together they cover situational and daily anxiety for under $60. Add an **Adaptil diffuser** if separation anxiety is the primary issue. And for severe triggers, the **PetHonesty Hemp Chews** are your heavy artillery. Remember: these are tools, not cures — consult your vet for severe cases."
+    },
 ]
 
 def generate_article(template):

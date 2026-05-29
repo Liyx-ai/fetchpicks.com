@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Cooling Mats: 7 Picks for Summer Heat Relief (2026)"
 description: "Summer heat is dangerous for dogs. We tested 8 cooling mats to find the safest, most effective ways to keep your dog cool."
-pubDate: 2026-05-23
+pubDate: 2026-05-29
 category: dog-gear
 featured: false
 tags: ["cooling mat", "summer", "heat relief", "dog cooling", "overheating", "seasonal"]

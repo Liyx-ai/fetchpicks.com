@@ -1,7 +1,7 @@
 ---
 title: "10 Best Dog Treats for Training: High-Value Rewards That Work (2026)"
 description: "Training treats need to be small, smelly, and irresistible. We tested 15 to find the ones dogs actually work for — without empty fillers."
-pubDate: 2026-05-23
+pubDate: 2026-05-29
 category: dog-treats
 featured: false
 tags: ["training treats", "rewards", "training", "puppy", "positive reinforcement"]

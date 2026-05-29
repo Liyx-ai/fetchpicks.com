@@ -1,7 +1,7 @@
 ---
 title: "Best Cat Litter Boxes: 7 Self-Cleaning, Hooded & Standard Options (2026)"
 description: "Litter box technology has come a long way. From self-cleaning robots to budget-friendly basics, we tested 10 litter boxes for odor control, size, and cat approval."
-pubDate: 2026-05-23
+pubDate: 2026-05-29
 category: cat-supplies
 featured: true
 tags: ["litter box", "cat supplies", "self-cleaning", "cat hygiene", "odor control"]

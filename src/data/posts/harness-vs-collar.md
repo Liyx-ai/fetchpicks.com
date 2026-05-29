@@ -1,7 +1,7 @@
 ---
 title: "Harness vs Collar: Which Is Safer for Your Dog? (2026 Guide)"
 description: "The great debate: harness or collar? We break down when to use each, the risks, and the best options for every dog size."
-pubDate: 2026-05-23
+pubDate: 2026-05-29
 category: comparisons
 featured: true
 tags: ["harness", "collar", "walking", "safety", "comparison", "trachea"]

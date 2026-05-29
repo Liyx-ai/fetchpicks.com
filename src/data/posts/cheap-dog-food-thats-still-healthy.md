@@ -1,7 +1,7 @@
 ---
 title: "7 Cheap Dog Foods That Are Still Healthy (Under $40/bag)"
 description: "You don't need to break the bank for quality dog food. We found 7 affordable options that meet AAFCO standards and dogs actually enjoy."
-pubDate: 2026-05-23
+pubDate: 2026-05-29
 category: dog-food
 featured: true
 tags: ["budget dog food", "cheap dog food", "affordable", "value", "AAFCO"]

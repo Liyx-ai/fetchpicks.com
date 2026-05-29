@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Collars: 7 Top Picks for Every Breed (2026)"
 description: "From everyday flat collars to martingale and reflective options — we tested 12 collars to find the best for every situation."
-pubDate: 2026-05-23
+pubDate: 2026-05-29
 category: dog-gear
 featured: false
 tags: ["dog collar", "flat collar", "martingale", "reflective", "ID tag", "walking"]

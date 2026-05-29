@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Food for Allergies: 7 Hypoallergenic & Limited Ingredient Options (2026)"
 description: "Is your dog itching, scratching, or dealing with chronic ear infections? It might be food allergies. We tested 10 limited-ingredient diets to find relief."
-pubDate: 2026-05-23
+pubDate: 2026-05-29
 category: dog-health
 featured: true
 tags: ["allergies", "limited ingredient", "hypoallergenic", "skin", "itching", "LID"]

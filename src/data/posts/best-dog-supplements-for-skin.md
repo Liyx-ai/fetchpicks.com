@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Supplements for Skin Health: 7 Picks for Itchy, Dry, & Allergic Dogs (2026)"
 description: "Skin issues are one of the most common reasons for vet visits. We tested 10 skin supplements to find what actually stops the scratching."
-pubDate: 2026-05-23
+pubDate: 2026-05-29
 category: dog-health
 featured: true
 tags: ["skin health", "supplements", "omega-3", "fish oil", "itching", "dander"]

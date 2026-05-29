@@ -1,7 +1,7 @@
 ---
 title: "Best Wet Dog Foods: 6 Top Picks for Picky Eaters (2026)"
 description: "Wet dog food can be more palatable and hydrating. We tested 30+ wet dog foods with picky Luna — here's what passed the taste test."
-pubDate: 2026-05-23
+pubDate: 2026-05-29
 category: dog-food
 featured: false
 tags: ["wet dog food", "canned dog food", "picky eater", "hydration", "review"]
