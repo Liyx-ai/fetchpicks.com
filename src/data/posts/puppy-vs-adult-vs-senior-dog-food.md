@@ -1,7 +1,7 @@
 ---
 title: "Puppy vs Adult vs Senior Dog Food: What Changes and When to Switch"
 description: "Dog nutritional needs change dramatically with age. Here's exactly when to switch life stages and what to look for in each formula."
-pubDate: 2026-05-29
+pubDate: 2026-06-05
 category: guides
 featured: false
 tags: ["puppy", "adult", "senior", "life stage", "nutrition", "guide"]

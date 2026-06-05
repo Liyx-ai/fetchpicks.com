@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Grooming Brushes 2026: 7 Brushes for Every Coat Type (Shedding, Mats & More)"
 description: "Brushing your dog shouldn't be a battle. We tested 15+ brushes on short coats, double coats, and wiry coats to find the ones that actually work without hurting."
-pubDate: 2026-05-29
+pubDate: 2026-06-05
 category: dog-gear
 featured: false
 tags: ["dog grooming", "brushes", "shedding", "deshedding", "coat care", "grooming tools"]

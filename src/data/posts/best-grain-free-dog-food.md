@@ -1,7 +1,7 @@
 ---
 title: "Best Grain-Free Dog Foods: 7 Top Brands Reviewed (2026)"
 description: "Grain-free dog food can help dogs with sensitivities. We tested 7 brands with our picky eaters — here's what worked and what didn't."
-pubDate: 2026-05-29
+pubDate: 2026-06-05
 category: dog-food
 featured: true
 tags: ["grain-free", "dog food", "sensitive stomach", "allergies", "review"]

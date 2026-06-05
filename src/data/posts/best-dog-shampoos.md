@@ -1,7 +1,7 @@
 ---
 title: "7 Best Dog Shampoos for Every Coat & Skin Type: Gentle, Medicated & More (2026)"
 description: "Not all dog shampoos are created equal. We tested 15 shampoos on sensitive skin, dry coats, and everything in between — here are the ones that clean without stripping."
-pubDate: 2026-05-29
+pubDate: 2026-06-05
 category: dog-health
 featured: false
 tags: ["dog shampoo", "dog grooming", "skin care", "sensitive skin", "bath", "grooming"]

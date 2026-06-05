@@ -1,7 +1,7 @@
 ---
 title: "Bully Sticks vs Rawhide: Which Chew Is Safer and Better for Your Dog? (2026)"
 description: "Not all dog chews are created equal. We compare bully sticks and rawhide on safety, digestibility, nutrition, and value — with honest verdicts from two very different chewers."
-pubDate: 2026-05-29
+pubDate: 2026-06-05
 category: comparisons
 featured: false
 tags: ["bully sticks", "rawhide", "dog chews", "comparison", "dental health", "chewing"]

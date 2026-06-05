@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Water Fountains: 6 Flowing Water Options for Better Hydration (2026)"
 description: "Dogs prefer flowing water. We tested 8 pet fountains to find the ones that actually encourage more drinking and stay clean."
-pubDate: 2026-05-29
+pubDate: 2026-06-05
 category: dog-gear
 featured: false
 tags: ["water fountain", "hydration", "pet fountain", "drinking", "stainless steel", "filtered water"]
