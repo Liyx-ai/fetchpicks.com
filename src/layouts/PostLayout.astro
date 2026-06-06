@@ -525,4 +525,36 @@ const articleSchemaStr = JSON.stringify(articleSchema, null, 2);
     .post-article { padding: 16px; border-radius: 12px; }
     .article-hero-title { font-size: 1.5rem; }
   }
+
+  /* ════════════════════════════════════════
+     DARK MODE - ARTICLE
+     ════════════════════════════════════════ */
+  @media (prefers-color-scheme: dark) {
+    .article-hero {
+      background: linear-gradient(160deg, #1A0E0A 0%, #1A1410 30%, #0A1A18 70%, #0A1210 100%);
+    }
+    .article-category-badge {
+      background: rgba(26,26,48,0.85);
+      border-color: rgba(255,103,64,0.2);
+    }
+    .article-tag {
+      background: rgba(26,26,48,0.7);
+      border-color: rgba(255,255,255,0.05);
+    }
+    .post-disclaimer {
+      background: #2A2410;
+      border-color: #4A4020;
+      color: #D0C8B0;
+    }
+    .post-cta-card {
+      background: linear-gradient(135deg, var(--bg-alt), #1A1410);
+    }
+    .post-content blockquote {
+      background: var(--bg-card);
+    }
+    .post-content h3 {
+      background: var(--bg-card);
+      border-color: var(--border);
+    }
+  }
 </style>

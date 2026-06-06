@@ -17,9 +17,9 @@ _Not sure which type of dog food to choose? We break down the pros, cons, and co
 
 ---
 
-The dog food aisle used to be simple: kibble or canned. Now you've got raw patties, freeze-dried nuggets, air-dried, fresh-delivery services, dehydrated — it's overwhelming.
+The dog food aisle used to be simple: kibble or canned. Now you've got raw patties, freeze-dried nuggets, air-dried, fresh-delivery services, dehydrated - it's overwhelming.
 
-I've fed all four main types to my dogs over the years. Each has serious trade-offs. Kibble is cheap but heavily processed. Raw is natural but requires careful handling. Freeze-dried is convenient but expensive. Fresh food is amazing — if you can afford it.
+I've fed all four main types to my dogs over the years. Each has serious trade-offs. Kibble is cheap but heavily processed. Raw is natural but requires careful handling. Freeze-dried is convenient but expensive. Fresh food is amazing - if you can afford it.
 
 Here's the honest, no-BS comparison so you can decide what works for your lifestyle and budget.
 
@@ -48,11 +48,11 @@ Each food type was fed as the primary diet for 4-8 weeks. Kibble (ongoing baseli
 
 **Price:** $89.99 | [Check Price on Amazon →](https://www.amazon.com/s?k=Orijen%20Original%20Kibble&tag=fetchpicks20-20)
 
-**Best for:** Convenience + quality — best of both worlds
+**Best for:** Convenience + quality - best of both worlds
 
 ![Orijen Original Kibble](/images/posts/guides/product-orijen.jpg)
 
-Kibble is the most convenient option: shelf-stable, easy to measure, good for dental health. Orijen is as close to raw as kibble gets — whole-prey ratios, high protein (38%), freeze-dried coating for flavor. No artificial anything.
+Kibble is the most convenient option: shelf-stable, easy to measure, good for dental health. Orijen is as close to raw as kibble gets - whole-prey ratios, high protein (38%), freeze-dried coating for flavor. No artificial anything.
 
 > **⚠️ Caveat:** Still highly processed compared to raw. Some dogs do better on less processed diets.
 
@@ -68,7 +68,7 @@ Kibble is the most convenient option: shelf-stable, easy to measure, good for de
 
 ![Stella & Chewy's Freeze-Dried Raw](/images/posts/guides/product-stella-chewy-raw.jpg)
 
-Freeze-dried raw is raw food with the water removed. No refrigeration needed, just add water to rehydrate. Stella & Chewy's uses USDA-inspected meat, organs, and bone. Luna did great on this — her energy was consistently high and stool volume was smaller (less filler).
+Freeze-dried raw is raw food with the water removed. No refrigeration needed, just add water to rehydrate. Stella & Chewy's uses USDA-inspected meat, organs, and bone. Luna did great on this - her energy was consistently high and stool volume was smaller (less filler).
 
 > **⚠️ Caveat:** Expensive at $70/bag for what's mostly dehydrated meat. Rehydration takes 5-10 minutes.
 
@@ -80,15 +80,15 @@ Freeze-dried raw is raw food with the water removed. No refrigeration needed, ju
 
 **Price:** $59.99 | [Check Price on Amazon →](https://www.amazon.com/s?k=Stella%20%26%20Chewy%27s%20Frozen%20Raw%20Patties&tag=fetchpicks20-20)
 
-**Best for:** The most natural diet — closest to what dogs evolved to eat
+**Best for:** The most natural diet - closest to what dogs evolved to eat
 
 ![Stella & Chewy's Frozen Raw Patties](/images/posts/guides/product-stella-chewy-frozen.jpg)
 
-Raw feeding means uncooked meat, organs, and bone. Proponents cite better coat, cleaner teeth, higher energy, smaller stool. I rotated raw for 3 months — Rocky's coat was never shinier. But it requires significant freezer space and careful handling (thawing, washing bowls).
+Raw feeding means uncooked meat, organs, and bone. Proponents cite better coat, cleaner teeth, higher energy, smaller stool. I rotated raw for 3 months - Rocky's coat was never shinier. But it requires significant freezer space and careful handling (thawing, washing bowls).
 
 > **⚠️ Caveat:** Raw requires serious commitment: freezer space, handling precautions, transition period. Higher risk of bacterial contamination if not handled properly. Not suitable for immunocompromised households.
 
-**Verdict:** Best nutrition when done right. But the commitment is real — not for everyone.
+**Verdict:** Best nutrition when done right. But the commitment is real - not for everyone.
 
 [See latest price on Amazon →](https://www.amazon.com/s?k=Stella%20%26%20Chewy%27s%20Frozen%20Raw%20Patties&tag=fetchpicks20-20)
 
@@ -96,7 +96,7 @@ Raw feeding means uncooked meat, organs, and bone. Proponents cite better coat, 
 
 ## Other Products We Tested
 
-- **The Farmer's Dog Fresh:** Premium fresh-delivery service. Amazing quality, reformulated for each dog. Luna thrived on it — at $8/day. More expensive than raw.
+- **The Farmer's Dog Fresh:** Premium fresh-delivery service. Amazing quality, reformulated for each dog. Luna thrived on it - at $8/day. More expensive than raw.
 
 ---
 
@@ -124,7 +124,7 @@ Properly handled raw food is safe. Risk is low for healthy dogs. Higher risk for
 
 **Can I mix kibble and raw?**
 
-Yes! Many owners feed raw as a topper on kibble. No need to 'never mix' — that's a myth.
+Yes! Many owners feed raw as a topper on kibble. No need to 'never mix' - that's a myth.
 
 **Is freeze-dried as good as raw?**
 
@@ -134,7 +134,7 @@ Nearly identical nutritionally once rehydrated. More expensive per pound but mor
 
 ## Final Verdict
 
-There's no single 'best' diet. **Good kibble** works for most people. **Freeze-dried** is the best upgrade path. **Raw** is for dedicated owners. Match the food type to your lifestyle — your dog will adapt to anything consistent.
+There's no single 'best' diet. **Good kibble** works for most people. **Freeze-dried** is the best upgrade path. **Raw** is for dedicated owners. Match the food type to your lifestyle - your dog will adapt to anything consistent.
 
 ---
 

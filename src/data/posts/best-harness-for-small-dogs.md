@@ -17,7 +17,7 @@ _Small dogs need harnesses that fit properly without chafing or slipping. We tes
 
 ---
 
-Small dogs aren't mini versions of big dogs — and their harnesses shouldn't be either.
+Small dogs aren't mini versions of big dogs - and their harnesses shouldn't be either.
 
 A harness that fits a Lab will slide right off a Yorkie. The straps are too wide, the chest piece hits wrong, and some designs actually pull on a small dog's trachea.
 
@@ -48,11 +48,11 @@ Harnesses were tested on 3 small dogs (6lb Chihuahua, 12lb mini Poodle, 15lb Pom
 
 **Price:** $27.99 | [Check Price on Amazon →](https://www.amazon.com/s?k=Puppia%20RiteFit%20Soft%20Mesh%20Harness&tag=fetchpicks20-20)
 
-**Best for:** Everyday walks — most comfortable for small dogs
+**Best for:** Everyday walks - most comfortable for small dogs
 
 ![Puppia RiteFit Soft Mesh Harness](/images/posts/dog-gear/product-puppia-harness.jpg)
 
-Puppia is famous in the small dog community for a reason. The soft mesh is breathable and doesn't chafe — crucial for tiny dogs with delicate skin. The RiteFit design has an adjustable neck and chest for a custom fit. The Chihuahua neighbor's dog stopped pulling immediately.
+Puppia is famous in the small dog community for a reason. The soft mesh is breathable and doesn't chafe - crucial for tiny dogs with delicate skin. The RiteFit design has an adjustable neck and chest for a custom fit. The Chihuahua neighbor's dog stopped pulling immediately.
 
 > **⚠️ Caveat:** Not designed for strong pullers. Mesh can tear if your small dog is an escape artist.
 
@@ -68,9 +68,9 @@ Puppia is famous in the small dog community for a reason. The soft mesh is breat
 
 ![Gooby Comfort X Step-In Harness](/images/posts/dog-gear/product-gooby-harness.jpg)
 
-Gooby's patented 'Comfort X' design pulls from the chest, not the neck — no pressure on the trachea. This is huge for toy breeds prone to tracheal collapse. Reflective strips for low-light walks. Easy step-in design the mini Poodle could handle without drama.
+Gooby's patented 'Comfort X' design pulls from the chest, not the neck - no pressure on the trachea. This is huge for toy breeds prone to tracheal collapse. Reflective strips for low-light walks. Easy step-in design the mini Poodle could handle without drama.
 
-> **⚠️ Caveat:** Front clip is plastic — less durable than metal. Padding traps heat on hot days.
+> **⚠️ Caveat:** Front clip is plastic - less durable than metal. Padding traps heat on hot days.
 
 **Verdict:** Best for trachea safety. Essential for brachycephalic and toy breeds.
 
@@ -84,7 +84,7 @@ Gooby's patented 'Comfort X' design pulls from the chest, not the neck — no pr
 
 ![Rabbitgoo Escape Proof Harness](/images/posts/dog-gear/product-rabbitgoo-harness.jpg)
 
-Small dogs are masters of escaping harnesses. Rabbitgoo uses a double-buckle system and a deep chest plate that makes it nearly impossible to back out of. The Chihuahua tried — and failed. Padded handle on top for lifting over puddles.
+Small dogs are masters of escaping harnesses. Rabbitgoo uses a double-buckle system and a deep chest plate that makes it nearly impossible to back out of. The Chihuahua tried - and failed. Padded handle on top for lifting over puddles.
 
 > **⚠️ Caveat:** Takes longer to put on than step-in designs. Straps can twist if not adjusted carefully.
 
@@ -102,9 +102,9 @@ Small dogs are masters of escaping harnesses. Rabbitgoo uses a double-buckle sys
 
 ### Small Dog Harness Tips
 
-1. **Measure, don't guess** — Small dog sizes vary wildly. Measure chest girth, not neck.
-2. **Trachea protection** — Look for front-clip or Y-shape designs that avoid neck pressure.
-3. **Avoid step-over** — Some small dogs are scared of harnesses going over their head. Step-in is more gentle.
+1. **Measure, don't guess** - Small dog sizes vary wildly. Measure chest girth, not neck.
+2. **Trachea protection** - Look for front-clip or Y-shape designs that avoid neck pressure.
+3. **Avoid step-over** - Some small dogs are scared of harnesses going over their head. Step-in is more gentle.
 
 ---
 
@@ -112,7 +112,7 @@ Small dogs are masters of escaping harnesses. Rabbitgoo uses a double-buckle sys
 
 **Why not just use a collar for small dogs?**
 
-Collar walking puts pressure on the trachea — especially risky for toy breeds prone to tracheal collapse.
+Collar walking puts pressure on the trachea - especially risky for toy breeds prone to tracheal collapse.
 
 **Are no-pull harnesses safe for small dogs?**
 

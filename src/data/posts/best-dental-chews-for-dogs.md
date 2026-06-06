@@ -19,9 +19,9 @@ _Dental chews are an easy way to support your dog's oral health. We found the 7 
 
 Rocky's breath could clear a room. And I don't mean that in a cute way.
 
-Brushing a dog's teeth is easier said than done — Rocky tolerates it for about 12 seconds before he's had enough. Dental chews have been our compromise. They're not as good as brushing, but they're way better than nothing.
+Brushing a dog's teeth is easier said than done - Rocky tolerates it for about 12 seconds before he's had enough. Dental chews have been our compromise. They're not as good as brushing, but they're way better than nothing.
 
-I tested 12 different dental chews for texture, effectiveness, and — whether the dogs would actually eat them.
+I tested 12 different dental chews for texture, effectiveness, and - whether the dogs would actually eat them.
 
 ---
 
@@ -54,7 +54,7 @@ Each chew was given daily for 3 weeks. Evaluated: breath freshness, plaque reduc
 
 Greenies are VOHC-approved (Veterinary Oral Health Council), which means they actually work. The texture scrapes teeth as the dog bites down. Rocky's breath improved noticeably after two weeks. The brushing teeth shape is designed to clean the gum line.
 
-> **⚠️ Caveat:** Some dogs gulp them without chewing. Get the right size — too small and they're gone in seconds.
+> **⚠️ Caveat:** Some dogs gulp them without chewing. Get the right size - too small and they're gone in seconds.
 
 **Verdict:** The gold standard. Works, dogs love them, vet-recommended.
 
@@ -68,9 +68,9 @@ Greenies are VOHC-approved (Veterinary Oral Health Council), which means they ac
 
 ![OraVet Dental Hygiene Chews](/images/posts/dog-health/product-oravet.jpg)
 
-OraVet uses a proprietary compound that binds to teeth to prevent plaque — not just mechanical scraping. Like a dental sealant in chew form. After using these, Luna's annual checkup showed less tartar than the previous year.
+OraVet uses a proprietary compound that binds to teeth to prevent plaque - not just mechanical scraping. Like a dental sealant in chew form. After using these, Luna's annual checkup showed less tartar than the previous year.
 
-> **⚠️ Caveat:** Expensive — nearly $35/month. Texture is very hard; aggressive chewers finish quickly.
+> **⚠️ Caveat:** Expensive - nearly $35/month. Texture is very hard; aggressive chewers finish quickly.
 
 **Verdict:** Most effective for preventing plaque. Worth the premium for dental issues.
 
@@ -86,7 +86,7 @@ OraVet uses a proprietary compound that binds to teeth to prevent plaque — not
 
 Virbac CET chews have an enzyme coating (glucose oxidase) that creates an antibacterial effect in the mouth. The texture is rawhide-like but more digestible. Both dogs chewed them for 10-15 minutes each.
 
-> **⚠️ Caveat:** Enzyme coating loses effectiveness if exposed to air — reseal the bag tightly.
+> **⚠️ Caveat:** Enzyme coating loses effectiveness if exposed to air - reseal the bag tightly.
 
 **Verdict:** Best 'science-backed' option. The enzyme coating adds real benefit.
 
@@ -102,9 +102,9 @@ Virbac CET chews have an enzyme coating (glucose oxidase) that creates an antiba
 
 ### Dental Chew Tips
 
-1. **VOHC approval** — Means independent testing proved effectiveness.
-2. **Calorie count** — Dental chews have calories. Adjust meal portions.
-3. **Size matters** — Chew should last 5+ minutes. Too small = swallowed whole.
+1. **VOHC approval** - Means independent testing proved effectiveness.
+2. **Calorie count** - Dental chews have calories. Adjust meal portions.
+3. **Size matters** - Chew should last 5+ minutes. Too small = swallowed whole.
 
 ---
 

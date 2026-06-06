@@ -26,15 +26,11 @@ const recentPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pu
       </h1>
       <p class="hero-sub reveal reveal-delay-2">
         We test, research, and compare pet products so you don't have to.
-        Honest reviews — no fluff, just what works.
+        Honest reviews - no fluff, just what works.
       </p>
       <div class="hero-actions reveal reveal-delay-3">
         <a href="#recent-posts" class="btn-primary">Browse All Reviews →</a>
         <a href="/category/guides" class="btn-outline">Read Our Guides</a>
-      </div>
-      <div class="hero-scroll reveal reveal-delay-4">
-        <span>Scroll to explore</span>
-        <div class="scroll-dot"></div>
       </div>
     </div>
   </section>
@@ -72,7 +68,6 @@ const recentPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pu
     <section class="section">
       <div class="container">
         <div class="section-head reveal">
-          <span class="section-label">★ Featured</span>
           <h2 class="section-title">Our Top Picks This Month</h2>
           <p class="section-desc section-desc-center">Hand-picked reviews our team thinks you'll love the most.</p>
         </div>
@@ -120,7 +115,6 @@ const recentPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pu
   <section class="section section-alt">
     <div class="container">
       <div class="section-head reveal">
-        <span class="section-label">Browse</span>
         <h2 class="section-title">Shop by Category</h2>
         <p class="section-desc section-desc-center">Find exactly what your pet needs, organized the easy way.</p>
       </div>
@@ -145,7 +139,6 @@ const recentPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pu
   <section id="recent-posts" class="section">
     <div class="container">
       <div class="section-head reveal">
-        <span class="section-label">Latest</span>
         <h2 class="section-title">Recent Reviews & Guides</h2>
         <p class="section-desc section-desc-center">Fresh content to help you find the perfect products for your pet.</p>
       </div>
@@ -191,7 +184,6 @@ const recentPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pu
   <section class="section section-alt">
     <div class="container">
       <div class="section-head reveal">
-        <span class="section-label">Why Trust Us</span>
         <h2 class="section-title">We Put Pets First</h2>
         <p class="section-desc section-desc-center">Here's what makes FetchPicks different from other review sites.</p>
       </div>
@@ -214,7 +206,7 @@ const recentPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pu
         <div class="trust-card reveal reveal-delay-3">
           <div class="trust-icon">📊</div>
           <h3 class="trust-title">Data-Driven</h3>
-          <p class="trust-text">We analyze thousands of real customer reviews to find patterns — not just star ratings, but real experiences.</p>
+          <p class="trust-text">We analyze thousands of real customer reviews to find patterns - not just star ratings, but real experiences.</p>
         </div>
       </div>
     </div>
@@ -359,6 +351,23 @@ const recentPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pu
     @keyframes scrollBounce {
       0%, 100% { transform: translateY(0); opacity: 1; }
       50% { transform: translateY(8px); opacity: 0.3; }
+    }
+
+    /* ════════════════════════════════════════════
+       DARK MODE - HOMEPAGE
+       ════════════════════════════════════════════ */
+    @media (prefers-color-scheme: dark) {
+      .hero-bg {
+        background: linear-gradient(160deg, #1A0E0A 0%, #1A1410 30%, #0A1A18 70%, #0A1210 100%);
+      }
+      .hero-badge { background: rgba(255,103,64,0.15); border-color: rgba(255,103,64,0.2); }
+      .hero-highlight { background: linear-gradient(135deg, var(--coral-light), #FFB088); -webkit-background-clip: text; background-clip: text; }
+      .post-card-badge { background: var(--coral); }
+      .cat-card { background: var(--bg-card); }
+      .cta-card { background: linear-gradient(135deg, #1A1A30 0%, #0D0D1A 100%); }
+      .stats { border-color: var(--border); }
+      .section-alt { background: var(--bg-alt); }
+      .trust-card { background: var(--bg-card); }
     }
 
     /* ════════════════════════════════════════════

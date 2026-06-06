@@ -1,6 +1,6 @@
 ---
 title: "Best Grain-Free Dog Foods: 7 Top Brands Reviewed (2026)"
-description: "Grain-free dog food can help dogs with sensitivities. We tested 7 brands with our picky eaters — here's what worked and what didn't."
+description: "Grain-free dog food can help dogs with sensitivities. We tested 7 brands with our picky eaters - here's what worked and what didn't."
 pubDate: 2026-06-05
 category: dog-food
 featured: true
@@ -9,7 +9,7 @@ tags: ["grain-free", "dog food", "sensitive stomach", "allergies", "review"]
 
 # Best Grain-Free Dog Foods: 7 Top Brands Reviewed (2026)
 
-_Grain-free dog food can help dogs with sensitivities. We tested 7 brands with our picky eaters — here's what worked and what didn't._
+_Grain-free dog food can help dogs with sensitivities. We tested 7 brands with our picky eaters - here's what worked and what didn't._
 
 ![Hero image](/images/posts/dog-food/hero-dog-food.jpg)
 
@@ -19,7 +19,7 @@ _Grain-free dog food can help dogs with sensitivities. We tested 7 brands with o
 
 Grain-free is the most debated topic in dog nutrition right now. Some swear by it. Others (including the FDA) have raised red flags.
 
-Here's what I know from feeding both grain-free and grain-inclusive over the years: for dogs with actual grain sensitivities — itchy skin, chronic ear infections, loose stool — going grain-free can be life-changing. But for dogs without those issues, it's unnecessary.
+Here's what I know from feeding both grain-free and grain-inclusive over the years: for dogs with actual grain sensitivities - itchy skin, chronic ear infections, loose stool - going grain-free can be life-changing. But for dogs without those issues, it's unnecessary.
 
 Luna had chronic ear infections until we switched her to grain-free. Rocky? He eats everything and is fine with grains. So this list is for the dogs that genuinely need it.
 
@@ -68,7 +68,7 @@ This has been Luna's go-to for over a year. The 44% protein keeps her energy ste
 
 ![Canidae PURE Grain-Free](/images/posts/dog-food/product-canidae-pure.jpg)
 
-Limited ingredient formula with just 8-10 key ingredients. We tried the salmon recipe for Luna during a suspected chicken sensitivity flare-up — no reactions, clean stool. The single protein source makes it easy to isolate allergens.
+Limited ingredient formula with just 8-10 key ingredients. We tried the salmon recipe for Luna during a suspected chicken sensitivity flare-up - no reactions, clean stool. The single protein source makes it easy to isolate allergens.
 
 > **⚠️ Caveat:** Some dogs find it less palatable. Luna was lukewarm about it at first (took her a few days to adjust).
 
@@ -84,7 +84,7 @@ Limited ingredient formula with just 8-10 key ingredients. We tried the salmon r
 
 ![Merrick Grain-Free Texas Beef](/images/posts/dog-food/product-merrick-grainfree.jpg)
 
-Merrick uses a unique 'whole food' approach — the first ingredient is deboned beef, and they add things like sweet potatoes, apples, and blueberries. Rocky absolutely loved the taste (he did his pre-dinner happy dance every time).
+Merrick uses a unique 'whole food' approach - the first ingredient is deboned beef, and they add things like sweet potatoes, apples, and blueberries. Rocky absolutely loved the taste (he did his pre-dinner happy dance every time).
 
 > **⚠️ Caveat:** On the pricier side, and the calorie density means you need to watch portions carefully to avoid weight gain.
 
@@ -126,7 +126,7 @@ Talk to your vet before switching to grain-free. Consider a grain-inclusive opti
 
 **Should I worry about DCM?**
 
-The link is still being investigated. If your dog isn't showing heart issues, moderate grain-free feeding is likely fine — but discuss with your vet.
+The link is still being investigated. If your dog isn't showing heart issues, moderate grain-free feeding is likely fine - but discuss with your vet.
 
 **How long to see improvement in allergies?**
 

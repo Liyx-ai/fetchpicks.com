@@ -1,6 +1,6 @@
 ---
 title: "New Puppy Essentials Checklist: Everything You Need (2026)"
-description: "Bringing home a new puppy? This checklist covers every essential item you'll need — from food bowls to crates, toys to training tools."
+description: "Bringing home a new puppy? This checklist covers every essential item you'll need - from food bowls to crates, toys to training tools."
 pubDate: 2026-06-05
 category: guides
 featured: true
@@ -9,7 +9,7 @@ tags: ["puppy", "new puppy", "checklist", "essentials", "beginner"]
 
 # New Puppy Essentials Checklist: Everything You Need (2026)
 
-_Bringing home a new puppy? This checklist covers every essential item you'll need — from food bowls to crates, toys to training tools._
+_Bringing home a new puppy? This checklist covers every essential item you'll need - from food bowls to crates, toys to training tools._
 
 ![Hero image](/images/posts/guides/hero-guides.jpg)
 
@@ -17,11 +17,11 @@ _Bringing home a new puppy? This checklist covers every essential item you'll ne
 
 ---
 
-Bringing a puppy home is like preparing for a human baby — except the baby has sharp teeth.
+Bringing a puppy home is like preparing for a human baby - except the baby has sharp teeth.
 
 I made a lot of mistakes with my first dog. Bought things I didn't need. Forgot things I definitely did need. Overthought the food, under-thought the crate.
 
-This checklist is everything you actually need — categorized so you don't overspend on stuff that ends up in a closet.
+This checklist is everything you actually need - categorized so you don't overspend on stuff that ends up in a closet.
 
 ---
 
@@ -41,13 +41,13 @@ This checklist is everything you actually need — categorized so you don't over
 
 **Price:** $79.99 | [Check Price on Amazon →](https://www.amazon.com/s?k=MidWest%20iCrate%20Dog%20Crate&tag=fetchpicks20-20)
 
-**Best for:** Crate training — the most popular crate for a reason
+**Best for:** Crate training - the most popular crate for a reason
 
 ![MidWest iCrate Dog Crate](/images/posts/guides/product-midwest-icrate.jpg)
 
 The iCrate has everything: a divider panel (grows with puppy), removable pan, fold-flat design. Set-up takes about 2 minutes. The dual-door version gives side or front access.
 
-> **⚠️ Caveat:** The pan has a slight lip — some puppies find it uncomfortable. Add a crate mat.
+> **⚠️ Caveat:** The pan has a slight lip - some puppies find it uncomfortable. Add a crate mat.
 
 **Verdict:** The gold standard puppy crate. The divider makes it worth the price.
 
@@ -91,7 +91,7 @@ Different textures (smooth, nubby, ridged) so pups find what feels best on gums.
 
 **Buy Before Puppy Arrives:**
 - Crate with divider (MidWest iCrate)
-- Puppy food (same brand as breeder/shelter — transition slowly)
+- Puppy food (same brand as breeder/shelter - transition slowly)
 - Stainless steel bowls
 - Collar + ID tag + leash
 - Puppy pads + enzymatic cleaner (Nature's Miracle)

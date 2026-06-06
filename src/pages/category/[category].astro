@@ -19,7 +19,7 @@ const descOverrides = {
   'dog-food': "Looking for the best dry, wet, or grain-free dog food? We analyzed 200+ formulas to bring you honest reviews and expert picks for every budget.",
   'dog-treats': "Find the healthiest, most irresistible dog treats for training, rewards, and dental health. Our expert reviews help you choose the perfect treat.",
   'dog-health': "Keep your dog happy and healthy with our top-rated supplements, dental chews, and wellness products. Research-backed recommendations.",
-  'dog-gear': "From harnesses to beds to collars — we test and review the best dog gear so you can make the right choice for your pup.",
+  'dog-gear': "From harnesses to beds to collars - we test and review the best dog gear so you can make the right choice for your pup.",
   'dog-training': "Everything you need for effective dog training: high-value treats, training tools, and expert tips for positive reinforcement.",
 };
 
@@ -206,5 +206,13 @@ const pageDesc = descOverrides[catKey] || meta.desc;
   @media (max-width: 768px) {
     .category-hero .page-title { font-size: 1.6rem; }
     .post-grid { grid-template-columns: 1fr; }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .category-hero .page-title,
+    .category-hero .page-subtitle,
+    .category-count { color: #fff; }
+    .category-hero .page-subtitle { opacity: 0.8; }
+    .category-count { opacity: 0.6; }
   }
 </style>

@@ -7,7 +7,7 @@ export interface CategoryMeta {
 }
 
 export const categoryMeta: Record<string, CategoryMeta> = {
-  'dog-food': { name: 'Dog Food Reviews', desc: 'Honest reviews of the best dog foods — dry, wet, raw, and freeze-dried.', image: 'dog-food-hero.jpg', gradient: 'linear-gradient(135deg, #FF6B4A, #FFB088)', icon: '🍖' },
+  'dog-food': { name: 'Dog Food Reviews', desc: 'Honest reviews of the best dog foods - dry, wet, raw, and freeze-dried.', image: 'dog-food-hero.jpg', gradient: 'linear-gradient(135deg, #FF6740, #FFB088)', icon: '🍖' },
   'dog-treats': { name: 'Dog Treats', desc: 'Healthy and tasty treats your pup will love.', image: 'dog-treats-hero.jpg', gradient: 'linear-gradient(135deg, #F4A261, #E9C46A)', icon: '🦴' },
   'dog-health': { name: 'Dog Health', desc: 'Supplements, grooming, and wellness guides for a happy, healthy dog.', image: 'dog-health-hero.jpg', gradient: 'linear-gradient(135deg, #2A9D8F, #4ECDC4)', icon: '💊' },
   'dog-gear': { name: 'Dog Gear', desc: 'Collars, beds, leashes, and every essential your dog needs.', image: 'dog-gear-hero.jpg', gradient: 'linear-gradient(135deg, #4A90A4, #6BBFCE)', icon: '🎒' },
