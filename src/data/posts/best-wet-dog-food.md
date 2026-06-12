@@ -1,7 +1,7 @@
 ---
 title: "Best Wet Dog Foods: 6 Top Picks for Picky Eaters (2026)"
-description: "Wet dog food can be more palatable and hydrating. We tested 30+ wet dog foods with picky Luna - here's what passed the taste test."
-pubDate: 2026-06-05
+description: "Wet dog food can be more palatable and hydrating. We tested 30+ wet dog foods with picky Luna — here's what passed the taste test."
+pubDate: 2026-06-12
 category: dog-food
 featured: false
 tags: ["wet dog food", "canned dog food", "picky eater", "hydration", "review"]
@@ -9,7 +9,7 @@ tags: ["wet dog food", "canned dog food", "picky eater", "hydration", "review"]
 
 # Best Wet Dog Foods: 6 Top Picks for Picky Eaters (2026)
 
-_Wet dog food can be more palatable and hydrating. We tested 30+ wet dog foods with picky Luna - here's what passed the taste test._
+_Wet dog food can be more palatable and hydrating. We tested 30+ wet dog foods with picky Luna — here's what passed the taste test._
 
 ![Hero image](/images/posts/dog-food/hero-dog-food.jpg)
 
@@ -19,7 +19,7 @@ _Wet dog food can be more palatable and hydrating. We tested 30+ wet dog foods w
 
 Some dogs will eat anything. Luna is not one of those dogs.
 
-She'll sniff a bowl, turn around, and give me a look that says 'really?' Wet food was the game-changer for us - the smell alone got her interested, and the extra moisture is a bonus for dogs who don't drink enough water.
+She'll sniff a bowl, turn around, and give me a look that says 'really?' Wet food was the game-changer for us — the smell alone got her interested, and the extra moisture is a bonus for dogs who don't drink enough water.
 
 I tested over 30 wet dog foods with both dogs. Here are the ones Luna actually finished.
 
@@ -47,7 +47,7 @@ Each wet food was tested as a standalone meal and as a kibble topper. We evaluat
 
 **Price:** $38.88 | [Check Price on Amazon →](https://www.amazon.com/s?k=Hill%27s%20Science%20Diet%20Wet%20Dog%20Food&tag=fetchpicks20-20)
 
-**Best for:** Most dogs - vet-recommended for a reason
+**Best for:** Most dogs — vet-recommended for a reason
 
 ![Hill's Science Diet Wet Dog Food](/images/posts/dog-food/product-hills-science.jpg)
 
@@ -67,7 +67,7 @@ Hill's is the brand my vet actually recommends. The wet food has a smooth pate t
 
 ![Royal Canin Canned Dog Food](/images/posts/dog-food/product-royal-canin-wet.jpg)
 
-Royal Canin tailors their formulas by breed size and health condition. I tried the digestive care formula for Luna during a stomach upset - she lapped it up and her stool firmed up within two days. The texture is a loose pate, easy to mix with kibble.
+Royal Canin tailors their formulas by breed size and health condition. I tried the digestive care formula for Luna during a stomach upset — she lapped it up and her stool firmed up within two days. The texture is a loose pate, easy to mix with kibble.
 
 > **⚠️ Caveat:** Expensive for what you get, and some people don't love the by-product ingredients. Limited flavor options.
 
@@ -83,7 +83,7 @@ Royal Canin tailors their formulas by breed size and health condition. I tried t
 
 ![Blue Buffalo Homestyle Recipe](/images/posts/dog-food/product-blue-buffalo-wet.jpg)
 
-This was the first wet food Luna actually got excited about. The Homestyle recipe has visible chunks of meat in gravy - not the mystery mush some brands serve. Real chicken is the first ingredient, and there are no by-products or artificial flavors.
+This was the first wet food Luna actually got excited about. The Homestyle recipe has visible chunks of meat in gravy — not the mystery mush some brands serve. Real chicken is the first ingredient, and there are no by-products or artificial flavors.
 
 > **⚠️ Caveat:** The gravy can be messy, and some dogs just lick the gravy off. Cans are smaller than standard sizes.
 
@@ -117,10 +117,10 @@ I use this as a topper mixed with dry kibble rather than a standalone meal. It's
 
 ### Choosing Wet Dog Food
 
-1. **Check if it's 'complete and balanced'** - Some wet foods are supplemental only. Look for AAFCO statement.
-2. **Watch the gum content** - Carrageenan and xanthan gum can upset sensitive stomachs.
-3. **Texture matters** - Pate, chunks, shreds. Your dog has a preference. Luna hates pate.
-4. **Mix with kibble** - Wet food alone is expensive. Mixing 25% wet + 75% dry is a good balance.
+1. **Check if it's 'complete and balanced'** — Some wet foods are supplemental only. Look for AAFCO statement.
+2. **Watch the gum content** — Carrageenan and xanthan gum can upset sensitive stomachs.
+3. **Texture matters** — Pate, chunks, shreds. Your dog has a preference. Luna hates pate.
+4. **Mix with kibble** — Wet food alone is expensive. Mixing 25% wet + 75% dry is a good balance.
 
 ---
 

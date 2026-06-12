@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Joint Supplements: Top 8 for Hip & Joint Health (2026)"
-description: "Help your dog stay active and pain-free with the best joint supplements. We tested 20+ products on Rocky - who's getting older and stiffer."
-pubDate: 2026-06-05
+description: "Help your dog stay active and pain-free with the best joint supplements. We tested 20+ products on Rocky — who's getting older and stiffer."
+pubDate: 2026-06-12
 category: dog-health
 featured: true
 tags: ["joint health", "supplements", "hip dysplasia", "arthritis", "senior dog"]
@@ -9,7 +9,7 @@ tags: ["joint health", "supplements", "hip dysplasia", "arthritis", "senior dog"
 
 # Best Dog Joint Supplements: Top 8 for Hip & Joint Health (2026)
 
-_Help your dog stay active and pain-free with the best joint supplements. We tested 20+ products on Rocky - who's getting older and stiffer._
+_Help your dog stay active and pain-free with the best joint supplements. We tested 20+ products on Rocky — who's getting older and stiffer._
 
 ![Hero image](/images/posts/dog-health/hero-dog-health.jpg)
 
@@ -19,7 +19,7 @@ _Help your dog stay active and pain-free with the best joint supplements. We tes
 
 Rocky turned 8 this year. He still acts like a puppy when the leash comes out, but I noticed he was slower getting up after naps. A little stiff after long hikes.
 
-Joint supplements aren't just for senior dogs - large breeds benefit from starting early as a preventative. I tested 20+ joint supplements on Rocky over 6 months to see what actually made a difference in his mobility.
+Joint supplements aren't just for senior dogs — large breeds benefit from starting early as a preventative. I tested 20+ joint supplements on Rocky over 6 months to see what actually made a difference in his mobility.
 
 ---
 
@@ -50,7 +50,7 @@ Rocky was the primary test subject over 6 months. Each supplement was used for m
 
 ![Cosequin Joint Health Supplement](/images/posts/dog-health/product-cosequin.jpg)
 
-Cosequin is the #1 vet-recommended joint supplement brand. It contains glucosamine hydrochloride and chondroitin sulfate - the gold standard combo for joint health. Rocky's stiffness improved noticeably within 4 weeks. He jumped onto the couch again instead of the slow approach.
+Cosequin is the #1 vet-recommended joint supplement brand. It contains glucosamine hydrochloride and chondroitin sulfate — the gold standard combo for joint health. Rocky's stiffness improved noticeably within 4 weeks. He jumped onto the couch again instead of the slow approach.
 
 > **⚠️ Caveat:** It's a tablet, not a chew. Some dogs refuse pills. I hide it in a glob of peanut butter.
 
@@ -66,7 +66,7 @@ Cosequin is the #1 vet-recommended joint supplement brand. It contains glucosami
 
 ![Nutramax Dasuquin](/images/posts/dog-health/product-dasuquin.jpg)
 
-Dasuquin adds avocado/soybean unsaponifiables (ASU), which studies show reduce inflammation more than glucosamine alone. Rocky was on Cosequin first, then we switched to Dasuquin. The difference was subtle but real - less stiffness after long walks.
+Dasuquin adds avocado/soybean unsaponifiables (ASU), which studies show reduce inflammation more than glucosamine alone. Rocky was on Cosequin first, then we switched to Dasuquin. The difference was subtle but real — less stiffness after long walks.
 
 > **⚠️ Caveat:** Twice the price of Cosequin. Save this for dogs who already have diagnosed joint problems.
 
@@ -82,7 +82,7 @@ Dasuquin adds avocado/soybean unsaponifiables (ASU), which studies show reduce i
 
 ![Zesty Paws Mobility Bites](/images/posts/dog-health/product-zesty-paws-joint.jpg)
 
-These are soft chews that smell like a treat - Rocky thought he was getting a snack, not a supplement. They contain glucosamine, chondroitin, MSM, and turmeric. The convenience factor alone made me more consistent with giving them.
+These are soft chews that smell like a treat — Rocky thought he was getting a snack, not a supplement. They contain glucosamine, chondroitin, MSM, and turmeric. The convenience factor alone made me more consistent with giving them.
 
 > **⚠️ Caveat:** Lower glucosamine concentration than Cosequin. Better for prevention than treatment.
 
@@ -100,9 +100,9 @@ These are soft chews that smell like a treat - Rocky thought he was getting a sn
 
 ### Joint Supplement Tips
 
-1. **Glucosamine + Chondroitin** - This is the research-backed combo. Avoid supplements with only one.
-2. **MSM helps** - Methylsulfonylmethane is a natural anti-inflammatory.
-3. **Start early** - Large breeds should start joint supplements around age 5-6 as prevention.
+1. **Glucosamine + Chondroitin** — This is the research-backed combo. Avoid supplements with only one.
+2. **MSM helps** — Methylsulfonylmethane is a natural anti-inflammatory.
+3. **Start early** — Large breeds should start joint supplements around age 5-6 as prevention.
 
 ---
 

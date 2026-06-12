@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Water Fountains: 6 Flowing Water Options for Better Hydration (2026)"
 description: "Dogs prefer flowing water. We tested 8 pet fountains to find the ones that actually encourage more drinking and stay clean."
-pubDate: 2026-06-05
+pubDate: 2026-06-12
 category: dog-gear
 featured: false
 tags: ["water fountain", "hydration", "pet fountain", "drinking", "stainless steel", "filtered water"]
@@ -19,7 +19,7 @@ _Dogs prefer flowing water. We tested 8 pet fountains to find the ones that actu
 
 Dogs have an instinctual preference for running water. It's cleaner, more oxygenated, and in nature, running water is safer to drink than still water.
 
-This isn't just theory - I noticed Luna drinks way more from the faucet drip than from her bowl. A water fountain was the obvious fix.
+This isn't just theory — I noticed Luna drinks way more from the faucet drip than from her bowl. A water fountain was the obvious fix.
 
 But pet fountains vary wildly: plastic ones grow biofilm, pumps fail, filters are expensive. I tested 8 fountains over 3 months. Some improved hydration dramatically. Others became science experiments in a week.
 
@@ -48,13 +48,13 @@ Each fountain was used by both dogs for 2 weeks. Criteria: water consumption inc
 
 **Price:** $35.99 | [Check Price on Amazon →](https://www.amazon.com/s?k=Catit%20Flower%20Fountain&tag=fetchpicks20-20)
 
-**Best for:** Quiet operation - best for noise-sensitive dogs
+**Best for:** Quiet operation — best for noise-sensitive dogs
 
 ![Catit Flower Fountain](/images/posts/dog-gear/product-catit-flower.jpg)
 
 The Catit Flower Fountain uses a submerged pump that's virtually silent. Three flow options: gentle stream, flower spout (water flows over a flower-shaped top), and bubbling top. Luna was initially suspicious of the flower spout but now drinks regularly from the gentle stream setting.
 
-> **⚠️ Caveat:** Plastic can develop scratches over time (bacteria risk). Replace every 6-12 months. Flower top is decorative - some dogs ignore it.
+> **⚠️ Caveat:** Plastic can develop scratches over time (bacteria risk). Replace every 6-12 months. Flower top is decorative — some dogs ignore it.
 
 **Verdict:** Best entry-level fountain. Quiet, effective, and the flower spout adds a bit of fun.
 
@@ -64,11 +64,11 @@ The Catit Flower Fountain uses a submerged pump that's virtually silent. Three f
 
 **Price:** $45.99 | [Check Price on Amazon →](https://www.amazon.com/s?k=Stainless%20Good%20Pet%20Fountain&tag=fetchpicks20-20)
 
-**Best for:** Hygiene - stainless steel won't harbor bacteria like plastic
+**Best for:** Hygiene — stainless steel won't harbor bacteria like plastic
 
 ![Stainless Good Pet Fountain](/images/posts/dog-gear/product-stainless-good.jpg)
 
-This is a stainless steel fountain - no plastic touching the water. Stainless is naturally antimicrobial and dishwasher safe. Dual flow: a gentle stream and a flat drinking surface. Rocky drinks more from this than any other fountain I've tested. Dishwasher-safe pump is a bonus.
+This is a stainless steel fountain — no plastic touching the water. Stainless is naturally antimicrobial and dishwasher safe. Dual flow: a gentle stream and a flat drinking surface. Rocky drinks more from this than any other fountain I've tested. Dishwasher-safe pump is a bonus.
 
 > **⚠️ Caveat:** More expensive than plastic fountains. Stainless shows water spots. Can be noisier than Catit at low water levels.
 
@@ -80,11 +80,11 @@ This is a stainless steel fountain - no plastic touching the water. Stainless is
 
 **Price:** $54.95 | [Check Price on Amazon →](https://www.amazon.com/s?k=PetSafe%20Drinkwell%20Platinum&tag=fetchpicks20-20)
 
-**Best for:** Multiple-pet households - largest water capacity (168oz)
+**Best for:** Multiple-pet households — largest water capacity (168oz)
 
 ![PetSafe Drinkwell Platinum](/images/posts/dog-gear/product-drinkwell-platinum.jpg)
 
-Drinkwell is the OG of pet fountains. The Platinum holds 168oz (1.3 gallons) - enough for multiple dogs for days. Adjustable flow control. Free-falling stream aerates the water. Rocky and Luna both drink from it regularly, and it only needs refilling every 3-4 days.
+Drinkwell is the OG of pet fountains. The Platinum holds 168oz (1.3 gallons) — enough for multiple dogs for days. Adjustable flow control. Free-falling stream aerates the water. Rocky and Luna both drink from it regularly, and it only needs refilling every 3-4 days.
 
 > **⚠️ Caveat:** Large footprint. Plastic body scratches easily. Carbon filters need replacing every 2-4 weeks ($8/pack).
 
@@ -102,11 +102,11 @@ Drinkwell is the OG of pet fountains. The Platinum holds 168oz (1.3 gallons) - e
 
 ### Fountain Selection Tips
 
-1. **Stainless > ceramic > plastic** - Plastic becomes scratchy and grows bacteria. Ceramic is great but breaks. Stainless is safest.
-2. **Pump noise** - Submerged pumps are quieter than external ones. Test before buying if noise is a concern.
-3. **Filter costs** - Most fountains need charcoal filters every 2-6 weeks. Factor this into the total cost.
-4. **Capacity** - 50-60oz for one dog, 100+oz for multi-pet.
-5. **Dishwasher-safe** - Fountains need weekly cleaning. Dishwasher-safe parts make a huge difference.
+1. **Stainless > ceramic > plastic** — Plastic becomes scratchy and grows bacteria. Ceramic is great but breaks. Stainless is safest.
+2. **Pump noise** — Submerged pumps are quieter than external ones. Test before buying if noise is a concern.
+3. **Filter costs** — Most fountains need charcoal filters every 2-6 weeks. Factor this into the total cost.
+4. **Capacity** — 50-60oz for one dog, 100+oz for multi-pet.
+5. **Dishwasher-safe** — Fountains need weekly cleaning. Dishwasher-safe parts make a huge difference.
 
 ---
 
@@ -114,7 +114,7 @@ Drinkwell is the OG of pet fountains. The Platinum holds 168oz (1.3 gallons) - e
 
 **Do dogs really prefer running water?**
 
-Yes - many dogs drink more from fountains than bowls. The oxygenation makes water taste fresher. The movement catches their attention.
+Yes — many dogs drink more from fountains than bowls. The oxygenation makes water taste fresher. The movement catches their attention.
 
 **How often to clean a pet fountain?**
 

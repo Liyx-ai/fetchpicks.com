@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Training Treats for Puppies: 5 Top Picks for Positive Reinforcement (2026)"
 description: "Training a puppy starts with the right rewards. We found the 5 best treats that are small, healthy, and irresistible for young pups."
-pubDate: 2026-06-05
+pubDate: 2026-06-12
 category: dog-training
 featured: false
 tags: ["puppy training", "training treats", "positive reinforcement", "puppy", "rewards"]
@@ -45,13 +45,13 @@ Milo (10-week Golden Retriever puppy) tested treats over 2 weeks. Criteria: size
 
 **Price:** $13.49 | [Check Price on Amazon →](https://www.amazon.com/s?k=Zuke%27s%20Mini%20Naturals%20Puppy%20Training%20Treats&tag=fetchpicks20-20)
 
-**Best for:** All puppies - the perfect training treat
+**Best for:** All puppies — the perfect training treat
 
 ![Zuke's Mini Naturals Puppy Training Treats](/images/posts/dog-training/product-zukes-puppy.jpg)
 
-Zuke's puppy formula has added DHA for brain development. Each treat is pea-sized, 3 calories - perfect for the dozens of repetitions in training sessions. Milo learned 'sit' in one session because these are so motivating. Made with real chicken.
+Zuke's puppy formula has added DHA for brain development. Each treat is pea-sized, 3 calories — perfect for the dozens of repetitions in training sessions. Milo learned 'sit' in one session because these are so motivating. Made with real chicken.
 
-> **⚠️ Caveat:** Small bag for the price. Puppies go through 30+ treats per session - bags go fast.
+> **⚠️ Caveat:** Small bag for the price. Puppies go through 30+ treats per session — bags go fast.
 
 **Verdict:** The best puppy training treat. The DHA bonus is great for developing brains.
 
@@ -67,7 +67,7 @@ Zuke's puppy formula has added DHA for brain development. Each treat is pea-size
 
 Limited ingredient formula with deboned chicken first. No corn, wheat, or soy. Milo's owner reported no digestive issues even after heavy training days. Soft, break apart easily for tiny puppy teeth.
 
-> **⚠️ Caveat:** Larger than ideal - blueberry-sized. I broke them in half for Milo.
+> **⚠️ Caveat:** Larger than ideal — blueberry-sized. I broke them in half for Milo.
 
 **Verdict:** Best for puppies with sensitive stomachs. Gentle on digestion, still motivating.
 
@@ -81,9 +81,9 @@ Limited ingredient formula with deboned chicken first. No corn, wheat, or soy. M
 
 ![Wellness Soft Puppy Bites](/images/posts/dog-training/product-wellness-puppy.jpg)
 
-Wellness makes puppy treats in lamb & salmon and chicken & rice. Soft texture great for teething puppies. Intensely smelly - Milo focused on training even at the dog park. The ultimate test of treat motivation.
+Wellness makes puppy treats in lamb & salmon and chicken & rice. Soft texture great for teething puppies. Intensely smelly — Milo focused on training even at the dog park. The ultimate test of treat motivation.
 
-> **⚠️ Caveat:** 6 calories per treat - higher than Zuke's. Crumbly - bits end up in pockets.
+> **⚠️ Caveat:** 6 calories per treat — higher than Zuke's. Crumbly — bits end up in pockets.
 
 **Verdict:** Excellent high-value treat. The strong smell helps in distracting environments.
 
@@ -93,9 +93,9 @@ Wellness makes puppy treats in lamb & salmon and chicken & rice. Soft texture gr
 
 ### Puppy Training Treat Tips
 
-1. **DHA is a bonus** - Look for DHA for brain development.
-2. **Soft is safe** - Avoid hard treats for teething puppies.
-3. **Calorie count** - Adjust meal portions to account for training treats.
+1. **DHA is a bonus** — Look for DHA for brain development.
+2. **Soft is safe** — Avoid hard treats for teething puppies.
+3. **Calorie count** — Adjust meal portions to account for training treats.
 
 ---
 

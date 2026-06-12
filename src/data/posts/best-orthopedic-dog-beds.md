@@ -1,7 +1,7 @@
 ---
 title: "Best Orthopedic Dog Beds: 8 Picks for Joint Support & Comfort (2026)"
 description: "Give your dog the gift of great sleep with an orthopedic bed. We tested 12 beds for joint relief and durability with our aging Rocky."
-pubDate: 2026-06-05
+pubDate: 2026-06-12
 category: dog-gear
 featured: true
 tags: ["dog bed", "orthopedic", "joint pain", "comfort", "senior dog"]
@@ -17,7 +17,7 @@ _Give your dog the gift of great sleep with an orthopedic bed. We tested 12 beds
 
 ---
 
-Rocky used to sprawl anywhere - hardwood floor, tile, even the front doormat. But as he's gotten older, I've noticed him shifting positions more at night.
+Rocky used to sprawl anywhere — hardwood floor, tile, even the front doormat. But as he's gotten older, I've noticed him shifting positions more at night.
 
 A good orthopedic bed supports joints, prevents pressure sores, and helps dogs sleep more deeply. I tested 12 beds over 3 months. Here's what Rocky actually slept on.
 
@@ -49,7 +49,7 @@ Each bed was used for at least 2 weeks. Criteria: foam density, sleeping duratio
 
 ![Big Barker Orthopedic Dog Bed](/images/posts/dog-gear/product-big-barker.jpg)
 
-The Cadillac of dog beds. 7-inch thick foam - I sank my hand in and it took 10 seconds to rebound. Rocky went from restless nights to sleeping through on day one. Machine washable cover, 10-year warranty.
+The Cadillac of dog beds. 7-inch thick foam — I sank my hand in and it took 10 seconds to rebound. Rocky went from restless nights to sleeping through on day one. Machine washable cover, 10-year warranty.
 
 > **⚠️ Caveat:** Costs $300. About the size of a twin mattress. Make sure you have floor space.
 
@@ -61,7 +61,7 @@ The Cadillac of dog beds. 7-inch thick foam - I sank my hand in and it took 10 s
 
 **Price:** $109.95 | [Check Price on Amazon →](https://www.amazon.com/s?k=PetFusion%20Ultimate%20Dog%20Bed&tag=fetchpicks20-20)
 
-**Best for:** Best value - memory foam without the luxury price
+**Best for:** Best value — memory foam without the luxury price
 
 ![PetFusion Ultimate Dog Bed](/images/posts/dog-gear/product-petfusion.jpg)
 
@@ -81,7 +81,7 @@ PetFusion strikes the perfect quality/price balance. 4-inch memory foam base, su
 
 ![FurHaven Orthopedic Bed](/images/posts/dog-gear/product-furhaven.jpg)
 
-FurHaven uses egg-crate foam - less supportive than solid memory foam but still better than a standard pet bed. Nesting design with raised edges appeals to dogs who like to curl up. I bought one for the living room and both dogs use it.
+FurHaven uses egg-crate foam — less supportive than solid memory foam but still better than a standard pet bed. Nesting design with raised edges appeals to dogs who like to curl up. I bought one for the living room and both dogs use it.
 
 > **⚠️ Caveat:** Egg-crate foam compresses faster. Expect flattening after 6-8 months.
 
@@ -99,10 +99,10 @@ FurHaven uses egg-crate foam - less supportive than solid memory foam but still 
 
 ### Choosing an Orthopedic Dog Bed
 
-1. **Foam density** - High-density memory foam (>4lb) is best.
-2. **Size** - 4-6 inches longer than your dog from nose to tail.
-3. **Cover** - Machine washable is non-negotiable.
-4. **Bolsters vs flat** - Bolsters for curl-up sleepers. Flat for senior dogs with arthritis.
+1. **Foam density** — High-density memory foam (>4lb) is best.
+2. **Size** — 4-6 inches longer than your dog from nose to tail.
+3. **Cover** — Machine washable is non-negotiable.
+4. **Bolsters vs flat** — Bolsters for curl-up sleepers. Flat for senior dogs with arthritis.
 
 ---
 

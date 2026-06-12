@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Supplements for Skin Health: 7 Picks for Itchy, Dry, & Allergic Dogs (2026)"
 description: "Skin issues are one of the most common reasons for vet visits. We tested 10 skin supplements to find what actually stops the scratching."
-pubDate: 2026-06-05
+pubDate: 2026-06-12
 category: dog-health
 featured: true
 tags: ["skin health", "supplements", "omega-3", "fish oil", "itching", "dander"]
@@ -17,9 +17,9 @@ _Skin issues are one of the most common reasons for vet visits. We tested 10 ski
 
 ---
 
-If your dog is scratching, licking, or losing fur, it's easy to blame the food first. Sometimes the issue isn't what's in the bowl - it's what's missing.
+If your dog is scratching, licking, or losing fur, it's easy to blame the food first. Sometimes the issue isn't what's in the bowl — it's what's missing.
 
-Omega-3 fatty acids (EPA and DHA) are the most researched supplements for canine skin health. They reduce inflammation at a cellular level, improve coat condition, and can reduce itching. But not all omega-3 supplements are created equal - and the dose matters.
+Omega-3 fatty acids (EPA and DHA) are the most researched supplements for canine skin health. They reduce inflammation at a cellular level, improve coat condition, and can reduce itching. But not all omega-3 supplements are created equal — and the dose matters.
 
 Luna struggled with dry, flaky skin and dander for years. We tried topical treatments, special shampoos, and avoiding certain foods. It was a salmon oil supplement that finally made the difference. Here's what we found after testing 10 skin supplements.
 
@@ -48,7 +48,7 @@ Luna was the primary test subject (chronic dry skin and dander). Each supplement
 
 **Price:** $26.97 | [Check Price on Amazon →](https://www.amazon.com/s?k=Zesty%20Paws%20Omega%20Bites&tag=fetchpicks20-20)
 
-**Best for:** All-around skin and coat support - most effective formula
+**Best for:** All-around skin and coat support — most effective formula
 
 ![Zesty Paws Omega Bites](/images/posts/dog-health/product-zesty-paws-omega.jpg)
 
@@ -64,11 +64,11 @@ Zesty Paws Omega Bites combine wild Alaskan salmon oil with vitamin E for antiox
 
 **Price:** $29.95 | [Check Price on Amazon →](https://www.amazon.com/s?k=Amazing%20Nutritionals%20Wild%20Alaskan%20Salmon%20Oil&tag=fetchpicks20-20)
 
-**Best for:** Pure liquid salmon oil - best value per serving
+**Best for:** Pure liquid salmon oil — best value per serving
 
 ![Amazing Nutritionals Wild Alaskan Salmon Oil](/images/posts/dog-health/product-amazing-nutrition-salmon.jpg)
 
-This is straight-up wild Alaskan salmon oil - no fillers, no chews, no flavors. You pump it onto food. The pump bottle makes dosing easy. Higher EPA/DHA concentration than most chews. Rocky gets one pump on his morning kibble. His dry winter skin cleared up within a month.
+This is straight-up wild Alaskan salmon oil — no fillers, no chews, no flavors. You pump it onto food. The pump bottle makes dosing easy. Higher EPA/DHA concentration than most chews. Rocky gets one pump on his morning kibble. His dry winter skin cleared up within a month.
 
 > **⚠️ Caveat:** Fish burps (dog version of fish oil breath). Must be refrigerated after opening. Liquid is messier than chews.
 
@@ -80,7 +80,7 @@ This is straight-up wild Alaskan salmon oil - no fillers, no chews, no flavors. 
 
 **Price:** $32.99 | [Check Price on Amazon →](https://www.amazon.com/s?k=Nutramax%20Welactin%20Omega-3&tag=fetchpicks20-20)
 
-**Best for:** High-potency - pharmaceutical-grade omega-3s
+**Best for:** High-potency — pharmaceutical-grade omega-3s
 
 ![Nutramax Welactin Omega-3](/images/posts/dog-health/product-nutramax-welactin.jpg)
 
@@ -102,11 +102,11 @@ Nutramax Welactin is purified fish oil (not salmon oil) with a higher concentrat
 
 ### Skin Supplement Guide
 
-1. **Omega-3s are king** - Look for EPA + DHA content, not just 'contains fish oil'. Minimum 300mg combined EPA/DHA per serving.
-2. **Fish oil vs salmon oil** - Both work. Salmon oil has higher natural vitamin D. Fish oil is more concentrated.
-3. **Chews vs liquid** - Chews are convenient. Liquid is more cost-effective and potent.
-4. **Expect patience** - Skin supplements take 4-8 weeks to show noticeable improvement.
-5. **Rule out allergies first** - If itching is severe, do an elimination diet before spending on supplements.
+1. **Omega-3s are king** — Look for EPA + DHA content, not just 'contains fish oil'. Minimum 300mg combined EPA/DHA per serving.
+2. **Fish oil vs salmon oil** — Both work. Salmon oil has higher natural vitamin D. Fish oil is more concentrated.
+3. **Chews vs liquid** — Chews are convenient. Liquid is more cost-effective and potent.
+4. **Expect patience** — Skin supplements take 4-8 weeks to show noticeable improvement.
+5. **Rule out allergies first** — If itching is severe, do an elimination diet before spending on supplements.
 
 ---
 
@@ -114,7 +114,7 @@ Nutramax Welactin is purified fish oil (not salmon oil) with a higher concentrat
 
 **Can too much fish oil hurt my dog?**
 
-Yes - excess omega-3s can cause diarrhea, delayed blood clotting, and weight gain. Follow dosage guidelines. Check with your vet before high doses.
+Yes — excess omega-3s can cause diarrhea, delayed blood clotting, and weight gain. Follow dosage guidelines. Check with your vet before high doses.
 
 **How long until I see results?**
 

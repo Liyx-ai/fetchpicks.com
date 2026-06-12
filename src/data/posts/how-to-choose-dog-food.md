@@ -1,7 +1,7 @@
 ---
 title: "How to Choose Dog Food: A Complete Guide for Pet Parents (2026)"
-description: "Overwhelmed by dog food choices? This guide covers everything - AAFCO standards, ingredients, life stages, and how to read a label like a pro."
-pubDate: 2026-06-05
+description: "Overwhelmed by dog food choices? This guide covers everything — AAFCO standards, ingredients, life stages, and how to read a label like a pro."
+pubDate: 2026-06-12
 category: guides
 featured: true
 tags: ["guide", "dog food", "nutrition", "AAFCO", "ingredients", "beginner"]
@@ -9,7 +9,7 @@ tags: ["guide", "dog food", "nutrition", "AAFCO", "ingredients", "beginner"]
 
 # How to Choose Dog Food: A Complete Guide for Pet Parents (2026)
 
-_Overwhelmed by dog food choices? This guide covers everything - AAFCO standards, ingredients, life stages, and how to read a label like a pro._
+_Overwhelmed by dog food choices? This guide covers everything — AAFCO standards, ingredients, life stages, and how to read a label like a pro._
 
 ![Hero image](/images/posts/guides/hero-guides.jpg)
 
@@ -19,7 +19,7 @@ _Overwhelmed by dog food choices? This guide covers everything - AAFCO standards
 
 I spent my first year as a dog owner buying whatever had a cute dog on the bag. Big mistake. I didn't know how to read ingredient labels or understand AAFCO standards.
 
-This guide is everything I wish I knew from day one. Whether you're a first-time owner or just leveling up your dog's nutrition, here's how to choose the right food - without getting lost in marketing jargon.
+This guide is everything I wish I knew from day one. Whether you're a first-time owner or just leveling up your dog's nutrition, here's how to choose the right food — without getting lost in marketing jargon.
 
 ---
 
@@ -29,10 +29,10 @@ This guide is everything I wish I knew from day one. Whether you're a first-time
 
 ### How to Read a Dog Food Label
 
-1. **Look at the ingredient list, not the front of the bag** - 'Real chicken' on the front sounds great. Check the back: is chicken the first ingredient, or is it corn?
-2. **Named protein sources** - 'Chicken', 'Beef', 'Salmon'. Avoid generic 'Meat meal'.
-3. **AAFCO statement** - Find 'complete and balanced for [life stage]'.
-4. **Life stage matters** - Puppy food has more protein and calcium. Senior food has fewer calories.
+1. **Look at the ingredient list, not the front of the bag** — 'Real chicken' on the front sounds great. Check the back: is chicken the first ingredient, or is it corn?
+2. **Named protein sources** — 'Chicken', 'Beef', 'Salmon'. Avoid generic 'Meat meal'.
+3. **AAFCO statement** — Find 'complete and balanced for [life stage]'.
+4. **Life stage matters** — Puppy food has more protein and calcium. Senior food has fewer calories.
 
 ### Dry vs Wet vs Raw vs Fresh
 
@@ -43,10 +43,10 @@ This guide is everything I wish I knew from day one. Whether you're a first-time
 
 ### Ingredients to Avoid
 
-- **Corn syrup** - Unnecessary sugar.
-- **Artificial colors** (Blue 2, Red 40, Yellow 5) - No nutritional value.
-- **BHA/BHT** - Controversial preservatives.
-- **Unnamed 'meat meal'** - Could be anything.
+- **Corn syrup** — Unnecessary sugar.
+- **Artificial colors** (Blue 2, Red 40, Yellow 5) — No nutritional value.
+- **BHA/BHT** — Controversial preservatives.
+- **Unnamed 'meat meal'** — Could be anything.
 
 ---
 
@@ -54,7 +54,7 @@ This guide is everything I wish I knew from day one. Whether you're a first-time
 
 **What's the difference between 'chicken meal' and 'by-product meal'?**
 
-Chicken meal is rendered meat/skin/bone. By-product meal includes feet, heads, organs - lower quality.
+Chicken meal is rendered meat/skin/bone. By-product meal includes feet, heads, organs — lower quality.
 
 **Is grain-free better?**
 
@@ -68,7 +68,7 @@ Start with the bag's guide. A 50lb dog needs about 2-3 cups of kibble per day.
 
 ## Final Verdict
 
-The best dog food meets AAFCO standards, uses named protein as the first ingredient, and - most importantly - your dog does well on it. Start with a reputable brand, monitor, and adjust.
+The best dog food meets AAFCO standards, uses named protein as the first ingredient, and — most importantly — your dog does well on it. Start with a reputable brand, monitor, and adjust.
 
 ---
 

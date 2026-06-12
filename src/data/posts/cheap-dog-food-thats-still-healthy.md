@@ -1,7 +1,7 @@
 ---
 title: "7 Cheap Dog Foods That Are Still Healthy (Under $40/bag)"
 description: "You don't need to break the bank for quality dog food. We found 7 affordable options that meet AAFCO standards and dogs actually enjoy."
-pubDate: 2026-06-05
+pubDate: 2026-06-12
 category: dog-food
 featured: true
 tags: ["budget dog food", "cheap dog food", "affordable", "value", "AAFCO"]
@@ -19,7 +19,7 @@ _You don't need to break the bank for quality dog food. We found 7 affordable op
 
 I love my dogs. But I also love not spending $90 on a bag of kibble.
 
-The good news is you don't have to. There are plenty of budget-friendly dog foods that use decent ingredients and meet AAFCO standards. I tested 10 budget brands (all under $40/bag) to find the ones that are actually worth buying - not just cheap filler with a fancy label.
+The good news is you don't have to. There are plenty of budget-friendly dog foods that use decent ingredients and meet AAFCO standards. I tested 10 budget brands (all under $40/bag) to find the ones that are actually worth buying — not just cheap filler with a fancy label.
 
 ---
 
@@ -49,7 +49,7 @@ Each food was fed for 10+ days. Criteria: ingredient quality, palatability, stoo
 
 ![Purina ONE SmartBlend](/images/posts/dog-food/product-purina-one.jpg)
 
-Purina ONE is the best budget dog food I've found. Real chicken is the first ingredient, it has probiotics for digestion, and it's formulated by veterinary nutritionists. Both dogs did well on it - consistent stool, decent coat condition, and they ate it without hesitation.
+Purina ONE is the best budget dog food I've found. Real chicken is the first ingredient, it has probiotics for digestion, and it's formulated by veterinary nutritionists. Both dogs did well on it — consistent stool, decent coat condition, and they ate it without hesitation.
 
 > **⚠️ Caveat:** Contains chicken by-product meal and corn. Not the 'cleanest' ingredient list.
 
@@ -65,7 +65,7 @@ Purina ONE is the best budget dog food I've found. Real chicken is the first ing
 
 ![IAMS Proactive Health](/images/posts/dog-food/product-iams.jpg)
 
-IAMS has a dedicated large breed formula with glucosamine for joint health - a nice touch at this price. The kibble is a good size for big mouths. Rocky did well on it, though his coat wasn't as shiny as with higher-end brands.
+IAMS has a dedicated large breed formula with glucosamine for joint health — a nice touch at this price. The kibble is a good size for big mouths. Rocky did well on it, though his coat wasn't as shiny as with higher-end brands.
 
 > **⚠️ Caveat:** Corn is a main ingredient. No whole meat chunks like premium brands.
 
@@ -81,9 +81,9 @@ IAMS has a dedicated large breed formula with glucosamine for joint health - a n
 
 ![Diamond Naturals](/images/posts/dog-food/product-diamond-naturals.jpg)
 
-Diamond Naturals is the hidden gem of budget dog food. Real meat first ingredient, probiotics, omega fatty acids - at $39/bag, it's nearly identical to mid-tier brands that cost $20 more. Luna's coat looked great, and her digestion was stable throughout the trial.
+Diamond Naturals is the hidden gem of budget dog food. Real meat first ingredient, probiotics, omega fatty acids — at $39/bag, it's nearly identical to mid-tier brands that cost $20 more. Luna's coat looked great, and her digestion was stable throughout the trial.
 
-> **⚠️ Caveat:** Right at the $40 ceiling. Diamond has had a few recalls - check current status.
+> **⚠️ Caveat:** Right at the $40 ceiling. Diamond has had a few recalls — check current status.
 
 **Verdict:** Spend the extra $10 over Purina ONE if you can. Totally worth it.
 
@@ -100,9 +100,9 @@ Diamond Naturals is the hidden gem of budget dog food. Real meat first ingredien
 
 ### Budget Dog Food Tips
 
-1. **Cost per pound matters** - A $25 bag might be a rip-off if it's a tiny bag. Compare $/lb.
-2. **Look for named protein** - Even budget brands should have 'Chicken' as first ingredient.
-3. **Mix with wet food** - Cheap kibble + a spoonful of wet food boosts palatability without breaking the bank.
+1. **Cost per pound matters** — A $25 bag might be a rip-off if it's a tiny bag. Compare $/lb.
+2. **Look for named protein** — Even budget brands should have 'Chicken' as first ingredient.
+3. **Mix with wet food** — Cheap kibble + a spoonful of wet food boosts palatability without breaking the bank.
 
 ---
 
