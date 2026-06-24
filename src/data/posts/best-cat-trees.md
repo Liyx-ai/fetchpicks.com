@@ -1,7 +1,7 @@
 ---
 title: "8 Best Cat Trees & Scratching Posts for 2026: Tested for Stability, Material & Cat Approval"
 description: "A good cat tree is furniture for your cat — not an eyesore for you. We tested 10 cat trees from budget to premium, and had our feline testers put them through their paces."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: cat-supplies
 featured: false
 tags: ["cat trees", "cat scratching posts", "cat furniture", "cat condos", "cat towers", "cat supplies"]

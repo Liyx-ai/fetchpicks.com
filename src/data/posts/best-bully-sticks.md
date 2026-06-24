@@ -1,7 +1,7 @@
 ---
 title: "Best Bully Sticks: 7 Safe & Long-Lasting Chews for Aggressive Chewers (2026)"
 description: "Bully sticks are one of the best natural chews for dogs — but quality varies wildly. We tested 10 brands for safety, odor, and how long they last."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-treats
 featured: false
 tags: ["bully sticks", "chews", "aggressive chewer", "natural", "dental"]

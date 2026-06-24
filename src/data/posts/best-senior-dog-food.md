@@ -1,7 +1,7 @@
 ---
 title: "Best Senior Dog Foods (Ages 7+): 7 Formulas Tested for Joints, Digestion & Vitality (2026)"
 description: "Older dogs have different nutritional needs. We tested 10 senior dog foods with Rocky (now 9) — focusing on joint support, digestibility, and maintaining healthy weight."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-food
 featured: false
 tags: ["senior dog food", "older dogs", "joint health", "digestive health", "dog nutrition", "aging dogs"]

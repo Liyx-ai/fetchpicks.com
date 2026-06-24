@@ -1,7 +1,7 @@
 ---
 title: "Best Cat Toys in 2026: 7 Interactive Picks That Actually Keep Cats Entertained"
 description: "Cats are notoriously hard to please. We tested 20+ cat toys with Luna's feline friend — here are the ones that survived the night and kept cats engaged."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: cat-supplies
 featured: false
 tags: ["cat toys", "interactive", "cat supplies", "feline enrichment", "indoor cats"]

@@ -1,7 +1,7 @@
 ---
 title: "8 Best Dog Poop Bags: Leak-Proof, Eco-Friendly & Budget Options (2026 Guide)"
 description: "We tested 15+ dog poop bags for leak resistance, thickness, biodegradability, and handle design. From $15 for 1000 bags to premium compostable options."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-gear
 featured: false
 tags: ["poop bags", "dog waste bags", "dog gear", "eco-friendly", "leak-proof", "pet supplies"]

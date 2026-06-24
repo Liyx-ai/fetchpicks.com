@@ -1,7 +1,7 @@
 ---
 title: "How to Choose Dog Food: A Complete Guide for Pet Parents (2026)"
 description: "Overwhelmed by dog food choices? This guide covers everything — AAFCO standards, ingredients, life stages, and how to read a label like a pro."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: guides
 featured: true
 tags: ["guide", "dog food", "nutrition", "AAFCO", "ingredients", "beginner"]

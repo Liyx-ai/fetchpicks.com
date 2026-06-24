@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Leashes for Every Type of Walker: 7 Top Picks Tested in 2026"
 description: "The right leash makes walks enjoyable. We tested 20+ leashes with a puller, a wanderer, and a reactive dog — here are the ones that earned a spot on our gear rack."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-gear
 featured: false
 tags: ["dog leash", "walking", "training", "hands-free", "retractable"]

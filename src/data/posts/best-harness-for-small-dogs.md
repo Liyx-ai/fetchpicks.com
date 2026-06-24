@@ -1,7 +1,7 @@
 ---
 title: "Best Harnesses for Small Dogs: 5 Picks for Tiny Breeds (2026)"
 description: "Small dogs need harnesses that fit properly without chafing or slipping. We tested 8 harnesses on Luna-sized dogs to find the best."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-gear
 featured: false
 tags: ["harness", "small dog", "Chihuahua", "Yorkie", "small breed", "walking"]

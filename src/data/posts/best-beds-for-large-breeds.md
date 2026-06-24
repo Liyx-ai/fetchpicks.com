@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Beds for Large Breeds: 7 Oversize Options for Big Dogs (2026)"
 description: "Large breed dogs need bigger, thicker, more supportive beds. We tested 10 oversized beds to find the ones that actually fit a 70lb+ dog."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-gear
 featured: false
 tags: ["large breed", "dog bed", "oversize", "big dog", "joint support", "orthopedic"]

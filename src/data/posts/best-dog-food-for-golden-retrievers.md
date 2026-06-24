@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Food for Golden Retrievers: 8 Top Picks (2026)"
 description: "Goldens have unique nutritional needs — prone to obesity, joint issues, and sensitive skin. We tested 12 formulas to find the best fit."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-food
 featured: true
 tags: ["golden retriever", "breed-specific", "large breed", "joint health", "dog food"]

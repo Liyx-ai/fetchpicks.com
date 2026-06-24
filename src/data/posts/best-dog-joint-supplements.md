@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Joint Supplements: Top 8 for Hip & Joint Health (2026)"
 description: "Help your dog stay active and pain-free with the best joint supplements. We tested 20+ products on Rocky — who's getting older and stiffer."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-health
 featured: true
 tags: ["joint health", "supplements", "hip dysplasia", "arthritis", "senior dog"]

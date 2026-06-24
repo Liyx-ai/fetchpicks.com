@@ -1,7 +1,7 @@
 ---
 title: "5 Best Dog Life Jackets in 2026: Tested for Safety, Fit & Buoyancy (Summer Ready)"
 description: "Summer is here! We tested 8 dog life jackets at the lake with Rocky (strong swimmer) and Luna (reluctant swimmer) — here's what kept them safe and comfortable."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-gear
 featured: false
 tags: ["dog life jacket", "dog swim safety", "summer", "boating", "water safety", "dog gear"]

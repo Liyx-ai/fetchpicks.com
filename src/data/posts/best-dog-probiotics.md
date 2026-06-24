@@ -1,7 +1,7 @@
 ---
 title: "Best Probiotics for Dogs: 7 Gut Health Supplements Tested (2026)"
 description: "Digestive issues affect more dogs than you'd think. We tested 8 probiotics and digestive supplements on Luna (sensitive stomach) — here's what actually calms the gut."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-health
 featured: false
 tags: ["dog probiotics", "digestive health", "gut health", "dog supplements", "sensitive stomach", "probiotics"]

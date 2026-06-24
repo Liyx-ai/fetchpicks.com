@@ -1,7 +1,7 @@
 ---
 title: "Best Interactive Dog Toys: 8 Puzzle & Brain Games for Mental Stimulation (2026)"
 description: "Dogs need mental exercise as much as physical. We tested 12 puzzle toys and brain games to find which ones actually challenge and entertain."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-toys
 featured: true
 tags: ["interactive toys", "puzzle toys", "brain games", "mental stimulation", "enrichment"]

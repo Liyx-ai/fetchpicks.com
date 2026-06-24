@@ -1,7 +1,7 @@
 ---
 title: "How to Crate Train a Puppy: Step-by-Step Guide (2026)"
 description: "Crate training done right creates a safe space your puppy loves — not a punishment zone. A full guide from prep to night one through full house training."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-training
 featured: true
 tags: ["crate training", "puppy training", "house training", "new puppy", "Milo"]

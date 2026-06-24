@@ -1,7 +1,7 @@
 ---
 title: "7 Best Dog Ear Cleaners: Reviewed for Infections, Wax & Daily Maintenance (2026)"
 description: "Ear infections are the #1 reason dogs visit the vet. We tested 10 ear cleaners on dogs with floppy ears, swimmer's ear, and chronic infections."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-health
 featured: false
 tags: ["ear cleaner", "dog ear infection", "dog health", "ear care", "floppy ears"]

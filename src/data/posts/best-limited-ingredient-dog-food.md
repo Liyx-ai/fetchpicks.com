@@ -1,7 +1,7 @@
 ---
 title: "6 Best Limited Ingredient Dog Foods: Tested for Allergy Relief & Sensitive Stomachs (2026)"
 description: "When your dog has a mystery allergy, limited ingredient diets (LID) help isolate the culprit. We tested 8 LID formulas with Luna — here's what worked."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-food
 featured: false
 tags: ["limited ingredient dog food", "LID", "dog allergies", "sensitive stomach", "single protein", "hypoallergenic"]

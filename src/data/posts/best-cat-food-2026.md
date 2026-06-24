@@ -1,7 +1,7 @@
 ---
 title: "Best Cat Food: 7 Top Brands for Every Life Stage & Budget (2026)"
 description: "Cats are obligate carnivores — their nutritional needs are very different from dogs. We cover the best cat foods for kittens, adults, and seniors."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: cat-supplies
 featured: true
 tags: ["cat food", "kitten", "cat nutrition", "obligate carnivore", "wet cat food"]

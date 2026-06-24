@@ -1,7 +1,7 @@
 ---
 title: "Best Calming Aids for Anxious Dogs: 7 Products for Thunderstorms, Separation & Travel (2026)"
 description: "Anxiety affects 1 in 3 dogs. We tested calming chews, jackets, diffusers, and more — here's what actually works for thunderstorms, separation anxiety, and travel stress."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-health
 featured: false
 tags: ["calming aids", "anxiety", "dog stress", "thunderstorms", "separation anxiety", "calming chews"]

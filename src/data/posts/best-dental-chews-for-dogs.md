@@ -1,7 +1,7 @@
 ---
 title: "Best Dental Chews for Dogs: Keep Teeth Clean Naturally (2026)"
 description: "Dental chews are an easy way to support your dog's oral health. We found the 7 best that dogs love and actually help with bad breath."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-health
 featured: false
 tags: ["dental health", "teeth cleaning", "chews", "oral care", "fresh breath"]

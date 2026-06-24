@@ -1,7 +1,7 @@
 ---
 title: "7 Best Dog Crates & Kennels for 2026: Tested for Safety, Comfort & Durability"
 description: "A good crate is a safe haven, not a cage. We tested crates of all types — wire, plastic, heavy-duty, furniture-style — to find the best for every dog size and temperament."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-gear
 featured: false
 tags: ["dog crates", "dog kennels", "wire crate", "plastic crate", "heavy-duty crate", "crate training"]

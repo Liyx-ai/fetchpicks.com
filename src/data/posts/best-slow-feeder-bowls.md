@@ -1,7 +1,7 @@
 ---
 title: "7 Best Slow Feeder Bowls & Puzzle Feeders: Tested for Speed, Cleanup & Durability (2026)"
 description: "Does your dog inhale food in 30 seconds? Ours did too. We tested 10 slow feeder bowls, maze bowls, and puzzle feeders to find which ones actually slow down fast eaters."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-gear
 featured: false
 tags: ["slow feeder", "puzzle feeder", "dog bowl", "fast eater", "bloat prevention", "interactive feeding"]

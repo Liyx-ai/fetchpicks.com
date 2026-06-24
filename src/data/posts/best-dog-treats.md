@@ -1,7 +1,7 @@
 ---
 title: "10 Best Dog Treats for 2026: Healthy, Natural & Training-Ready Options Tested"
 description: "Not all dog treats are created equal. We tested 15 treats across every category — training rewards, dental chews, jerky, freeze-dried, and soft chews — to find the healthiest, tastiest options."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-treats
 featured: false
 tags: ["dog treats", "healthy treats", "natural dog treats", "training treats", "freeze-dried treats", "dog snacks"]

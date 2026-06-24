@@ -1,7 +1,7 @@
 ---
 title: "8 Best Cat Beds in 2026: From Heated Donuts to Window Perches (Tested by 3 Picky Cats)"
 description: "Cats are notoriously picky about where they sleep. We tested 12 cat beds with 3 feline judges — here's which ones actually got used (and which were ignored)."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: cat-supplies
 featured: false
 tags: ["cat bed", "cat supplies", "heated cat bed", "cat window perch", "donut bed"]

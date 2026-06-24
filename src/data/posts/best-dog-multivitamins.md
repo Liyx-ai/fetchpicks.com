@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Multivitamins: 5 Top Brands for Overall Health"
 description: "Does your dog need a multivitamin? We break down the top 5 and help you decide if supplementation is right for your pup."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 category: dog-health
 featured: false
 tags: ["multivitamin", "supplements", "health", "nutrition", "wellness"]
