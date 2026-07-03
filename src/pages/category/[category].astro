@@ -23,6 +23,8 @@ const descOverrides = {
   'dog-training': "Everything you need for effective dog training: high-value treats, training tools, and expert tips for positive reinforcement.",
 };
 
+export const prerender = true;
+
 export async function getStaticPaths() {
   const allPosts = await getCollection('posts');
   const categories = [...new Set(allPosts.map(p => p.data.category))];
