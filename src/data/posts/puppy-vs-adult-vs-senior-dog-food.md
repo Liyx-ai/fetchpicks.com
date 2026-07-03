@@ -17,7 +17,7 @@ _Dog nutritional needs change dramatically with age. Here's exactly when to swit
 
 ---
 
-The same bag of food won't work for your dog's whole life — and trying to make it work can cause real health issues.
+The same bag of food won't work for your dog's whole life - and trying to make it work can cause real health issues.
 
 Puppy food has more calories and calcium for growth. Adult food is maintenance mode. Senior food adjusts for slower metabolism and aging joints.
 
@@ -47,7 +47,7 @@ Each life stage food was evaluated based on nutritional profile (protein, fat, c
 
 **Price:** $52.99 | [Check Price on Amazon →](https://www.amazon.com/s?k=Blue%20Buffalo%20Life%20Protection%20Puppy&tag=fetchpicks20-20)
 
-**Best for:** Puppy growth — DHA for brain development
+**Best for:** Puppy growth - DHA for brain development
 
 ![Blue Buffalo Life Protection Puppy](/images/posts/guides/product-blue-buffalo-puppy.jpg)
 
@@ -63,7 +63,7 @@ Puppy food needs DHA (for brain and vision), higher protein, and controlled calc
 
 **Price:** $51.99 | [Check Price on Amazon →](https://www.amazon.com/s?k=Hill%27s%20Science%20Diet%20Adult%20Large%20Breed&tag=fetchpicks20-20)
 
-**Best for:** Adult maintenance — balanced and vet-recommended
+**Best for:** Adult maintenance - balanced and vet-recommended
 
 ![Hill's Science Diet Adult Large Breed](/images/posts/guides/product-hills-adult.jpg)
 
@@ -79,11 +79,11 @@ Adult food is about maintenance: enough protein for muscle, moderate fat for ene
 
 **Price:** $53.99 | [Check Price on Amazon →](https://www.amazon.com/s?k=Hill%27s%20Science%20Diet%20Senior%207%2B&tag=fetchpicks20-20)
 
-**Best for:** Senior dogs 7+ — joint support and easier digestion
+**Best for:** Senior dogs 7+ - joint support and easier digestion
 
 ![Hill's Science Diet Senior 7+](/images/posts/guides/product-hills-senior.jpg)
 
-Senior food typically adds glucosamine and chondroitin for joints, adjusts protein for kidney health, and reduces calories for slower metabolisms. Hill's Senior 7+ does all of this. Rocky went on this at age 7 and his energy stabilized — no more post-meal lethargy.
+Senior food typically adds glucosamine and chondroitin for joints, adjusts protein for kidney health, and reduces calories for slower metabolisms. Hill's Senior 7+ does all of this. Rocky went on this at age 7 and his energy stabilized - no more post-meal lethargy.
 
 > **⚠️ Caveat:** Senior dogs over 10 need different nutrition than 7-year-olds. Adjust based on individual health.
 
@@ -101,9 +101,9 @@ Senior food typically adds glucosamine and chondroitin for joints, adjusts prote
 
 ### When to Switch Life Stages
 
-1. **Puppy to Adult** — Small breeds at 9-12 months. Large breeds at 12-18 months. Follow breed-specific guidelines.
-2. **Adult to Senior** — Around 7 years for large breeds, 8-10 for small breeds. Earlier if you notice weight gain or slowing down.
-3. **Senior to Geriatric** — 10+ years. Some brands have a specific geriatric formula with adjusted protein levels for kidney health.
+1. **Puppy to Adult** - Small breeds at 9-12 months. Large breeds at 12-18 months. Follow breed-specific guidelines.
+2. **Adult to Senior** - Around 7 years for large breeds, 8-10 for small breeds. Earlier if you notice weight gain or slowing down.
+3. **Senior to Geriatric** - 10+ years. Some brands have a specific geriatric formula with adjusted protein levels for kidney health.
 
 ---
 
@@ -121,7 +121,7 @@ Switch to a kidney-specific therapeutic diet (Hill's k/d, Royal Canin Renal). Do
 
 ## Final Verdict
 
-Switch at the right time and use a reputable brand for each life stage. **Hill's Science Diet** has the most comprehensive age-specific lineup — start with them and adjust based on your dog's individual needs.
+Switch at the right time and use a reputable brand for each life stage. **Hill's Science Diet** has the most comprehensive age-specific lineup - start with them and adjust based on your dog's individual needs.
 
 ---
 

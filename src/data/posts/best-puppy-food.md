@@ -17,7 +17,7 @@ _Puppies need more protein, fat, and calcium than adult dogs. We tested 9 puppy-
 
 ---
 
-Puppies grow fast — and they need food that keeps up. Too much calcium and large breed puppies get joint issues. Too little protein and small breed puppies lack energy.
+Puppies grow fast - and they need food that keeps up. Too much calcium and large breed puppies get joint issues. Too little protein and small breed puppies lack energy.
 
 I didn't have Luna as a puppy, but I tested these foods with a neighbor's litter of Golden Retrievers. Here's what works for each breed size.
 
@@ -46,7 +46,7 @@ Each food was evaluated over 2+ weeks with a litter of Golden Retriever puppies.
 
 **Price:** $52.99 | [Check Price on Amazon →](https://www.amazon.com/s?k=Blue%20Buffalo%20Life%20Protection%20Puppy&tag=fetchpicks20-20)
 
-**Best for:** Most puppies — balanced nutrition with DHA
+**Best for:** Most puppies - balanced nutrition with DHA
 
 ![Blue Buffalo Life Protection Puppy](/images/posts/dog-food/product-blue-buffalo-puppy.jpg)
 
@@ -66,7 +66,7 @@ Blue Buffalo's puppy formula includes DHA for brain development and their LifeSo
 
 ![Purina Pro Plan Puppy](/images/posts/dog-food/product-purina-pro-puppy.jpg)
 
-Purina Pro Plan's large breed puppy formula has controlled calcium levels specifically for big dogs — critical for preventing hip dysplasia. Includes DHA and natural probiotics. The kibble is on the larger side, suitable for big puppy mouths.
+Purina Pro Plan's large breed puppy formula has controlled calcium levels specifically for big dogs - critical for preventing hip dysplasia. Includes DHA and natural probiotics. The kibble is on the larger side, suitable for big puppy mouths.
 
 > **⚠️ Caveat:** Contains by-product meal. Kibble too large for toy breeds.
 
@@ -82,7 +82,7 @@ Purina Pro Plan's large breed puppy formula has controlled calcium levels specif
 
 ![Hill's Science Diet Puppy](/images/posts/dog-food/product-hills-puppy.jpg)
 
-Hill's is what many vets recommend. The formula is balanced for all breed sizes and includes DHA from fish oil. Highly digestible — the neighbor's puppies had very few digestive issues compared to other brands.
+Hill's is what many vets recommend. The formula is balanced for all breed sizes and includes DHA from fish oil. Highly digestible - the neighbor's puppies had very few digestive issues compared to other brands.
 
 > **⚠️ Caveat:** More expensive than Purina Pro Plan. Ingredient list isn't as 'clean' as Blue Buffalo.
 
@@ -100,9 +100,9 @@ Hill's is what many vets recommend. The formula is balanced for all breed sizes 
 
 ### Choosing Puppy Food
 
-1. **Breed size matters** — Large breed puppies need controlled calcium. Small breeds need calorie density.
-2. **DHA is essential** — Look for DHA from fish oil for brain and vision development.
-3. **Kibble size** — Tiny kibble for tiny mouths. Oversized kibble can be a choking hazard for toy breeds.
+1. **Breed size matters** - Large breed puppies need controlled calcium. Small breeds need calorie density.
+2. **DHA is essential** - Look for DHA from fish oil for brain and vision development.
+3. **Kibble size** - Tiny kibble for tiny mouths. Oversized kibble can be a choking hazard for toy breeds.
 
 ---
 
