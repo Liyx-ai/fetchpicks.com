@@ -76,6 +76,7 @@ PRODUCTS = [
     ("product-greenies", "Greenies Dental Dog Treats", "dog-health", "best-dental-chews-for-dogs"),
     ("product-oravet", "OraVet Dental Hygiene Chews for dogs", "dog-health", "best-dental-chews-for-dogs"),
     ("product-virbac-cet", "Virbac CET Enzymatic Chews for dogs", "dog-health", "best-dental-chews-for-dogs"),
+    ("product-petrodex-paste", "Petrodex Enzymatic Toothpaste for Dogs", "dog-health", "best-dog-toothbrush-and-dental-kits"),
 
     # === Dog Toys ===
     ("product-kong-classic", "Kong Classic Dog Toy red rubber", "dog-toys", "best-dog-toys-for-aggressive-chewers"),
@@ -247,7 +248,102 @@ PRODUCTS = [
     ("product-kong-classic", "Kong Classic Dog Toy", "guides", ""),
     ("product-orijen", "Orijen Original Kibble", "guides", ""),
     ("product-stella-chewy-frozen", "Stella and Chewy's Frozen Raw Patties", "guides", ""),
-    ("product-stella-chewy-raw", "Stella and Chewy's Freeze-Dried Raw", "guides", ""),]
+    ("product-stella-chewy-raw", "Stella and Chewy's Freeze-Dried Raw", "guides", ""),
+    ("product-rc-small-senior", "Royal Canin Small Breed Senior dog food", "dog-food", "best-dog-food-for-senior-small-breeds"),
+    ("product-wellness-small-senior", "Wellness CORE Small Breed Senior dog food", "dog-food", "best-dog-food-for-senior-small-breeds"),
+    ("product-bb-small-senior", "Blue Buffalo Small Breed Senior dog food", "dog-food", "best-dog-food-for-senior-small-breeds"),
+    ("product-purina-small-senior", "Purina Pro Plan Small Breed Senior dog food", "dog-food", "best-dog-food-for-senior-small-breeds"),
+    ("product-nutro-small-senior", "Nutro Ultra Small Breed Senior dog food", "dog-food", "best-dog-food-for-senior-small-breeds"),
+    ("product-petsafe-easywalk", "PetSafe Easy Walk No-Pull dog harness", "dog-gear", "best-no-pull-dog-harness"),
+    ("product-2hounds-freedom", "2 Hounds Design Freedom no-pull dog harness", "dog-gear", "best-no-pull-dog-harness"),
+    ("product-ruffwear-frontrange2", "Ruffwear Front Range dog harness", "dog-gear", "best-no-pull-dog-harness"),
+    ("product-rabbitgoo-nopull", "Rabbitgoo No-Pull dog harness", "dog-gear", "best-no-pull-dog-harness"),
+    ("product-kurgo-trufit", "Kurgo Tru-Fit dog harness", "dog-gear", "best-no-pull-dog-harness"),
+    ("product-ruffwear-griptrex", "Ruffwear Grip Trex dog boots", "dog-gear", "best-dog-boots-for-winter"),
+    ("product-muttluks-fleece", "Muttluks FleeceLine dog boots", "dog-gear", "best-dog-boots-for-winter"),
+    ("product-ultrapaws-boots", "Ultra Paws Durable dog boots", "dog-gear", "best-dog-boots-for-winter"),
+    ("product-qumy-boots", "QUMY waterproof dog boots", "dog-gear", "best-dog-boots-for-winter"),
+    ("product-pawz-rubber", "Pawz rubber dog boots", "dog-gear", "best-dog-boots-for-winter"),
+    ("product-virbac-cet-paste", "Virbac CET Enzymatic dog toothpaste", "dog-health", "best-dog-toothbrush-and-dental-kits"),
+    ("product-armhammer-kit", "Arm & Hammer dog dental care kit", "dog-health", "best-dog-toothbrush-and-dental-kits"),
+    ("product-nylabone-oral", "Nylabone Advanced Oral Care dog kit", "dog-health", "best-dog-toothbrush-and-dental-kits"),
+    ("product-vetsbest-dental", "Vet's Best dental care kit for dogs", "dog-health", "best-dog-toothbrush-and-dental-kits"),
+    ("product-petrodex-paste", "Petrodex enzymatic dog toothpaste", "dog-health", "best-dog-toothbrush-and-dental-kits"),
+    ("product-stella-chewy", "Stella and Chewy's freeze-dried dog treats", "dog-treats", "best-freeze-dried-dog-treats"),
+    ("product-vitalessentials-fdz", "Vital Essentials freeze-dried dog treats", "dog-treats", "best-freeze-dried-dog-treats"),
+    ("product-openfarm-fdz", "Open Farm freeze-dried dog treats", "dog-treats", "best-freeze-dried-dog-treats"),
+    ("product-nwnaturals-fdz", "Northwest Naturals freeze-dried dog treats", "dog-treats", "best-freeze-dried-dog-treats"),
+    ("product-primal-fdz", "Primal freeze-dried dog treats", "dog-treats", "best-freeze-dried-dog-treats"),
+    ("product-orijen-comp", "Orijen Original dog food grain free", "comparisons", "grain-free-vs-grain-dog-food"),
+    ("product-purina-pro-comp", "Purina Pro Plan dog food", "comparisons", "grain-free-vs-grain-dog-food"),
+    ("product-bb-wilderness-comp", "Blue Buffalo Wilderness dog food grain free", "comparisons", "grain-free-vs-grain-dog-food"),
+    ("product-iams-comp", "Iams ProActive Health dog food", "comparisons", "grain-free-vs-grain-dog-food"),
+    ("product-wellness-complete-comp", "Wellness Complete Health dog food", "comparisons", "grain-free-vs-grain-dog-food"),
+    # === 2026-08-14 weekly update: German Shepherds ===
+    ("product-purina-pro-gsd", "Purina Pro Plan Large Breed Adult dog food", "dog-food", "best-dog-food-for-german-shepherds"),
+    ("product-royal-canin-gsd", "Royal Canin German Shepherd Puppy dog food", "dog-food", "best-dog-food-for-german-shepherds"),
+    ("product-hills-gsd", "Hill's Science Diet Large Breed Adult dog food", "dog-food", "best-dog-food-for-german-shepherds"),
+    ("product-orijen-gsd", "Orijen Original dog food", "dog-food", "best-dog-food-for-german-shepherds"),
+    ("product-diamond-gsd", "Diamond Naturals Large Breed Adult dog food", "dog-food", "best-dog-food-for-german-shepherds"),
+    ("product-purina-salmon-gsd", "Purina Pro Plan Sensitive Skin Stomach Salmon dog food", "dog-food", "best-dog-food-for-german-shepherds"),
+    ("product-wellness-gsd", "Wellness Complete Health Large Breed dog food", "dog-food", "best-dog-food-for-german-shepherds"),
+    # === 2026-08-14 weekly update: French Bulldogs ===
+    ("product-royal-canin-frenchie", "Royal Canin French Bulldog Adult dog food", "dog-food", "best-dog-food-for-french-bulldogs"),
+    ("product-hills-frenchie", "Hill's Science Diet Sensitive Stomach Skin dog food", "dog-food", "best-dog-food-for-french-bulldogs"),
+    ("product-purina-one-frenchie", "Purina ONE SmartBlend dog food", "dog-food", "best-dog-food-for-french-bulldogs"),
+    ("product-royal-canin-frenchie-wet", "Royal Canin French Bulldog Adult canned wet dog food", "dog-food", "best-dog-food-for-french-bulldogs"),
+    ("product-nulo-frenchie", "Nulo Freestyle Small Breed dog food", "dog-food", "best-dog-food-for-french-bulldogs"),
+    ("product-wellness-frenchie", "Wellness CORE Grain Free Small Breed dog food", "dog-food", "best-dog-food-for-french-bulldogs"),
+    ("product-purina-pro-frenchie", "Purina Pro Plan Small Breed dog food", "dog-food", "best-dog-food-for-french-bulldogs"),
+    # === 2026-08-14 weekly update: Raincoats ===
+    ("product-rc-pets-raincoat", "RC Pets Adventure Raincoat dog", "dog-gear", "best-dog-raincoats"),
+    ("product-petacc-raincoat", "Petacc Waterproof Dog Raincoat", "dog-gear", "best-dog-raincoats"),
+    ("product-kurgo-raincoat", "Kurgo K9 Raincoat dog", "dog-gear", "best-dog-raincoats"),
+    ("product-hurtta-monsoon", "Hurtta Monsoon Coat dog raincoat", "dog-gear", "best-dog-raincoats"),
+    ("product-pawz-road-raincoat", "Pawz Road Dog Raincoat", "dog-gear", "best-dog-raincoats"),
+    ("product-frisco-raincoat", "Frisco Insulated Dog Raincoat", "dog-gear", "best-dog-raincoats"),
+    # === 2026-08-14 weekly update: GPS Trackers ===
+    ("product-tractive-gps", "Tractive GPS Dog Tracker", "dog-gear", "best-dog-gps-trackers"),
+    ("product-jiobit", "Jiobit Smart Tag pet tracker", "dog-gear", "best-dog-gps-trackers"),
+    ("product-garmin-alpha", "Garmin Alpha 200 dog GPS", "dog-gear", "best-dog-gps-trackers"),
+    ("product-airtag-dog", "Apple AirTag dog collar holder", "dog-gear", "best-dog-gps-trackers"),
+    ("product-fi-collar", "Fi Smart Collar Series 3 dog", "dog-gear", "best-dog-gps-trackers"),
+    ("product-whistle-go", "Whistle Go Explore GPS Tracker dog", "dog-gear", "best-dog-gps-trackers"),
+    ("product-pawfit", "Pawfit 3 GPS Tracker dog", "dog-gear", "best-dog-gps-trackers"),
+    # === 2026-08-14 weekly update: Nail Grinders ===
+    ("product-casfuy-grinder", "Casfuy Dog Nail Grinder", "dog-gear", "best-dog-nail-grinders"),
+    ("product-dremel-7300", "Dremel 7300-PT Pet Nail Grinder", "dog-gear", "best-dog-nail-grinders"),
+    ("product-boshel-grinder", "Boshel Dog Nail Grinder", "dog-gear", "best-dog-nail-grinders"),
+    ("product-oysd-grinder", "OYSD Dog Nail Grinder", "dog-gear", "best-dog-nail-grinders"),
+    ("product-pawpainter-grinder", "PawPainter Dog Nail Grinder", "dog-gear", "best-dog-nail-grinders"),
+    ("product-shernbao-grinder", "Shernbao Professional Dog Nail Grinder", "dog-gear", "best-dog-nail-grinders"),
+    ("product-furminator-grinder", "Furminator Nail Grinder dog", "dog-gear", "best-dog-nail-grinders"),
+    # === 2026-08-14 weekly update: Sensitive Stomachs ===
+    ("product-hills-sensitive", "Hill's Science Diet Sensitive Stomach Skin dog food", "dog-food", "best-dog-food-for-sensitive-stomachs"),
+    ("product-natural-balance-lid", "Natural Balance LID Limited Ingredient dog food", "dog-food", "best-dog-food-for-sensitive-stomachs"),
+    ("product-purina-one-sensitive", "Purina ONE Sensitive Skin Stomach dog food", "dog-food", "best-dog-food-for-sensitive-stomachs"),
+    ("product-royal-canin-gastro", "Royal Canin Gastrointestinal dog food", "dog-food", "best-dog-food-for-sensitive-stomachs"),
+    ("product-purina-pro-sensitive", "Purina Pro Plan Sensitive Skin Stomach dog food", "dog-food", "best-dog-food-for-sensitive-stomachs"),
+    ("product-wellness-simple", "Wellness Simple Limited Ingredient dog food", "dog-food", "best-dog-food-for-sensitive-stomachs"),
+    ("product-blue-buffalo-basics", "Blue Buffalo Basics Limited Ingredient Diet dog food", "dog-food", "best-dog-food-for-sensitive-stomachs"),
+    ("product-nutro-lid", "Nutro Limited Ingredient Diet dog food", "dog-food", "best-dog-food-for-sensitive-stomachs"),
+    # === 2026-08-14 weekly update: Cat Water Fountains ===
+    ("product-catit-flower", "Catit Flower Fountain cat water fountain", "cat-supplies", "best-cat-water-fountains"),
+    ("product-drinkwell-360", "PetSafe Drinkwell 360 pet fountain", "cat-supplies", "best-cat-water-fountains"),
+    ("product-pioneer-raindrink", "Pioneer Pet RainDrink Fountain ceramic", "cat-supplies", "best-cat-water-fountains"),
+    ("product-drinkwell-platinum", "PetSafe Drinkwell Platinum pet fountain", "cat-supplies", "best-cat-water-fountains"),
+    ("product-veken-fountain", "Veken Pet Fountain dog cat", "cat-supplies", "best-cat-water-fountains"),
+    ("product-drinkwell-avalon", "PetSafe Drinkwell Avalon pet fountain", "cat-supplies", "best-cat-water-fountains"),
+    ("product-mozhi-fountain", "MOZHI Pet Fountain large", "cat-supplies", "best-cat-water-fountains"),
+    # === 2026-08-14 weekly update: Winter Boots ===
+    ("product-muttluks-boots", "Muttluks Original Dog Boots", "dog-gear", "best-dog-boots-for-winter"),
+    ("product-qumy-boots", "Qumy Dog Boots winter", "dog-gear", "best-dog-boots-for-winter"),
+    ("product-ruffwear-polar-trex", "Ruffwear Polar Trex Boots dog", "dog-gear", "best-dog-boots-for-winter"),
+    ("product-wagwear-boots", "Wagwear Trail Blaze Dog Boots", "dog-gear", "best-dog-boots-for-winter"),
+    ("product-kurgo-boots", "Kurgo Step-N-Wipe Dog Boots", "dog-gear", "best-dog-boots-for-winter"),
+    ("product-pawz-boots", "Pawz Waterproof Dog Boots", "dog-gear", "best-dog-boots-for-winter"),
+    ("product-canada-pooch-boots", "Canada Pooch Soft Shield Boots dog", "dog-gear", "best-dog-boots-for-winter"),
+]
 
 # Products that come from same Amazon listing (share images)
 SHARED_IMAGES = {
@@ -367,9 +463,13 @@ def upscale_amazon_url(url):
 
 
 def download_image(url, save_path):
-    """Download an image from URL to save_path using Python requests."""
-    import requests as req
+    """Download an image from URL to save_path.
 
+    Uses `requests` when available, otherwise falls back to the stdlib
+    urllib. The stdlib fallback keeps this script working on a bare
+    Python install with no third-party packages, which matters because
+    the weekly automation runs unattended.
+    """
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
         'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8',
@@ -377,17 +477,40 @@ def download_image(url, save_path):
         'Referer': 'https://www.amazon.com/',
     }
 
+    content = None
+    status = None
+
     try:
-        r = req.get(url, headers=headers, timeout=30)
-        if r.status_code == 200 and len(r.content) > 1000:
+        try:
+            import requests as req
+        except ImportError:
+            req = None
+
+        if req is not None:
+            r = req.get(url, headers=headers, timeout=30)
+            status = r.status_code
+            content = r.content
+        else:
+            import urllib.request
+            import urllib.error
+            request = urllib.request.Request(url, headers=headers)
+            try:
+                with urllib.request.urlopen(request, timeout=30) as resp:
+                    status = resp.status
+                    content = resp.read()
+            except urllib.error.HTTPError as e:
+                status = e.code
+                content = b''
+
+        if status == 200 and content and len(content) > 1000:
             save_path.parent.mkdir(parents=True, exist_ok=True)
             with open(save_path, 'wb') as f:
-                f.write(r.content)
-            size_kb = len(r.content) / 1024
+                f.write(content)
+            size_kb = len(content) / 1024
             print(f"    ✅ Downloaded ({size_kb:.0f} KB)")
             return True
         else:
-            print(f"    ❌ HTTP {r.status_code}, size={len(r.content)}")
+            print(f"    ❌ HTTP {status}, size={len(content) if content else 0}")
             return False
     except Exception as e:
         print(f"    ❌ Error downloading: {e}")

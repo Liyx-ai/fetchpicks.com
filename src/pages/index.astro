@@ -4,8 +4,11 @@ import { getCollection } from 'astro:content';
 import { categoryMeta } from '../data/categories';
 
 const allPosts = await getCollection('posts');
-const featuredPosts = allPosts.filter(p => p.data.featured).slice(0, 3);
-const recentPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).slice(0, 6);
+// Sort key: most recently updated first, falls back to publish date.
+// Updating an article => bump its `updatedDate` and it resurfaces on top.
+const sortKey = (p) => (p.data.updatedDate ?? p.data.pubDate).valueOf();
+const featuredPosts = allPosts.filter(p => p.data.featured).sort((a, b) => sortKey(b) - sortKey(a)).slice(0, 3);
+const recentPosts = [...allPosts].sort((a, b) => sortKey(b) - sortKey(a)).slice(0, 6);
 ---
 
 <BaseLayout title="Honest Pet Product Reviews" description="We research and review the best pet products so you can make smarter choices for your furry friend. Dog food, treats, health supplies, gear, and more.">

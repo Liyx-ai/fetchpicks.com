@@ -4,3 +4,9 @@ dist/
 *.zip
 .DS_Store
 .playwright-cli/
+
+# Scratch files from the weekly content automation (logs, temp insert scripts)
+_*.log
+_*.tmp
+_insert_*.py
+_fetch_log.txt
