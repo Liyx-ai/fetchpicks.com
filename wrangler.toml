@@ -1,10 +1,10 @@
 name = "fetchpicks"
 main = "dist/_worker.js/index.js"
-compatibility_date = "2024-01-01"
+compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
 
-[build]
-command = "npm run build"
-
-[build.upload]
-format = "service-worker"
+# Serve all static assets (CSS, JS, images, fonts, sitemap) from the build
+# output at the edge. Only unmatched requests fall back to the SSR Worker.
+# This is the modern Cloudflare Workers + Assets model and also works for
+# Pages projects built on the Workers runtime.
+assets = { directory = "./dist", binding = "ASSETS", not_found_handling = "none" }
