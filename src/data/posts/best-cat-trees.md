@@ -4,6 +4,7 @@ description: "A good cat tree is furniture for your cat - not an eyesore for you
 pubDate: 2026-06-24
 category: cat-supplies
 featured: false
+heroImage: /images/posts/cat-supplies/product-feandrea-tree.jpg
 tags: ["cat trees", "cat scratching posts", "cat furniture", "cat condos", "cat towers", "cat supplies"]
 ---
 

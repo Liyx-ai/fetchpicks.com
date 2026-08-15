@@ -4,6 +4,7 @@ description: "Cats are notoriously picky about where they sleep. We tested 12 ca
 pubDate: 2026-06-24
 category: cat-supplies
 featured: false
+heroImage: /images/posts/cat-supplies/product-kh-selfwarming.jpg
 tags: ["cat bed", "cat supplies", "heated cat bed", "cat window perch", "donut bed"]
 ---
 

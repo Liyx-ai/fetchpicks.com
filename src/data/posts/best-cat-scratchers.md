@@ -4,6 +4,7 @@ description: "Does your cat treat your sofa as a scratching post? Same. We teste
 pubDate: 2026-06-24
 category: cat-supplies
 featured: false
+heroImage: /images/posts/cat-supplies/product-kong-scratcher.jpg
 tags: ["cat scratcher", "cat scratching post", "cat furniture", "cat supplies", "scratching pad", "cat behavior"]
 ---
 

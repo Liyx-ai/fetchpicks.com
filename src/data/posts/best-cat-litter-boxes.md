@@ -4,6 +4,7 @@ description: "Litter box technology has come a long way. From self-cleaning robo
 pubDate: 2026-06-24
 category: cat-supplies
 featured: true
+heroImage: /images/posts/cat-supplies/product-litter-robot.jpg
 tags: ["litter box", "cat supplies", "self-cleaning", "cat hygiene", "odor control"]
 ---
 

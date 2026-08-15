@@ -4,6 +4,7 @@ description: "Cats are notoriously hard to please. We tested 20+ cat toys with L
 pubDate: 2026-06-24
 category: cat-supplies
 featured: false
+heroImage: /images/posts/cat-supplies/product-petstages-mice.jpg
 tags: ["cat toys", "interactive", "cat supplies", "feline enrichment", "indoor cats"]
 ---
 

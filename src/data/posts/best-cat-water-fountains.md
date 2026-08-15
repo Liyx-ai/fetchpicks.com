@@ -4,6 +4,7 @@ description: "Cats are terrible at drinking enough water. We tested 8 fountains 
 pubDate: 2026-08-14
 category: cat-supplies
 featured: false
+heroImage: /images/posts/cat-supplies/product-drinkwell-360.jpg
 tags: ["cat fountain", "water", "hydration", "cat supplies", "health"]
 ---
 

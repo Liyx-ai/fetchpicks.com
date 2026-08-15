@@ -4,6 +4,7 @@ description: "Cats are obligate carnivores - their nutritional needs are very di
 pubDate: 2026-06-24
 category: cat-supplies
 featured: true
+heroImage: /images/posts/cat-supplies/product-royal-canin-cat.jpg
 tags: ["cat food", "kitten", "cat nutrition", "obligate carnivore", "wet cat food"]
 ---
 
