@@ -1,2 +1,7 @@
 name = "fetchpicks"
 compatibility_date = "2024-09-23"
+
+# Static site: serve build output directly, no Worker (dist/ has no _worker.js).
+# For Workers + Assets deploy (`wrangler deploy`) this serves ./dist at the edge.
+# Cloudflare Pages git-deploy ignores this file and serves ./dist natively.
+assets = { directory = "./dist", binding = "ASSETS", not_found_handling = "404" }
