@@ -1,11 +1,2 @@
 name = "fetchpicks"
 compatibility_date = "2024-09-23"
-compatibility_flags = ["nodejs_compat"]
-
-# Cloudflare Pages: serve the build output (CSS/JS/images/fonts/sitemap)
-# as static assets natively, and run dist/_worker.js as Pages Functions for
-# SSR routes. Pages auto-detects the worker; do NOT set `main` (it conflicts
-# with [site] and switches the project into pure-Worker mode, which stops
-# serving static assets -> every /_astro/* and /images/* returns HTTP 500).
-[site]
-bucket = "./dist"
